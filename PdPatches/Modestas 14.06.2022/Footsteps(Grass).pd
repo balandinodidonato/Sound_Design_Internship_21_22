@@ -1,12 +1,12 @@
-#N canvas 2180 163 937 758 12;
+#N canvas 1602 208 893 758 12;
 #X declare -stdpath ./;
 #X obj 224 153 noise~;
 #X obj 415 33 bng 15 250 50 0 empty empty Running 17 7 0 10 #c6feff
 #000000 #000000;
 #X obj 224 252 *~;
-#X obj 226 569 *~;
-#X floatatom 303 566 5 0 1 0 - - - 0;
-#X obj 226 643 dac~ 1 2;
+#X obj 226 609 *~;
+#X floatatom 303 606 5 0 1 0 - - - 0;
+#X obj 226 683 dac~ 1 2;
 #X obj 709 32 bng 15 250 50 0 empty empty Walking 17 7 0 10 #00faff
 #000000 #000000;
 #N canvas 1657 596 693 436 FootstepEnvelope1 0;
@@ -94,7 +94,7 @@
 #X connect 23 0 7 0;
 #X connect 24 1 23 0;
 #X connect 25 0 22 0;
-#X restore 224 350 pd Filters1;
+#X restore 224 300 pd Filters1;
 #N canvas 2231 791 693 436 FootstepEnvelope2 0;
 #X obj 183 103 inlet;
 #X obj 183 127 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
@@ -156,7 +156,7 @@
 #X connect 15 1 13 0;
 #X connect 16 0 9 0;
 #X connect 17 0 16 0;
-#X restore 326 351 pd Filters2;
+#X restore 326 301 pd Filters2;
 #N canvas 2722 906 693 426 FootstepEnvelope3 0;
 #X obj 183 103 inlet;
 #X obj 183 127 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
@@ -221,7 +221,7 @@
 #X connect 15 1 13 0;
 #X connect 16 0 9 0;
 #X connect 17 0 16 0;
-#X restore 447 352 pd Filters3;
+#X restore 447 302 pd Filters3;
 #N canvas 2217 314 1027 814 PitchShifter 0;
 #X floatatom 246 236 0 0 0 0 - - - 0;
 #X obj 246 607 *~;
@@ -333,7 +333,7 @@
 #X connect 54 0 57 0;
 #X connect 55 0 12 0;
 #X connect 57 0 53 0;
-#X restore 225 524 pd PitchShifter;
+#X restore 224 408 pd PitchShifter;
 #X obj 415 70 t b b;
 #N canvas 2536 490 685 564 random-amplitude 0;
 #X obj 47 152 inlet~;
@@ -358,15 +358,26 @@
 #X connect 8 0 5 0;
 #X connect 9 0 7 0;
 #X connect 10 0 4 0;
-#X restore 224 403 pd random-amplitude;
-#X obj 636 364 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X restore 224 353 pd random-amplitude;
+#X obj 636 314 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 120 685 writesf~;
-#X msg 19 568 open Footsteps(Grass).wav;
-#X msg 78 602 start;
-#X msg 115 629 stop;
-#X obj 406 538 loadbang;
-#X msg 406 562 1;
+#X obj 120 725 writesf~;
+#X msg 19 608 open Footsteps(Grass).wav;
+#X msg 78 642 start;
+#X msg 115 669 stop;
+#X obj 406 578 loadbang;
+#X msg 406 602 1;
+#X obj 225 478 bp~;
+#X floatatom 257 449 5 0 0 0 - - - 0;
+#X floatatom 309 464 5 0 0 0 - - - 0;
+#X obj 382 406 loadbang;
+#X msg 382 432 8231;
+#X obj 473 416 loadbang;
+#X msg 473 440 5;
+#X obj 225 532 lop~;
+#X floatatom 287 509 5 0 0 0 - - - 0;
+#X obj 401 483 loadbang;
+#X msg 401 507 2542;
 #X connect 0 0 2 0;
 #X connect 0 0 10 0;
 #X connect 0 0 13 0;
@@ -384,7 +395,7 @@
 #X connect 12 0 13 1;
 #X connect 13 0 14 0;
 #X connect 14 0 17 0;
-#X connect 15 0 3 0;
+#X connect 15 0 25 0;
 #X connect 16 0 7 0;
 #X connect 16 0 9 0;
 #X connect 16 0 12 0;
@@ -397,3 +408,14 @@
 #X connect 22 0 19 0;
 #X connect 23 0 24 0;
 #X connect 24 0 4 0;
+#X connect 25 0 32 0;
+#X connect 26 0 25 1;
+#X connect 27 0 25 2;
+#X connect 28 0 29 0;
+#X connect 29 0 26 0;
+#X connect 30 0 31 0;
+#X connect 31 0 27 0;
+#X connect 32 0 3 0;
+#X connect 33 0 32 1;
+#X connect 34 0 35 0;
+#X connect 35 0 33 0;
