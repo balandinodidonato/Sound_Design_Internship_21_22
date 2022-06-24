@@ -1,6 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6182B007-F169-4DD7-BAEF-77B3DA742983}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6182B007-F169-4DD7-BAEF-77B3DA742983}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6182B007-F169-4DD7-BAEF-77B3DA742983}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="WindGenerator" ID="{D7491E3E-CF9F-4A2E-9064-6A54E6AE1C40}" ShortID="298486103">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvWindGenerator" ID="{17212A4F-814B-4B15-A051-E73681C2E0B3}" ShortID="351871898" PluginName="DGHvWindGenerator" CompanyID="64" PluginID="4851">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvWindGenerator" ID="{17212A4F-814B-4B15-A051-E73681C2E0B3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ShipDamagedAlarm" ID="{270B5777-47B2-4B76-8454-9FD98B5DFD67}" ShortID="1018764990">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvShipDamagedAlarm" ID="{ACB2239E-FABB-4AF4-B8B2-E5A36FB77BBA}" ShortID="615182422" PluginName="DGHvShipDamagedAlarm" CompanyID="64" PluginID="9544">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvShipDamagedAlarm" ID="{ACB2239E-FABB-4AF4-B8B2-E5A36FB77BBA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" ShortID="137037667">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvJumpSound" ID="{AEF8F462-E861-41A9-AB3A-8BDAA4E10AFE}" ShortID="695209362" PluginName="DGHvJumpSound" CompanyID="64" PluginID="2503">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvJumpSound" ID="{AEF8F462-E861-41A9-AB3A-8BDAA4E10AFE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" ShortID="1055711519">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvLandSound" ID="{BD22D409-BD12-4072-B409-79F999406B08}" ShortID="727093476" PluginName="DGHvLandSound" CompanyID="64" PluginID="2206">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvLandSound" ID="{BD22D409-BD12-4072-B409-79F999406B08}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpaceShipEngineIdle" ID="{BEF80DB7-6DDD-4458-94CC-9F1232B4E2B5}" ShortID="631046552">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvShipEngineIdle" ID="{E79D0AB0-D609-4707-8EA6-3333EE058EBE}" ShortID="810108582" PluginName="DGHvShipEngineIdle" CompanyID="64" PluginID="30800">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvShipEngineIdle" ID="{E79D0AB0-D609-4707-8EA6-3333EE058EBE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" ShortID="383014554">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvWaterSource" ID="{1A613829-55DC-4E14-BF46-80D2C7621D4C}" ShortID="111629686" PluginName="DGHvWaterSource" CompanyID="64" PluginID="2929">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvWaterSource" ID="{1A613829-55DC-4E14-BF46-80D2C7621D4C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" ShortID="417440576">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvWeaponSwing" ID="{44EC1658-51D0-4592-BDE9-6CF6BA08E4CF}" ShortID="161730617" PluginName="DGHvWeaponSwing" CompanyID="64" PluginID="5210">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvWeaponSwing" ID="{44EC1658-51D0-4592-BDE9-6CF6BA08E4CF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" ShortID="974119735">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" ShortID="541608609" PluginName="DGHvCrystal1Activate" CompanyID="64" PluginID="21968">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" ShortID="158627930">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DGHvHealthRelease" ID="{BA3823B6-B48A-4E8A-95E8-1B706DA64F2B}" ShortID="500047252" PluginName="DGHvHealthRelease" CompanyID="64" PluginID="31954">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DGHvHealthRelease" ID="{BA3823B6-B48A-4E8A-95E8-1B706DA64F2B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
