@@ -3,101 +3,327 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{57237F9D-7740-4F68-BE55-E18171DC112B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Jump" ID="{8FDEC742-071D-4739-829F-F529C8E8143B}">
+				<Folder Name="SFX" ID="{4F51D065-4B96-4903-82EC-D0F48A64FA72}" ShortID="570310821">
 					<ChildrenList>
-						<Action Name="" ID="{9016BFD6-E7B9-4D0A-A07D-E854BE8DDA80}" ShortID="691999234">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{494FFC5E-EB86-4C21-BD68-EBAEC8E4D2AC}" ShortID="13900832">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Folder Name="Health" ID="{4377D08F-97C7-4732-8375-806752780610}" ShortID="62879854">
+							<ChildrenList>
+								<Event Name="PlayHealthPickup" ID="{5A1F63FE-2404-465D-A0FA-DB96EE52504F}">
+									<ChildrenList>
+										<Action Name="" ID="{BF80D8A9-0AF8-4020-99F7-78C011E5A6F0}" ShortID="1016340418">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{735AA79D-166B-4EE9-AF8E-F30F0AF9B0D1}" ShortID="1030548874">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthPickup" ID="{7F95A8BC-1C60-4127-BAF9-E40162CEC54E}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BB0343C8-7D8F-421F-97C8-93CB196B4B71}" ShortID="611701075">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0F7FEC14-60F4-423E-B066-B27A01F7A10D}" ShortID="585063064">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthPickup" ID="{7F95A8BC-1C60-4127-BAF9-E40162CEC54E}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayHealthRelease" ID="{2525F11F-0771-4080-880D-43B2B04D8220}">
+									<ChildrenList>
+										<Action Name="" ID="{10C9E3DF-543B-402F-8214-05F52E327747}" ShortID="153162239">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6FE6EEDA-80C6-48CB-B280-1EBF19B2B863}" ShortID="772164828">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Crystals" ID="{76CC32EC-454F-46F9-A337-DCCE61C58DB8}" ShortID="449681993">
+							<ChildrenList>
+								<Event Name="Crystal2Activate" ID="{82D428A6-C5D2-4589-8664-90F0D1236B85}">
+									<ChildrenList>
+										<Action Name="" ID="{8EFADA79-B887-474F-B752-C5F1B3AE6014}" ShortID="492356100">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal2Activate" ID="{B3A5D99D-F99E-4A00-BD9A-C462BF100945}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2C6780C8-A4C1-4F31-803B-24D0746B347F}" ShortID="242873735">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal2Activate" ID="{B3A5D99D-F99E-4A00-BD9A-C462BF100945}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Crystal1Activate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}">
+									<ChildrenList>
+										<Action Name="" ID="{A6AB2140-DA25-47D0-9A1D-0E9F61AEBF96}" ShortID="244361866">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{24757730-5665-4CC6-BA72-CAA53319046E}" ShortID="931622987">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Crystal3Activate" ID="{25918716-79F3-46E5-B7BC-ECB23BFE6024}">
+									<ChildrenList>
+										<Action Name="" ID="{4C6F79B2-FA6F-49A9-B11F-E6F007A5D982}" ShortID="246078377">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal3Activate" ID="{EB68B00B-578E-44CD-B579-A1D688A14C27}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B4BCEFC6-8604-4F67-A39C-5D1EF17C1DEC}" ShortID="738885084">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystal3Activate" ID="{EB68B00B-578E-44CD-B579-A1D688A14C27}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spaceship" ID="{0D2420F4-3B10-4EDA-987F-BB41990633E4}" ShortID="376038595">
+							<ChildrenList>
+								<Event Name="PlaySpaceshipIdle" ID="{739907D8-FAD2-4544-B34F-1E7CC05A2AA4}">
+									<ChildrenList>
+										<Action Name="" ID="{21E6FCB1-C707-4B7A-9CD8-4FF87F80A6A9}" ShortID="882298953">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SpaceShipEngineIdle" ID="{BEF80DB7-6DDD-4458-94CC-9F1232B4E2B5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlaySpaceshipAlarm" ID="{588B8275-AD7F-46D5-9555-AC18F2A08834}">
+									<ChildrenList>
+										<Action Name="" ID="{57A48FC3-9008-4870-A592-589E62E23C1C}" ShortID="801037243">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShipDamagedAlarm" ID="{270B5777-47B2-4B76-8454-9FD98B5DFD67}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
-				<Event Name="Land" ID="{4C17E3C8-7369-4025-9C5B-32B6335D2F3F}">
+				</Folder>
+				<Folder Name="Character" ID="{569AF416-8953-4225-A381-4BA6513497BC}" ShortID="319786843">
 					<ChildrenList>
-						<Action Name="" ID="{79808FB1-CD5F-4112-9C70-2232472F1EEE}" ShortID="518984723">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{3908EE02-D544-4C33-9047-A04393918CC3}" ShortID="341578868">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Folder Name="Movement" ID="{56EE1806-F698-4C75-9E97-6C049E46484B}" ShortID="195578046">
+							<ChildrenList>
+								<Event Name="Jump" ID="{8FDEC742-071D-4739-829F-F529C8E8143B}">
+									<ChildrenList>
+										<Action Name="" ID="{9016BFD6-E7B9-4D0A-A07D-E854BE8DDA80}" ShortID="691999234">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{494FFC5E-EB86-4C21-BD68-EBAEC8E4D2AC}" ShortID="13900832">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Land" ID="{4C17E3C8-7369-4025-9C5B-32B6335D2F3F}">
+									<ChildrenList>
+										<Action Name="" ID="{79808FB1-CD5F-4112-9C70-2232472F1EEE}" ShortID="518984723">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3908EE02-D544-4C33-9047-A04393918CC3}" ShortID="341578868">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WeaponSwingNoContact" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}">
+									<ChildrenList>
+										<Action Name="" ID="{F0B7472C-6811-4882-ACEA-C180E2FD5832}" ShortID="246756898">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B324F086-5C25-4FD8-AB32-9AC43D8B300C}" ShortID="493934867">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{B064ED52-5BA6-4538-BB60-721D117FB573}" ShortID="662141584"/>
 					</ChildrenList>
-				</Event>
-				<Event Name="WeaponSwingNoContact" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}">
+				</Folder>
+				<Folder Name="Ambience" ID="{DC4A13B8-9863-4A96-AE2F-84810C30EDE5}" ShortID="95175668">
 					<ChildrenList>
-						<Action Name="" ID="{F0B7472C-6811-4882-ACEA-C180E2FD5832}" ShortID="246756898">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B324F086-5C25-4FD8-AB32-9AC43D8B300C}" ShortID="493934867">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="0.3"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Folder Name="Water" ID="{D50DDBD6-3612-45CB-80B3-A63209D51515}" ShortID="92780036">
+							<ChildrenList>
+								<Event Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}">
+									<ChildrenList>
+										<Action Name="" ID="{0360FBA6-DC64-45E8-8C02-7A6CC47EA827}" ShortID="997685429">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Wind" ID="{35B044CA-EBDB-4319-9A7A-4629071DAE46}" ShortID="671310082">
+							<ChildrenList>
+								<Event Name="PlayWind" ID="{47DEE8B7-F11C-4808-861F-0C42C069EA7B}">
+									<ChildrenList>
+										<Action Name="" ID="{63145A98-3D57-4DE7-93D0-B239A1BEDC74}" ShortID="65675785">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindGenerator2" ID="{2827F75E-0FDD-4847-A1A9-4742E6551928}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}">
+									<ChildrenList>
+										<Action Name="" ID="{6992B764-675A-4183-B47E-F6EC9FB57D90}" ShortID="302939636">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindGeneratorAlt" ID="{D4C418A0-D389-4A11-B1C6-DA34889698AD}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
-				<Event Name="Crystal1Activate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}">
-					<ChildrenList>
-						<Action Name="" ID="{A6AB2140-DA25-47D0-9A1D-0E9F61AEBF96}" ShortID="244361866">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{24757730-5665-4CC6-BA72-CAA53319046E}" ShortID="931622987">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="3"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

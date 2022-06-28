@@ -3,5 +3,18 @@
 	<Plugins>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
+		<Plugin Name="DGHvLandSound" ID="144573442" DLL="Hv_DGHvLandSound_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvJumpSound" ID="164037634" DLL="Hv_DGHvJumpSound_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWaterSource" ID="191955970" DLL="Hv_DGHvWaterSource_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWeaponSwing" ID="341443586" DLL="Hv_DGHvWeaponSwing_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWindGenerator2" ID="738722818" DLL="Hv_DGHvWindGenerator2_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvShipEngineIdle" ID="2018509826" DLL="Hv_DGHvShipEngineIdle_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvHealthRelease" ID="2094138370" DLL="Hv_DGHvHealthRelease_WwiseSourcePlugin"/>
 	</Plugins>
 </PluginInfo>

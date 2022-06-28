@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 506fbaf36141f7842ad5ad583349cc87
 ModelImporter:
-  serializedVersion: 20101
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       1: 100000
@@ -761,7 +761,8 @@ ModelImporter:
       - time: 0.14428855
         functionName: MeleeAttackStart
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 7575911f6a14b6b46973fdef01610cbc,
+          type: 3}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
@@ -993,7 +994,7 @@ ModelImporter:
         weight: 1
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 2
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -1059,6 +1060,7 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

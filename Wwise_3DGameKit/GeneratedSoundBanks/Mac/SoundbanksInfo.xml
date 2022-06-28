@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1151086105" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Level1SoundBank</ObjectPath>
+			<ShortName>Level1SoundBank</ShortName>
+			<Path>Level1SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3539507669" Name="Crystal1Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal1Activate" DurationType="Unknown"/>
+				<Event Id="1179112722" Name="Crystal2Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal2Activate" DurationType="Unknown"/>
+				<Event Id="1169711155" Name="Crystal3Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal3Activate" DurationType="Unknown"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Movement\Jump" DurationType="Unknown"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
+				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
+				<Event Id="1810625332" Name="PlayHealthRelease" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthRelease" DurationType="Unknown"/>
+				<Event Id="1792115892" Name="PlaySpaceshipAlarm" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm" MaxAttenuation="10.000000" DurationType="Unknown"/>
+				<Event Id="3078778343" Name="PlaySpaceshipIdle" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle" MaxAttenuation="10.000000" DurationType="Unknown"/>
+				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
+				<Event Id="1592727253" Name="PlayWind" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind" DurationType="Unknown"/>
+				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
+				<Event Id="1390420672" Name="WeaponSwingNoContact" ObjectPath="\Events\Default Work Unit\Character\Movement\WeaponSwingNoContact" DurationType="Unknown"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1091409744" Name="GameWindGain" ObjectPath="\Game Parameters\Default Work Unit\GameWindGain"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GameWindGain" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

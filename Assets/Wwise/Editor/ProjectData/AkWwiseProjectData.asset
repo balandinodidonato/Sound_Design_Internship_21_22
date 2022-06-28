@@ -12,14 +12,468 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ab792d3ad2f1a43a7ddb171ab0cb31, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 150da2c67f7a3d43a8fb79de5263c6f9
+    GuidInternal: 
+    m_lastTime: -8585462777114775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 3cea77a182c3bc4a81ab3dfc4365dccb
+    GuidInternal: 
+    m_lastTime: -8585455278994775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 8761a9ef7d60da4dae941516bd5b4cd4
+    GuidInternal: 
+    m_lastTime: -8585452649994775808
+    List:
+    - name: Level1SoundBank
+      guid: 312b3423141b6141b132fc3bac0c11b2
+      id: 1151086105
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level1SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Level1SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 9d7f23574077684fbe55e18171dc112b
+    GuidInternal: 
+    m_lastTime: -8585452643634775808
+    List:
+    - name: Ambience
+      guid: b8134adc6398964aae2f84810c30ede5
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Character
+      guid: 16f49a5653892542a3814ba6513497bc
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Character
+        ObjectType: 3
+      Path: Default Work Unit\Character\Character
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 52ed64b0a65b3845bb60721d117fb573
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Crystal1Activate
+      guid: ac80f160da5a90448bedc97079b77eb5
+      id: 3539507669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Crystals
+        ObjectType: 4
+      - ElementName: Crystal1Activate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Crystals\Crystal1Activate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Crystal2Activate
+      guid: a628d482d2c58945866490f0d1236b85
+      id: 1179112722
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Crystals
+        ObjectType: 4
+      - ElementName: Crystal2Activate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Crystals\Crystal2Activate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Crystal3Activate
+      guid: 16879125f379e546b7bcecb23bfe6024
+      id: 1169711155
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Crystals
+        ObjectType: 4
+      - ElementName: Crystal3Activate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Crystals\Crystal3Activate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Crystals
+      guid: ec32cc764f45f946a337dcce61c58db8
+      id: 1100010280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Crystals
+        ObjectType: 4
+      - ElementName: Crystals
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Crystals\Crystals
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Health
+      guid: 8fd07743c79732478375806752780610
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Health
+        ObjectType: 4
+      - ElementName: Health
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Health\Health
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: 42c7de8f1d073947829ff529c8e8143b
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Jump
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Land
+      guid: c8e3174c697325409c5b32b6335d2f3f
+      id: 674522502
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Land
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\Land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Movement
+      guid: 0618ee5698f6754c9e976c049e46484b
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayHealthPickup
+      guid: fe631f5a04245d46a0fadb96ee52504f
+      id: 23853805
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Health
+        ObjectType: 4
+      - ElementName: PlayHealthPickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Health\PlayHealthPickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayHealthRelease
+      guid: 1ff1252571078040880d43b2b04d8220
+      id: 1810625332
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Health
+        ObjectType: 4
+      - ElementName: PlayHealthRelease
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Health\PlayHealthRelease
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlaySpaceshipAlarm
+      guid: 75828b587fadd5469555ac18f2a08834
+      id: 1792115892
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Spaceship
+        ObjectType: 4
+      - ElementName: PlaySpaceshipAlarm
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: PlaySpaceshipIdle
+      guid: d8079973d2fa4445b34f1e7cc05a2aa4
+      id: 3078778343
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Spaceship
+        ObjectType: 4
+      - ElementName: PlaySpaceshipIdle
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayWater
+      guid: 3305a3d9765e1c42bff70aaa18bf8ae3
+      id: 2706800728
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Water
+        ObjectType: 4
+      - ElementName: PlayWater
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Water\PlayWater
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayWind
+      guid: b7e8de471cf10848861f0c42c069ea7b
+      id: 1592727253
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: PlayWind
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Wind\PlayWind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayWindAlt
+      guid: 772d454d95bec04e8a0442573fdfcc9a
+      id: 3423484422
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: PlayWindAlt
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Wind\PlayWindAlt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: 65d0514f964b034982ecd0f48a64fa72
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Spaceship
+      guid: f420240d103bda4e987fbb41990633e4
+      id: 554650843
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Spaceship
+        ObjectType: 4
+      - ElementName: Spaceship
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Spaceship\Spaceship
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Water
+      guid: d6db0dd51236cb4580b3a63209d51515
+      id: 2654748154
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Water
+        ObjectType: 4
+      - ElementName: Water
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Water\Water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WeaponSwingNoContact
+      guid: 993579c767a9bc468bfa38268b89d84e
+      id: 1390420672
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: WeaponSwingNoContact
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\WeaponSwingNoContact
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Wind
+      guid: ca44b035dbeb19439a7a4629071dae46
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: Wind
+        ObjectType: 3
+      Path: Default Work Unit\Character\Ambience\Wind\Wind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: f1830aa9dee77f4eb102b263396acccd
+    GuidInternal: 
+    m_lastTime: -8585452653814775808
+    List:
+    - name: GameWindGain
+      guid: 1ba87d48b608b34ab6dc55ac198d666e
+      id: 1091409744
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GameWindGain
+        ObjectType: 13
+      Path: Default Work Unit\GameWindGain
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 50c03bed5e73fc4abd035a495f50af1c
+    GuidInternal: 
+    m_lastTime: -8585462777114775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ad14c2ea957f6d4488f22f0a0dcc4717
+    GuidInternal: 
+    m_lastTime: -8585462777114775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 68f5f0061d22294589e2624b533681ab
+    GuidInternal: 
+    m_lastTime: -8585462777114775808
+    List: []
+  ExpandedItems:
+  - /Wwise_3DGameKit
+  - /Wwise_3DGameKit/Events
+  - /Wwise_3DGameKit/Events/Default Work Unit
+  - /Wwise_3DGameKit/Events/Default Work Unit/SFX
+  - /Wwise_3DGameKit/Events/Default Work Unit/SFX/Spaceship
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

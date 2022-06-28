@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CC127C63-34FB-4EEB-8D2B-28EACE7049A0}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{CC127C63-34FB-4EEB-8D2B-28EACE7049A0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CC127C63-34FB-4EEB-8D2B-28EACE7049A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="StartingArea" ID="{3019BD65-D467-4A46-B8B2-707ACE9AF4F8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ShipDamagedAlarm" ID="{270B5777-47B2-4B76-8454-9FD98B5DFD67}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SpaceShipEngineIdle" ID="{BEF80DB7-6DDD-4458-94CC-9F1232B4E2B5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindGenerator2" ID="{2827F75E-0FDD-4847-A1A9-4742E6551928}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindGeneratorAlt" ID="{D4C418A0-D389-4A11-B1C6-DA34889698AD}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="GameWindGain" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}"/>
+							<Value>0.19</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
