@@ -16,9 +16,7 @@
 			<ShortName>Level1SoundBank</ShortName>
 			<Path>Level1SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3539507669" Name="Crystal1Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal1Activate" DurationType="Unknown"/>
-				<Event Id="1179112722" Name="Crystal2Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal2Activate" DurationType="Unknown"/>
-				<Event Id="1169711155" Name="Crystal3Activate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\Crystal3Activate" DurationType="Unknown"/>
+				<Event Id="2768078434" Name="CrystalActivate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\CrystalActivate" DurationType="Unknown"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Movement\Jump" DurationType="Unknown"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>

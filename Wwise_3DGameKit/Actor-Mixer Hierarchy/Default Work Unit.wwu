@@ -61,13 +61,9 @@
 						</Folder>
 						<Folder Name="Crystals" ID="{F1460A58-D8F7-4701-BDDA-9D8884D02204}" ShortID="41253505">
 							<ChildrenList>
-								<Sound Name="Crystal3Activate" ID="{EB68B00B-578E-44CD-B579-A1D688A14C27}" ShortID="781919925">
+								<RandomSequenceContainer Name="CrystalActivate" ID="{00005FC6-EA14-47B6-A02C-290B0D465371}" ShortID="274373021">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -78,64 +74,115 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="DGHvCrystal3Activate" ID="{7FA28381-4AD7-4A7E-8EC6-89D9231BC6E7}" ShortID="978946095" PluginName="DGHvCrystal3Activate" CompanyID="64" PluginID="17766">
-											<Language>SFX</Language>
-										</SourcePlugin>
+										<Sound Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" ShortID="974119735">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" ShortID="541608609" PluginName="DGHvCrystal1Activate" CompanyID="64" PluginID="21968">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crystal2Activate" ID="{B3A5D99D-F99E-4A00-BD9A-C462BF100945}" ShortID="849426626">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="DGHvCrystal2Activate" ID="{3C799BB1-EBE5-4C8B-B149-D2E3ED50E531}" ShortID="189504074" PluginName="DGHvCrystal2Activate" CompanyID="64" PluginID="25291">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DGHvCrystal2Activate" ID="{3C799BB1-EBE5-4C8B-B149-D2E3ED50E531}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crystal3Activate" ID="{EB68B00B-578E-44CD-B579-A1D688A14C27}" ShortID="781919925">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="DGHvCrystal3Activate" ID="{7FA28381-4AD7-4A7E-8EC6-89D9231BC6E7}" ShortID="978946095" PluginName="DGHvCrystal3Activate" CompanyID="64" PluginID="17766">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DGHvCrystal3Activate" ID="{7FA28381-4AD7-4A7E-8EC6-89D9231BC6E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrystalObjectiveComplete" ID="{880A5C13-B430-44EA-BF4A-DFA88922AF46}" ShortID="455723503">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="DGHvCrystalObjectiveComplete" ID="{40F878C9-FDC0-409C-8E63-63A64AA5AE3D}" ShortID="678023884" PluginName="DGHvCrystalObjectiveComplete" CompanyID="64" PluginID="31882">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DGHvCrystalObjectiveComplete" ID="{40F878C9-FDC0-409C-8E63-63A64AA5AE3D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DGHvCrystal3Activate" ID="{7FA28381-4AD7-4A7E-8EC6-89D9231BC6E7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}" ShortID="974119735">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" ShortID="541608609" PluginName="DGHvCrystal1Activate" CompanyID="64" PluginID="21968">
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DGHvCrystal1Activate" ID="{0D36A188-36C7-436B-9E50-73EC71A8970D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Crystal2Activate" ID="{B3A5D99D-F99E-4A00-BD9A-C462BF100945}" ShortID="849426626">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="DGHvCrystal2Activate" ID="{3C799BB1-EBE5-4C8B-B149-D2E3ED50E531}" ShortID="189504074" PluginName="DGHvCrystal2Activate" CompanyID="64" PluginID="25291">
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DGHvCrystal2Activate" ID="{3C799BB1-EBE5-4C8B-B149-D2E3ED50E531}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<Playlist>
+										<ItemRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}"/>
+										<ItemRef Name="Crystal2Activate" ID="{B3A5D99D-F99E-4A00-BD9A-C462BF100945}"/>
+										<ItemRef Name="Crystal1Activate" ID="{834530A6-5F28-420B-A769-25F730A153E0}"/>
+										<ItemRef Name="Crystal3Activate" ID="{EB68B00B-578E-44CD-B579-A1D688A14C27}"/>
+										<ItemRef Name="CrystalObjectiveComplete" ID="{880A5C13-B430-44EA-BF4A-DFA88922AF46}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Health" ID="{C1CE44BD-466C-46F1-80B4-BA0635CEBFE2}" ShortID="340297589">
@@ -143,6 +190,11 @@
 								<Sound Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" ShortID="158627930">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -166,7 +218,7 @@
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

@@ -64,7 +64,14 @@ namespace Gamekit3D
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
         }
-
+        public void ResetDamage2() //duplication of void to avoid health refil sound at launch
+        {
+            currentHitPoints = maxHitPoints;
+            isInvulnerable = false;
+            m_timeSinceLastHit = 0.0f;
+            OnResetDamage.Invoke();
+            AkSoundEngine.PostEvent("PlayHealthPickup", gameObject); //dg added line
+        }
         public void SetColliderState(bool enabled)
         {
             m_Collider.enabled = enabled;

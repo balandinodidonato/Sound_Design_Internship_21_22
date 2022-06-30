@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585452649994775808
+    m_lastTime: -8585451008714775808
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585452643634775808
+    m_lastTime: -8585451013874775808
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -104,9 +104,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Crystal1Activate
+    - name: CrystalActivate
       guid: ac80f160da5a90448bedc97079b77eb5
-      id: 3539507669
+      id: 2768078434
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -114,41 +114,9 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Crystals
         ObjectType: 4
-      - ElementName: Crystal1Activate
+      - ElementName: CrystalActivate
         ObjectType: 3
-      Path: Default Work Unit\SFX\Crystals\Crystal1Activate
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Crystal2Activate
-      guid: a628d482d2c58945866490f0d1236b85
-      id: 1179112722
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX
-        ObjectType: 4
-      - ElementName: Crystals
-        ObjectType: 4
-      - ElementName: Crystal2Activate
-        ObjectType: 3
-      Path: Default Work Unit\SFX\Crystals\Crystal2Activate
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Crystal3Activate
-      guid: 16879125f379e546b7bcecb23bfe6024
-      id: 1169711155
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX
-        ObjectType: 4
-      - ElementName: Crystals
-        ObjectType: 4
-      - ElementName: Crystal3Activate
-        ObjectType: 3
-      Path: Default Work Unit\SFX\Crystals\Crystal3Activate
+      Path: Default Work Unit\SFX\Crystals\CrystalActivate
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

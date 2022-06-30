@@ -1,16 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
-	1169711155	Crystal3Activate			\Default Work Unit\SFX\Crystals\Crystal3Activate	
-	1179112722	Crystal2Activate			\Default Work Unit\SFX\Crystals\Crystal2Activate	
 	1390420672	WeaponSwingNoContact			\Default Work Unit\Character\Movement\WeaponSwingNoContact	
 	1592727253	PlayWind			\Default Work Unit\Ambience\Wind\PlayWind	
 	1792115892	PlaySpaceshipAlarm			\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm	
 	1810625332	PlayHealthRelease			\Default Work Unit\SFX\Health\PlayHealthRelease	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
+	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
-	3539507669	Crystal1Activate			\Default Work Unit\SFX\Crystals\Crystal1Activate	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -19,15 +17,16 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	111629686	DGHvWaterSource	DGHvWaterSource		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water\DGHvWaterSource	
 	161730617	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing\DGHvWeaponSwing	
-	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\Crystal2Activate\DGHvCrystal2Activate	
+	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal2Activate\DGHvCrystal2Activate	
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthPickup\DGHvHealthPickUp	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthRelease\DGHvHealthRelease	
-	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\Crystal1Activate\DGHvCrystal1Activate	
+	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	
+	678023884	DGHvCrystalObjectiveComplete	DGHvCrystalObjectiveComplete		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\CrystalObjectiveComplete\DGHvCrystalObjectiveComplete	
 	695209362	DGHvJumpSound	DGHvJumpSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Jump\DGHvJumpSound	
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	853095941	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
-	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\Crystal3Activate\DGHvCrystal3Activate	
+	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
 

@@ -13,9 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID CRYSTAL1ACTIVATE = 3539507669U;
-        static const AkUniqueID CRYSTAL2ACTIVATE = 1179112722U;
-        static const AkUniqueID CRYSTAL3ACTIVATE = 1169711155U;
+        static const AkUniqueID CRYSTALACTIVATE = 2768078434U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LAND = 674522502U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
