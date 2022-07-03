@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.wproj" DateLow="1655197653" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.mskad.wsettings" DateLow="1656851221" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Virtual Acoustics\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Triggers\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Switches\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\States\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1656662553" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\SoundBanks\Default Work Unit.wwu" DateLow="1656851201" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Queries\Factory Queries.wwu" DateLow="1655196732" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Queries\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Presets\Factory Spatial Audio.wwu" DateLow="1655196732" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Presets\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Modulators\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Mixing Sessions\Default Work Unit.wwu" DateLow="1656662553" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Game Parameters\Default Work Unit.wwu" DateLow="1656662553" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Events\Default Work Unit.wwu" DateLow="1656851201" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Effects\Factory Effects.wwu" DateLow="1655196732" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Effects\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1655196732" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Conversion Settings\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Control Surface Sessions\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Audio Devices\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Attenuations\Default Work Unit.wwu" DateLow="1656662553" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1656849998" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.wproj" DateLow="1655197653" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Virtual Acoustics\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NAPIER\Year 3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\Triggers\Default Work Unit.wwu" DateLow="1655197153" DateHigh="0"/>

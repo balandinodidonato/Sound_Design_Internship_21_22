@@ -8,6 +8,7 @@
 						<ObjectRef Name="Land" ID="{4C17E3C8-7369-4025-9C5B-32B6335D2F3F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthRelease" ID="{2525F11F-0771-4080-880D-43B2B04D8220}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{DBF57FEF-8CFC-43A5-BE90-DFC4AE9515A8}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalActivate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipIdle" ID="{739907D8-FAD2-4544-B34F-1E7CC05A2AA4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthPickup" ID="{5A1F63FE-2404-465D-A0FA-DB96EE52504F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>

@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585451008714775808
+    m_lastTime: -8585447568871931722
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585451013874775808
+    m_lastTime: -8585447568871861907
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -197,6 +197,20 @@ MonoBehaviour:
       - ElementName: Movement
         ObjectType: 3
       Path: Default Work Unit\Character\Movement\Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps
+      guid: ef7ff5dbfc8ca543be90dfc4ae9515a8
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Character\Play_Footsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -405,7 +419,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f1830aa9dee77f4eb102b263396acccd
     GuidInternal: 
-    m_lastTime: -8585452653814775808
+    m_lastTime: -8585449443324096763
     List:
     - name: GameWindGain
       guid: 1ba87d48b608b34ab6dc55ac198d666e
@@ -441,7 +455,7 @@ MonoBehaviour:
   - /Wwise_3DGameKit
   - /Wwise_3DGameKit/Events
   - /Wwise_3DGameKit/Events/Default Work Unit
-  - /Wwise_3DGameKit/Events/Default Work Unit/SFX
-  - /Wwise_3DGameKit/Events/Default Work Unit/SFX/Spaceship
+  - /Wwise_3DGameKit/Events/Default Work Unit/Character
+  - /Wwise_3DGameKit/Events/Default Work Unit/Character/Ambience
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

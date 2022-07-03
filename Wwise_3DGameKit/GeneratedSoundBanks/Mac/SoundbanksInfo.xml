@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -19,6 +19,7 @@
 				<Event Id="2768078434" Name="CrystalActivate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\CrystalActivate" DurationType="Unknown"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Movement\Jump" DurationType="Unknown"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_Footsteps" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
 				<Event Id="1810625332" Name="PlayHealthRelease" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthRelease" DurationType="Unknown"/>
 				<Event Id="1792115892" Name="PlaySpaceshipAlarm" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm" MaxAttenuation="10.000000" DurationType="Unknown"/>

@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
+	3854155799	Play_Footsteps			\Default Work Unit\Character\Movement\Play_Footsteps	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1091409744	GameWindGain			\Default Work Unit\GameWindGain	
@@ -18,6 +19,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	111629686	DGHvWaterSource	DGHvWaterSource		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water\DGHvWaterSource	
 	161730617	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing\DGHvWeaponSwing	
 	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal2Activate\DGHvCrystal2Activate	
+	215023818	MSHvFootstepsSound	MSHvFootstepsSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Footsteps\MSHvFootstepsSound	
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthPickup\DGHvHealthPickUp	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthRelease\DGHvHealthRelease	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
