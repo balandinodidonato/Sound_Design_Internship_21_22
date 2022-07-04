@@ -7,7 +7,6 @@ public class CharacterAnimationEventScript : MonoBehaviour
         public string EllenJumpUp = "Jump";
         public string EllenLandDown = "Land";
         public string EllenLandFastDown = "Land";
-        public string EllenAttack = "WeaponSwingNoContact";
         public SwitchCheck Status3;
     // Start is called before the first frame update
     void Start()
@@ -46,14 +45,24 @@ public class CharacterAnimationEventScript : MonoBehaviour
             Status3.IsJumping = false;
         }
     }
-    void MeleeAttackStart()
+    void MeleeAttackStart1()
     {
         Debug.Log("AttackTriggred");
-        if (Status3.IsJumping == true)
-        {
-            AkSoundEngine.PostEvent(EllenAttack, gameObject);
-            Status3.Landed = true;
-            Status3.IsJumping = false;
-        }
+            AkSoundEngine.PostEvent("WeaponSwing1", gameObject);
+    }
+    void MeleeAttackStart2()
+    {
+        Debug.Log("AttackTriggred2");
+        AkSoundEngine.PostEvent("WeaponSwing2", gameObject);
+    }
+    void MeleeAttackStart3()
+    {
+        Debug.Log("AttackTriggred3");
+        AkSoundEngine.PostEvent("WeaponSwing3", gameObject);
+    }
+    void MeleeAttackStart4()
+    {
+        Debug.Log("AttackTriggred4");
+        AkSoundEngine.PostEvent("WeaponSwing4", gameObject);
     }
 }

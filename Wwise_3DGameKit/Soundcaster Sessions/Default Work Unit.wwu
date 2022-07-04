@@ -29,7 +29,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="GameWindGain" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}"/>
-							<Value>0.5</Value>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

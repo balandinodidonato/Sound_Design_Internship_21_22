@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -27,7 +27,10 @@
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="1592727253" Name="PlayWind" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
-				<Event Id="1390420672" Name="WeaponSwingNoContact" ObjectPath="\Events\Default Work Unit\Character\Movement\WeaponSwingNoContact" DurationType="Unknown"/>
+				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
+				<Event Id="1502558245" Name="WeaponSwing2" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing2" DurationType="Unknown"/>
+				<Event Id="1502558244" Name="WeaponSwing3" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing3" DurationType="Unknown"/>
+				<Event Id="1502558243" Name="WeaponSwing4" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing4" DurationType="Unknown"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="1091409744" Name="GameWindGain" ObjectPath="\Game Parameters\Default Work Unit\GameWindGain"/>

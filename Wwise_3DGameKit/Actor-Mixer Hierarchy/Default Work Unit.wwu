@@ -235,6 +235,9 @@
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{B546F6AC-0A05-4AB6-9E9C-D12257B91716}"/>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="DGHvHealthPickUp" ID="{9AEC6381-25EC-4DC5-8DB1-A14B99C755B5}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -416,8 +419,79 @@
 						</Folder>
 						<Folder Name="Combat" ID="{F8DA3702-DBE3-4B13-A8FE-F14C03EF9819}" ShortID="296048762">
 							<ChildrenList>
+								<Sound Name="WeaponSwing2" ID="{CC1CB6B6-FB6E-4A62-BBD5-9D0EE19C1BF5}" ShortID="780559434">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWeaponSwing" ID="{6225AA98-CFA2-487E-BCA4-38DAB551DF27}" ShortID="200373841" PluginName="DGHvWeaponSwing" CompanyID="64" PluginID="5210">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{C2979D96-FF95-4707-AC32-EC366E56E265}">
+											<ChildrenList>
+												<Path2D Name="Combo2" ID="{21C23DE9-3F6B-4A9D-AD66-386AE7D46A09}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+														<Property Name="LinearTime" Type="bool" Value="False"/>
+														<Property Name="RandomX" Type="Real64" Value="10"/>
+														<Property Name="RandomY" Type="Real64" Value="10"/>
+														<Property Name="RandomZ" Type="Real64" Value="10"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>53.16456</XPos>
+															<YPos>21.33758</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>18.3544303797468</XPos>
+															<YPos>61.1464968152866</YPos>
+															<Flags>0</Flags>
+															<Time>129</Time>
+														</Point>
+														<Point>
+															<XPos>-25.3164556962025</XPos>
+															<YPos>63.0573248407643</YPos>
+															<Flags>0</Flags>
+															<Time>220</Time>
+														</Point>
+														<Point>
+															<XPos>-68.3544303797468</XPos>
+															<YPos>25.4777070063694</YPos>
+															<Flags>0</Flags>
+															<Time>346</Time>
+														</Point>
+														<Point>
+															<XPos>-70.253164556962</XPos>
+															<YPos>-11.4649681528662</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWeaponSwing" ID="{6225AA98-CFA2-487E-BCA4-38DAB551DF27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 								<Sound Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" ShortID="417440576">
 									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -444,8 +518,199 @@
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{30BF69D8-EAE5-49C1-B732-E75A9F32D48D}">
+											<ChildrenList>
+												<Path2D Name="Combo1" ID="{84E59C90-112A-463D-829D-B68522C622EC}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+														<Property Name="LinearTime" Type="bool" Value="False"/>
+														<Property Name="RandomX" Type="Real64" Value="10"/>
+														<Property Name="RandomY" Type="Real64" Value="10"/>
+														<Property Name="RandomZ" Type="Real64" Value="10"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-55.69621</XPos>
+															<YPos>33.43949</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-25.94936</XPos>
+															<YPos>62.42038</YPos>
+															<Flags>0</Flags>
+															<Time>115</Time>
+														</Point>
+														<Point>
+															<XPos>27.21519</XPos>
+															<YPos>61.14649</YPos>
+															<Flags>0</Flags>
+															<Time>333</Time>
+														</Point>
+														<Point>
+															<XPos>60.12659</XPos>
+															<YPos>31.21019</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="DGHvWeaponSwing" ID="{44EC1658-51D0-4592-BDE9-6CF6BA08E4CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WeaponSwing3" ID="{6BD09AED-06D2-45BA-B9F4-FE13795798C7}" ShortID="645602536">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWeaponSwing" ID="{25ECB321-88C1-44BD-8C1B-63C544449376}" ShortID="771378655" PluginName="DGHvWeaponSwing" CompanyID="64" PluginID="5210">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{59A2FB34-883E-49BC-B4FB-820E5EC6C58B}">
+											<ChildrenList>
+												<Path2D Name="Combo3" ID="{8AF229D1-0687-487C-99B8-F9EEE670DB37}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+														<Property Name="LinearTime" Type="bool" Value="False"/>
+														<Property Name="RandomX" Type="Real64" Value="10"/>
+														<Property Name="RandomY" Type="Real64" Value="10"/>
+														<Property Name="RandomZ" Type="Real64" Value="10"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>6.32911</XPos>
+															<YPos>-28.98089</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>21.5189873417721</XPos>
+															<YPos>-5.09554140127388</YPos>
+															<Flags>0</Flags>
+															<Time>65</Time>
+														</Point>
+														<Point>
+															<XPos>10.126582278481</XPos>
+															<YPos>38.2165605095541</YPos>
+															<Flags>0</Flags>
+															<Time>180</Time>
+														</Point>
+														<Point>
+															<XPos>-24.6835443037975</XPos>
+															<YPos>66.2420382165605</YPos>
+															<Flags>0</Flags>
+															<Time>300</Time>
+														</Point>
+														<Point>
+															<XPos>-61.39241</XPos>
+															<YPos>42.67516</YPos>
+															<Flags>0</Flags>
+															<Time>400</Time>
+														</Point>
+														<Point>
+															<XPos>-67.7215189873418</XPos>
+															<YPos>15.9235668789809</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWeaponSwing" ID="{25ECB321-88C1-44BD-8C1B-63C544449376}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WeaponSwing4" ID="{7773AD53-3A5B-405B-9463-459B8424C682}" ShortID="566054271">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWeaponSwing" ID="{2911106E-F479-4AA8-B034-F7097C2537A7}" ShortID="11692793" PluginName="DGHvWeaponSwing" CompanyID="64" PluginID="5210">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{94947A76-95F7-45CB-985C-21ABA0ADD4F7}">
+											<ChildrenList>
+												<Path2D Name="Combo4" ID="{499F1E63-7D2F-4689-973A-42E8F2C09222}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+														<Property Name="LinearTime" Type="bool" Value="False"/>
+														<Property Name="RandomX" Type="Real64" Value="10"/>
+														<Property Name="RandomY" Type="Real64" Value="10"/>
+														<Property Name="RandomZ" Type="Real64" Value="10"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-16.4557</XPos>
+															<YPos>-35.35032</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-32.9113924050633</XPos>
+															<YPos>-3.18471337579618</YPos>
+															<Flags>0</Flags>
+															<Time>70</Time>
+														</Point>
+														<Point>
+															<XPos>-24.6835443037975</XPos>
+															<YPos>45.859872611465</YPos>
+															<Flags>0</Flags>
+															<Time>200</Time>
+														</Point>
+														<Point>
+															<XPos>12.6582278481013</XPos>
+															<YPos>64.3312101910828</YPos>
+															<Flags>0</Flags>
+															<Time>300</Time>
+														</Point>
+														<Point>
+															<XPos>44.3037974683544</XPos>
+															<YPos>54.140127388535</YPos>
+															<Flags>0</Flags>
+															<Time>400</Time>
+														</Point>
+														<Point>
+															<XPos>56.3291139240506</XPos>
+															<YPos>24.8407643312102</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWeaponSwing" ID="{2911106E-F479-4AA8-B034-F7097C2537A7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -527,12 +792,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="DGHvWindGenerator2" ID="{34EE223F-3AA1-4948-B0D1-12583431657E}" ShortID="853095941" PluginName="DGHvWindGenerator2" CompanyID="64" PluginID="11272">
+										<SourcePlugin Name="DGHvWindGenerator2" ID="{74716589-BE79-47CF-903D-CB402138352D}" ShortID="1001158799" PluginName="DGHvWindGenerator2" CompanyID="64" PluginID="11272">
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="DGHvWindGenerator2" ID="{34EE223F-3AA1-4948-B0D1-12583431657E}" Platform="Linked"/>
+										<ActiveSource Name="DGHvWindGenerator2" ID="{74716589-BE79-47CF-903D-CB402138352D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="WindGeneratorAlt" ID="{D4C418A0-D389-4A11-B1C6-DA34889698AD}" ShortID="484622110">
@@ -561,6 +826,28 @@
 									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="DGHvWindGeneratorAlt" ID="{23D22F43-7F63-429B-9700-A8C465A9ADA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WindGenerator5" ID="{BD2F9DBE-E4FD-4EE3-BAEE-11ED1F7C9B71}" ShortID="173016465">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWindGenerator5" ID="{B8435F1F-583C-465F-BD9D-E174AE77EB2A}" ShortID="464444917" PluginName="DGHvWindGenerator5" CompanyID="64" PluginID="843">
+											<PropertyList>
+												<Property Name="GainLeft" Type="Real32" Value="0.99"/>
+												<Property Name="GainRight" Type="Real32" Value="1.04"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWindGenerator5" ID="{B8435F1F-583C-465F-BD9D-E174AE77EB2A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

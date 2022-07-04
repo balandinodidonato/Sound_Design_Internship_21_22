@@ -186,7 +186,22 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="WeaponSwingNoContact" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}">
+								<Event Name="Play_Footsteps" ID="{DBF57FEF-8CFC-43A5-BE90-DFC4AE9515A8}">
+									<ChildrenList>
+										<Action Name="" ID="{F515AEA2-4287-435A-BC56-95BC887E4C81}" ShortID="755713714">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{1311B932-EFA5-4191-AB23-05FDBB27809A}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{B064ED52-5BA6-4538-BB60-721D117FB573}" ShortID="662141584">
+							<ChildrenList>
+								<Event Name="WeaponSwing1" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}">
 									<ChildrenList>
 										<Action Name="" ID="{F0B7472C-6811-4882-ACEA-C180E2FD5832}" ShortID="246756898">
 											<ReferenceList>
@@ -210,12 +225,73 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Footsteps" ID="{DBF57FEF-8CFC-43A5-BE90-DFC4AE9515A8}">
+								<Event Name="WeaponSwing2" ID="{19C49D67-4FBB-41C2-840A-48B0D9A4D94B}">
 									<ChildrenList>
-										<Action Name="" ID="{F515AEA2-4287-435A-BC56-95BC887E4C81}" ShortID="755713714">
+										<Action Name="" ID="{20C72847-B37F-4995-97FA-3B74E51E30A6}" ShortID="796923431">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Footsteps" ID="{1311B932-EFA5-4191-AB23-05FDBB27809A}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+													<ObjectRef Name="WeaponSwing2" ID="{CC1CB6B6-FB6E-4A62-BBD5-9D0EE19C1BF5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{98E3BFE6-3427-4EB9-9085-78B24A27873E}" ShortID="682046634">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing2" ID="{CC1CB6B6-FB6E-4A62-BBD5-9D0EE19C1BF5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WeaponSwing3" ID="{4E7DB554-E294-462C-B9FE-23CD5C4082B2}">
+									<ChildrenList>
+										<Action Name="" ID="{B44969CC-FFF4-485A-A64F-03C33C5BD967}" ShortID="720556069">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing3" ID="{6BD09AED-06D2-45BA-B9F4-FE13795798C7}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E04DEC17-AD52-4361-8936-3285D2443B86}" ShortID="247819520">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing3" ID="{6BD09AED-06D2-45BA-B9F4-FE13795798C7}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WeaponSwing4" ID="{77DE0A0D-A221-4DB5-9D98-CBAF9D5C060B}">
+									<ChildrenList>
+										<Action Name="" ID="{B3027CA8-8812-41D3-96F0-1FB4C3753F9C}" ShortID="233461031">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing4" ID="{7773AD53-3A5B-405B-9463-459B8424C682}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{202E1DE2-8420-4E07-A7AC-B337486FC98C}" ShortID="114063522">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing4" ID="{7773AD53-3A5B-405B-9463-459B8424C682}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -223,7 +299,6 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Combat" ID="{B064ED52-5BA6-4538-BB60-721D117FB573}" ShortID="662141584"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{DC4A13B8-9863-4A96-AE2F-84810C30EDE5}" ShortID="95175668">

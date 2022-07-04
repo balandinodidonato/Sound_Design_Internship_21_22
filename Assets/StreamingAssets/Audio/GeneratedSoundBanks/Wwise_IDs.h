@@ -24,7 +24,10 @@ namespace AK
         static const AkUniqueID PLAYWATER = 2706800728U;
         static const AkUniqueID PLAYWIND = 1592727253U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
-        static const AkUniqueID WEAPONSWINGNOCONTACT = 1390420672U;
+        static const AkUniqueID WEAPONSWING1 = 1502558246U;
+        static const AkUniqueID WEAPONSWING2 = 1502558245U;
+        static const AkUniqueID WEAPONSWING3 = 1502558244U;
+        static const AkUniqueID WEAPONSWING4 = 1502558243U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

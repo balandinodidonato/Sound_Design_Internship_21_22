@@ -759,7 +759,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.088842474
-        functionName: MeleeAttackStart
+        functionName: MeleeAttackStart1
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 7575911f6a14b6b46973fdef01610cbc,
           type: 3}

@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585447568871931722
+    m_lastTime: -8585446705274775808
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585447568871861907
+    m_lastTime: -8585446709094775808
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -64,13 +64,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Ambience
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Ambience
+      Path: Default Work Unit\Ambience\Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -208,9 +206,11 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Character
         ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_Footsteps
         ObjectType: 3
-      Path: Default Work Unit\Character\Play_Footsteps
+      Path: Default Work Unit\Character\Movement\Play_Footsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -284,15 +284,13 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Water
         ObjectType: 4
       - ElementName: PlayWater
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Water\PlayWater
+      Path: Default Work Unit\Ambience\Water\PlayWater
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
@@ -302,15 +300,13 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Wind
         ObjectType: 4
       - ElementName: PlayWind
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Wind\PlayWind
+      Path: Default Work Unit\Ambience\Wind\PlayWind
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -320,15 +316,13 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Wind
         ObjectType: 4
       - ElementName: PlayWindAlt
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Wind\PlayWindAlt
+      Path: Default Work Unit\Ambience\Wind\PlayWindAlt
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -368,31 +362,77 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Water
         ObjectType: 4
       - ElementName: Water
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Water\Water
+      Path: Default Work Unit\Ambience\Water\Water
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: WeaponSwingNoContact
+    - name: WeaponSwing1
       guid: 993579c767a9bc468bfa38268b89d84e
-      id: 1390420672
+      id: 1502558246
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Character
         ObjectType: 4
-      - ElementName: Movement
+      - ElementName: Combat
         ObjectType: 4
-      - ElementName: WeaponSwingNoContact
+      - ElementName: WeaponSwing1
         ObjectType: 3
-      Path: Default Work Unit\Character\Movement\WeaponSwingNoContact
+      Path: Default Work Unit\Character\Combat\WeaponSwing1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WeaponSwing2
+      guid: 679dc419bb4fc241840a48b0d9a4d94b
+      id: 1502558245
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: WeaponSwing2
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\WeaponSwing2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WeaponSwing3
+      guid: 54b57d4e94e22c46b9fe23cd5c4082b2
+      id: 1502558244
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: WeaponSwing3
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\WeaponSwing3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WeaponSwing4
+      guid: 0d0ade7721a2b54d9d98cbaf9d5c060b
+      id: 1502558243
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: WeaponSwing4
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\WeaponSwing4
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -402,15 +442,13 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
-        ObjectType: 4
       - ElementName: Ambience
         ObjectType: 4
       - ElementName: Wind
         ObjectType: 4
       - ElementName: Wind
         ObjectType: 3
-      Path: Default Work Unit\Character\Ambience\Wind\Wind
+      Path: Default Work Unit\Ambience\Wind\Wind
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -442,7 +480,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ad14c2ea957f6d4488f22f0a0dcc4717
     GuidInternal: 
-    m_lastTime: -8585462777114775808
+    m_lastTime: -8585446709094775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -456,6 +494,5 @@ MonoBehaviour:
   - /Wwise_3DGameKit/Events
   - /Wwise_3DGameKit/Events/Default Work Unit
   - /Wwise_3DGameKit/Events/Default Work Unit/Character
-  - /Wwise_3DGameKit/Events/Default Work Unit/Character/Ambience
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

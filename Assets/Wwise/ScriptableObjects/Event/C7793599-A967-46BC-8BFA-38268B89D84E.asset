@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 013e800001fb0394196cdcf4ee5560b7, type: 3}
   m_Name: C7793599-A967-46BC-8BFA-38268B89D84E
   m_EditorClassIdentifier: 
-  objectName: WeaponSwingNoContact
-  id: 1390420672
+  objectName: WeaponSwing1
+  id: 1502558246
   guid: C7793599-A967-46BC-8BFA-38268B89D84E
