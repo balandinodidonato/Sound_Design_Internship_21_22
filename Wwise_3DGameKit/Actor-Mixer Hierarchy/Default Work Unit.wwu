@@ -301,6 +301,45 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Weapon" ID="{82112C0A-AF1F-463B-9603-129CC1436B5F}" ShortID="365975393">
+							<ChildrenList>
+								<Sound Name="WeaponPickup" ID="{2516E537-C4CD-4882-A18E-587D30E5291C}" ShortID="363039877">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="MSHvWeaponPickup" ID="{775700CD-CD20-4E40-A13C-405C39D1C14F}" ShortID="935284089" PluginName="MSHvWeaponPickup" CompanyID="64" PluginID="26257">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MSHvWeaponPickup" ID="{775700CD-CD20-4E40-A13C-405C39D1C14F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{C5096A93-6CD5-4BE9-A674-B216C417C19F}" ShortID="910091536">
@@ -840,8 +879,16 @@
 									<ChildrenList>
 										<SourcePlugin Name="DGHvWindGenerator5" ID="{B8435F1F-583C-465F-BD9D-E174AE77EB2A}" ShortID="464444917" PluginName="DGHvWindGenerator5" CompanyID="64" PluginID="843">
 											<PropertyList>
-												<Property Name="GainLeft" Type="Real32" Value="0.99"/>
-												<Property Name="GainRight" Type="Real32" Value="1.04"/>
+												<Property Name="GainLeft" Type="Real32">
+													<ValueList>
+														<Value>0.99</Value>
+													</ValueList>
+												</Property>
+												<Property Name="GainRight" Type="Real32">
+													<ValueList>
+														<Value>1.04</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 										</SourcePlugin>

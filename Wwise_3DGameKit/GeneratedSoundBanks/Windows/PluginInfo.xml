@@ -15,6 +15,7 @@
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvFootstepsSound" ID="1691288578" DLL="Hv_MSHvFootstepsSound_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipEngineIdle" ID="2018509826" DLL="Hv_DGHvShipEngineIdle_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystalObjectiveComplete" ID="2089419778" DLL="Hv_DGHvCrystalObjectiveComplete_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthRelease" ID="2094138370" DLL="Hv_DGHvHealthRelease_WwiseSourcePlugin"/>

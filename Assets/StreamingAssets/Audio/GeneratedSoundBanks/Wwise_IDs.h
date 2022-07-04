@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LAND = 674522502U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;

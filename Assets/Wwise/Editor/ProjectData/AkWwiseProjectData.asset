@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585446705274775808
+    m_lastTime: -8585446359345804256
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585446709094775808
+    m_lastTime: -8585446384014308959
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -211,6 +211,22 @@ MonoBehaviour:
       - ElementName: Play_Footsteps
         ObjectType: 3
       Path: Default Work Unit\Character\Movement\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_WeaponPickup
+      guid: 8b2a561214790d459378bf990328f7c2
+      id: 594124390
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Weapon
+        ObjectType: 4
+      - ElementName: Play_WeaponPickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Weapon\Play_WeaponPickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -372,6 +388,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Weapon
+      guid: 62159ab2f500f64f9d8a791565ff67a5
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Weapon
+        ObjectType: 4
+      - ElementName: Weapon
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Weapon\Weapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: WeaponSwing1
       guid: 993579c767a9bc468bfa38268b89d84e
       id: 1502558246
@@ -493,6 +525,5 @@ MonoBehaviour:
   - /Wwise_3DGameKit
   - /Wwise_3DGameKit/Events
   - /Wwise_3DGameKit/Events/Default Work Unit
-  - /Wwise_3DGameKit/Events/Default Work Unit/Character
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

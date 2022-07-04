@@ -34,6 +34,7 @@ namespace Gamekit3D
             for (var i = 0; i < inventoryChecks.Length; i++)
             {
                 inventoryChecks[i].CheckInventory(other.GetComponentInChildren<InventoryController>());
+
             }
         }
 

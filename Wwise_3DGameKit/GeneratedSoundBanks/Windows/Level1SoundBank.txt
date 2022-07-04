@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
+	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
 	1502558243	WeaponSwing4			\Default Work Unit\Character\Combat\WeaponSwing4	
 	1502558244	WeaponSwing3			\Default Work Unit\Character\Combat\WeaponSwing3	
@@ -34,7 +35,8 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
-	853095941	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
+	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
+	1001158799	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
 

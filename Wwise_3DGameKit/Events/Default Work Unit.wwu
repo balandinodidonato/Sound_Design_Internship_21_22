@@ -124,6 +124,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Weapon" ID="{B29A1562-00F5-4FF6-9D8A-791565FF67A5}" ShortID="578663958">
+							<ChildrenList>
+								<Event Name="Play_WeaponPickup" ID="{12562A8B-7914-450D-9378-BF990328F7C2}">
+									<ChildrenList>
+										<Action Name="" ID="{8B12047E-D3F9-48EB-A52C-F44F7F0B8BAC}" ShortID="881947513">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponPickup" ID="{2516E537-C4CD-4882-A18E-587D30E5291C}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{569AF416-8953-4225-A381-4BA6513497BC}" ShortID="319786843">
