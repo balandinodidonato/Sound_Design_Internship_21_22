@@ -758,8 +758,16 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: 0.23962846
+        functionName: Combo3
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 7575911f6a14b6b46973fdef01610cbc,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
       - time: 0.25870737
-        functionName: MeleeAttackStart3
+        functionName: MeleeAttackStart
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 7575911f6a14b6b46973fdef01610cbc,
           type: 3}

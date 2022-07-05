@@ -45,24 +45,31 @@ public class CharacterAnimationEventScript : MonoBehaviour
             Status3.IsJumping = false;
         }
     }
-    void MeleeAttackStart1()
+    /*
+    void MeleeAttackStart()
     {
-        Debug.Log("AttackTriggred");
-            AkSoundEngine.PostEvent("WeaponSwing1", gameObject);
     }
-    void MeleeAttackStart2()
+    */
+    void Combo1()
     {
-        Debug.Log("AttackTriggred2");
+        Debug.Log("Attack1 Triggered"); 
+        AkSoundEngine.PostEvent("WeaponSwing1", gameObject);
+    }
+    void Combo2()
+    {
+        Debug.Log("Attack2 Triggered");
         AkSoundEngine.PostEvent("WeaponSwing2", gameObject);
     }
-    void MeleeAttackStart3()
+    void Combo3()
     {
-        Debug.Log("AttackTriggred3");
+        Debug.Log("Attack3 Triggered");
         AkSoundEngine.PostEvent("WeaponSwing3", gameObject);
+
     }
-    void MeleeAttackStart4()
+    void Combo4()
     {
-        Debug.Log("AttackTriggred4");
+        Debug.Log("Attack4 Triggered");
         AkSoundEngine.PostEvent("WeaponSwing4", gameObject);
+        Status3.Combo1 = true;
     }
 }

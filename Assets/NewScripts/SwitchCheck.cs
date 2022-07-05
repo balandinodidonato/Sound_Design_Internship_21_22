@@ -13,6 +13,10 @@ public class SwitchCheck : MonoBehaviour
     public bool Health2;
     public bool IsJumping;
     public bool Landed;
+    public bool Combo1;
+    public bool Combo2;
+    public bool Combo3;
+    public bool Combo4;
 
     // Start is called before the first frame update
     void Start()
