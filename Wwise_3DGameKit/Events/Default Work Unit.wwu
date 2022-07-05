@@ -335,27 +335,27 @@
 						</Folder>
 						<Folder Name="Wind" ID="{35B044CA-EBDB-4319-9A7A-4629071DAE46}" ShortID="671310082">
 							<ChildrenList>
-								<Event Name="PlayWind" ID="{47DEE8B7-F11C-4808-861F-0C42C069EA7B}">
-									<ChildrenList>
-										<Action Name="" ID="{63145A98-3D57-4DE7-93D0-B239A1BEDC74}" ShortID="65675785">
-											<PropertyList>
-												<Property Name="FadeInCurve" Type="int16" Value="6"/>
-												<Property Name="FadeTime" Type="Real64" Value="3.5"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="WindGenerator2" ID="{2827F75E-0FDD-4847-A1A9-4742E6551928}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}">
 									<ChildrenList>
 										<Action Name="" ID="{6992B764-675A-4183-B47E-F6EC9FB57D90}" ShortID="302939636">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="WindGeneratorAlt" ID="{D4C418A0-D389-4A11-B1C6-DA34889698AD}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayWind11" ID="{A8EB66C4-45F0-4A4F-BCEC-9FC593F1E5C7}">
+									<ChildrenList>
+										<Action Name="" ID="{B30FDD23-2793-4905-881F-D5135019868C}" ShortID="184969172">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindGenerator11" ID="{99759118-425F-4363-B42F-4CF97B92F75E}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

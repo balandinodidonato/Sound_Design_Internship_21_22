@@ -23,7 +23,7 @@ namespace AK
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;
         static const AkUniqueID PLAYSPACESHIPIDLE = 3078778343U;
         static const AkUniqueID PLAYWATER = 2706800728U;
-        static const AkUniqueID PLAYWIND = 1592727253U;
+        static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
         static const AkUniqueID WEAPONSWING1 = 1502558246U;
         static const AkUniqueID WEAPONSWING2 = 1502558245U;
@@ -33,7 +33,12 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID GAMEWINDGAIN = 1091409744U;
+        static const AkUniqueID WINDFORCELEFT = 658274915U;
+        static const AkUniqueID WINDFORCERIGHT = 867005342U;
+        static const AkUniqueID WINDGAINLEFT = 3369782661U;
+        static const AkUniqueID WINDGAINRIGHT = 3394536240U;
+        static const AkUniqueID WINDTEMPERATURELEFT = 3200895820U;
+        static const AkUniqueID WINDTEMPERATURERIGHT = 926105675U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

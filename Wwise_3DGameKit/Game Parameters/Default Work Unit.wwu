@@ -3,10 +3,40 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="GameWindGain" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}">
+				<GameParameter Name="WindGainLeft" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WindGainRight" ID="{27EA0D60-9D8F-412B-A386-34042B7A6781}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WindTemperatureLeft" ID="{1B13A43D-39B6-4FA2-9A11-783AB69045CD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WindTemperatureRight" ID="{826E9D3B-87D8-4FF7-881D-4C316D601478}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WindForceLeft" ID="{2854C9EB-E9A2-453F-8C11-9D58F3E80518}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WindForceRight" ID="{32C37A41-1D16-40FC-A761-A7DCF82E155B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585446359345804256
+    m_lastTime: -8585445779274775808
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585446384014308959
+    m_lastTime: -8585445818374775808
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -310,9 +310,9 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
-    - name: PlayWind
-      guid: b7e8de471cf10848861f0c42c069ea7b
-      id: 1592727253
+    - name: PlayWind11
+      guid: c466eba8f0454f4abcec9fc593f1e5c7
+      id: 3684444523
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -320,9 +320,9 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wind
         ObjectType: 4
-      - ElementName: PlayWind
+      - ElementName: PlayWind11
         ObjectType: 3
-      Path: Default Work Unit\Ambience\Wind\PlayWind
+      Path: Default Work Unit\Ambience\Wind\PlayWind11
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -489,17 +489,62 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f1830aa9dee77f4eb102b263396acccd
     GuidInternal: 
-    m_lastTime: -8585449443324096763
+    m_lastTime: -8585445786954775808
     List:
-    - name: GameWindGain
-      guid: 1ba87d48b608b34ab6dc55ac198d666e
-      id: 1091409744
+    - name: WindForceLeft
+      guid: ebc95428a2e93f458c119d58f3e80518
+      id: 658274915
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: GameWindGain
+      - ElementName: WindForceLeft
         ObjectType: 13
-      Path: Default Work Unit\GameWindGain
+      Path: Default Work Unit\WindForceLeft
+    - name: WindForceRight
+      guid: 417ac332161dfc40a761a7dcf82e155b
+      id: 867005342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindForceRight
+        ObjectType: 13
+      Path: Default Work Unit\WindForceRight
+    - name: WindGainLeft
+      guid: 1ba87d48b608b34ab6dc55ac198d666e
+      id: 3369782661
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindGainLeft
+        ObjectType: 13
+      Path: Default Work Unit\WindGainLeft
+    - name: WindGainRight
+      guid: 600dea278f9d2b41a38634042b7a6781
+      id: 3394536240
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindGainRight
+        ObjectType: 13
+      Path: Default Work Unit\WindGainRight
+    - name: WindTemperatureLeft
+      guid: 3da4131bb639a24f9a11783ab69045cd
+      id: 3200895820
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindTemperatureLeft
+        ObjectType: 13
+      Path: Default Work Unit\WindTemperatureLeft
+    - name: WindTemperatureRight
+      guid: 3b9d6e82d887f74f881d4c316d601478
+      id: 926105675
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindTemperatureRight
+        ObjectType: 13
+      Path: Default Work Unit\WindTemperatureRight
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit

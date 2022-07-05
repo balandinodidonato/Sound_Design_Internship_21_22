@@ -7,7 +7,6 @@
 					<ObjectList>
 						<ObjectRef Name="ShipDamagedAlarm" ID="{270B5777-47B2-4B76-8454-9FD98B5DFD67}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 						<ObjectRef Name="SpaceShipEngineIdle" ID="{BEF80DB7-6DDD-4458-94CC-9F1232B4E2B5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-						<ObjectRef Name="WindGenerator2" ID="{2827F75E-0FDD-4847-A1A9-4742E6551928}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 						<ObjectRef Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 					</ObjectList>
 				</MixingSession>

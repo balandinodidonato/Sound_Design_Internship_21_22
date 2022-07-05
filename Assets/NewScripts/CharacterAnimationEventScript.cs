@@ -45,11 +45,7 @@ public class CharacterAnimationEventScript : MonoBehaviour
             Status3.IsJumping = false;
         }
     }
-    /*
-    void MeleeAttackStart()
-    {
-    }
-    */
+
     void Combo1()
     {
         Debug.Log("Attack1 Triggered"); 

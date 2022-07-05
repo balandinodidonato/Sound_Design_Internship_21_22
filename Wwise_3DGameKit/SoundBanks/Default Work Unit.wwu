@@ -18,7 +18,7 @@
 						<ObjectRef Name="WeaponSwing1" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipAlarm" ID="{588B8275-AD7F-46D5-9555-AC18F2A08834}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jump" ID="{8FDEC742-071D-4739-829F-F529C8E8143B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayWind" ID="{47DEE8B7-F11C-4808-861F-0C42C069EA7B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayWind11" ID="{A8EB66C4-45F0-4A4F-BCEC-9FC593F1E5C7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing4" ID="{77DE0A0D-A221-4DB5-9D98-CBAF9D5C060B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

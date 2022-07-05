@@ -14,10 +14,6 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="WindGenerator2" ID="{2827F75E-0FDD-4847-A1A9-4742E6551928}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -28,8 +24,28 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="GameWindGain" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}"/>
-							<Value>1</Value>
+							<GameParameterRef Name="WindForceRight" ID="{32C37A41-1D16-40FC-A761-A7DCF82E155B}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WindGainRight" ID="{27EA0D60-9D8F-412B-A386-34042B7A6781}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WindForceLeft" ID="{2854C9EB-E9A2-453F-8C11-9D58F3E80518}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WindGainLeft" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WindTemperatureLeft" ID="{1B13A43D-39B6-4FA2-9A11-783AB69045CD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WindTemperatureRight" ID="{826E9D3B-87D8-4FF7-881D-4C316D601478}"/>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
