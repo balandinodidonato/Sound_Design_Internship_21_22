@@ -9,6 +9,7 @@
 		<Plugin Name="DGHvJumpSound" ID="164037634" DLL="Hv_DGHvJumpSound_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWaterSource" ID="191955970" DLL="Hv_DGHvWaterSource_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWeaponSwing" ID="341443586" DLL="Hv_DGHvWeaponSwing_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWindGenerator11" ID="385680386" DLL="Hv_DGHvWindGenerator11_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>

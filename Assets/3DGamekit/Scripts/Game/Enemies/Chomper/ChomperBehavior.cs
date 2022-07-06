@@ -67,8 +67,8 @@ namespace Gamekit3D
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
         void PlayStep(int frontFoot)
         {
-            if (frontStepAudio != null && frontFoot == 1) 
-            backStepAudio.PlayRandomClip();
+            if (frontStepAudio != null && frontFoot == 1)
+                AkSoundEngine.PostEvent("Play_ChomperFootsteps", gameObject);
 
             else if (backStepAudio != null && frontFoot == 0)
                 backStepAudio.PlayRandomClip();
