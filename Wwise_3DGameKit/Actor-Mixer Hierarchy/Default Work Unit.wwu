@@ -987,7 +987,78 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 						<Folder Name="Chomper" ID="{94A561D9-4A9C-40DB-8679-983C4C87973C}" ShortID="811349668">
 							<ChildrenList>
 								<Folder Name="Combat" ID="{009FD031-8B05-4650-B1F9-3D061FC8933B}" ShortID="956705361"/>
-								<Folder Name="Movement" ID="{7B1E28F7-F3C1-408A-A3DC-32084CA2402F}" ShortID="790883571"/>
+								<Folder Name="Movement" ID="{7B1E28F7-F3C1-408A-A3DC-32084CA2402F}" ShortID="790883571">
+									<ChildrenList>
+										<Sound Name="ChomperFootsteps" ID="{96B4B9BF-3846-4EBE-83F9-1C85D3A0F0E1}" ShortID="980442837">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>39</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>660</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6281EC71-D0A9-4675-8112-76045D4C3C23}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="76"/>
+																	<Property Name="Min" Type="Real64" Value="-227"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A8107327-24E3-4FD3-BD6A-C5735FA2FFF9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-7"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ChomperFootstepsAttenuation" ID="{4768F1F3-04C6-4B4D-BA65-4E65679E6D78}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="Dual_Filters_Narrow_Bandwidth" ID="{A24607C6-04E1-4D41-B513-28C0914D138D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvChomperFootsteps" ID="{172BCEC5-8F32-4127-A6DD-C66A990516A8}" ShortID="1015352779" PluginName="MSHvChomperFootsteps" CompanyID="64" PluginID="21364">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvChomperFootsteps" ID="{172BCEC5-8F32-4127-A6DD-C66A990516A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Grenadier" ID="{3C511252-61A2-4636-9B4C-1F81B4BA9530}" ShortID="836414230">

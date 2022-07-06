@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="Wwise_3DGameKit" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
@@ -13,6 +14,7 @@
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvPortal" ID="1283523586" DLL="Hv_MSHvPortal_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvChomperFootsteps" ID="1400112130" DLL="Hv_MSHvChomperFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvEllenFootsteps" ID="1452672002" DLL="Hv_MSHvEllenFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierFootsteps" ID="1568080898" DLL="Hv_MSHvGrenadierFootsteps_WwiseSourcePlugin"/>

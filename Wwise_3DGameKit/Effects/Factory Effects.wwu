@@ -657,7 +657,8 @@
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="500"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="419"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="6670"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>

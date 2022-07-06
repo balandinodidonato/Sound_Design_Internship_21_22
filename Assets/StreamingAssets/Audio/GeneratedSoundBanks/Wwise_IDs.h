@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID CRYSTALACTIVATE = 2768078434U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LAND = 674522502U;
+        static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;

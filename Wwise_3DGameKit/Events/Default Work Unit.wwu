@@ -437,7 +437,21 @@
 						</Folder>
 						<Folder Name="Chomper" ID="{B29F1BFE-545C-46BD-9728-30300A569CB5}" ShortID="831407257">
 							<ChildrenList>
-								<Folder Name="Movement" ID="{F2882E14-3962-4F76-812A-26357BE9ED14}" ShortID="549382722"/>
+								<Folder Name="Movement" ID="{F2882E14-3962-4F76-812A-26357BE9ED14}" ShortID="549382722">
+									<ChildrenList>
+										<Event Name="Play_ChomperFootsteps" ID="{ACC56C74-1FBC-4D47-9036-5E1B5228728F}">
+											<ChildrenList>
+												<Action Name="" ID="{606AFBBD-F030-46B9-A6EC-A8289B4D6581}" ShortID="104973238">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ChomperFootsteps" ID="{96B4B9BF-3846-4EBE-83F9-1C85D3A0F0E1}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Combat" ID="{A9A575D6-2F1C-4DB1-BDEE-CC9EA6FC38B5}" ShortID="7929261"/>
 							</ChildrenList>
 						</Folder>
