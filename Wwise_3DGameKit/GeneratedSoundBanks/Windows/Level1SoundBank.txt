@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1686041407	Play_EllenFootsteps			\Default Work Unit\Character\Movement\Play_EllenFootsteps	
 	1792115892	PlaySpaceshipAlarm			\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm	
 	1810625332	PlayHealthRelease			\Default Work Unit\SFX\Health\PlayHealthRelease	
+	2424882924	Play_Portal			\Default Work Unit\SFX\Portal\Play_Portal	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
@@ -22,6 +23,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	867005342	WindForceRight			\Default Work Unit\WindForceRight	
 	3369782661	WindGainLeft			\Default Work Unit\WindGainLeft	
 	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	11692793	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing4\DGHvWeaponSwing	
@@ -41,6 +45,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
+	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
 

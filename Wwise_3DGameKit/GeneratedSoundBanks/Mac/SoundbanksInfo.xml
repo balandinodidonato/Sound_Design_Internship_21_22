@@ -21,6 +21,7 @@
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
 				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="30.000000" DurationType="Unknown"/>
+				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\SFX\Portal\Play_Portal" MaxAttenuation="30.000000" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
 				<Event Id="1810625332" Name="PlayHealthRelease" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthRelease" DurationType="Unknown"/>

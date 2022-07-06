@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585445779274775808
+    m_lastTime: -8585444790683348489
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585445818374775808
+    m_lastTime: -8585444790683218564
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -83,6 +83,64 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 3
       Path: Default Work Unit\Character\Character
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chomper
+      guid: fe1b9fb25c54bd46972830300a569cb5
+      id: 14039721
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Chomper
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Chomper\Chomper
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: d675a5a91c2fb14dbdeecc9ea6fc38b5
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Chomper\Movement\Combat\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: b0e31691d90bbb44950f3a0fabd692d9
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Combat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -134,6 +192,36 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Enemies
+      guid: 9923ade65235c745abc0917fc4c2d527
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Enemies
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Enemies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Grenadier
+      guid: feafc5a7eaa0c045adf6509a3c347781
+      id: 1343892184
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Grenadier
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Health
       guid: 8fd07743c79732478375806752780610
       id: 3677180323
@@ -166,6 +254,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: JumpAt
+      guid: cbad7d6473b2094b8358e67c56ac011b
+      id: 1508872842
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: JumpAt
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\JumpAt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Land
       guid: c8e3174c697325409c5b32b6335d2f3f
       id: 674522502
@@ -179,6 +283,60 @@ MonoBehaviour:
       - ElementName: Land
         ObjectType: 3
       Path: Default Work Unit\Character\Movement\Land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LandAlt
+      guid: 19ef6bf4a753c14f94c248eb9e4c8f85
+      id: 2513331627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: LandAlt
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\LandAlt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Movement
+      guid: 142e88f26239764f812a26357be9ed14
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Chomper\Movement\Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Movement
+      guid: 097490fc9f6aaa458ca3fb4f02c34600
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Movement\Movement
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -198,9 +356,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Footsteps
-      guid: ef7ff5dbfc8ca543be90dfc4ae9515a8
-      id: 3854155799
+    - name: Play_EllenFootsteps
+      guid: 3d17afe20f3d564181fe72f68ccb6b8f
+      id: 1686041407
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -208,10 +366,44 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Movement
         ObjectType: 4
-      - ElementName: Play_Footsteps
+      - ElementName: Play_EllenFootsteps
         ObjectType: 3
-      Path: Default Work Unit\Character\Movement\Play_Footsteps
+      Path: Default Work Unit\Character\Movement\Play_EllenFootsteps
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierFootsteps
+      guid: 1fbc80f2c4813848bdbe6ecae2bbcbb8
+      id: 1373007782
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Play_GrenadierFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Portal
+      guid: 218860f5aac45646a967c913da888cbc
+      id: 2424882924
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Portal
+        ObjectType: 4
+      - ElementName: Play_Portal
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Portal\Play_Portal
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Play_WeaponPickup
@@ -326,6 +518,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayWind2
+      guid: 310771bd9151b64081516b8365a3c938
+      id: 1197535613
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: PlayWind2
+        ObjectType: 3
+      Path: Default Work Unit\Ambience\Wind\PlayWind2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayWindAlt
       guid: 772d454d95bec04e8a0442573fdfcc9a
       id: 3423484422
@@ -339,6 +547,22 @@ MonoBehaviour:
       - ElementName: PlayWindAlt
         ObjectType: 3
       Path: Default Work Unit\Ambience\Wind\PlayWindAlt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Portal
+      guid: e6a49a5c19fd4949938f3d32bf3dd740
+      id: 3118032615
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Portal
+        ObjectType: 4
+      - ElementName: Portal
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Portal\Portal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -489,8 +713,26 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f1830aa9dee77f4eb102b263396acccd
     GuidInternal: 
-    m_lastTime: -8585445786954775808
+    m_lastTime: -8585444886360006644
     List:
+    - name: JumpAlt
+      guid: efd40309d254df43a042aaefbab6927c
+      id: 639876002
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: JumpAlt
+        ObjectType: 13
+      Path: Default Work Unit\JumpAlt
+    - name: LandAlt
+      guid: d5dcb519becc754cb01bb0bdeb76c918
+      id: 2513331627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LandAlt
+        ObjectType: 13
+      Path: Default Work Unit\LandAlt
     - name: WindForceLeft
       guid: ebc95428a2e93f458c119d58f3e80518
       id: 658274915
@@ -570,5 +812,8 @@ MonoBehaviour:
   - /Wwise_3DGameKit
   - /Wwise_3DGameKit/Events
   - /Wwise_3DGameKit/Events/Default Work Unit
+  - /Wwise_3DGameKit/Events/Default Work Unit/Ambience
+  - /Wwise_3DGameKit/Events/Default Work Unit/SFX
+  - /Wwise_3DGameKit/Events/Default Work Unit/SFX/Portal
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

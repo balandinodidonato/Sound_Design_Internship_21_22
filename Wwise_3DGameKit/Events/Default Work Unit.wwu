@@ -139,6 +139,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Portal" ID="{5C9AA4E6-FD19-4949-938F-3D32BF3DD740}" ShortID="100376047">
+							<ChildrenList>
+								<Event Name="Play_Portal" ID="{F5608821-C4AA-4656-A967-C913DA888CBC}">
+									<ChildrenList>
+										<Action Name="" ID="{0BD5D984-4A88-490C-BF23-E5F1E3D6C9DE}" ShortID="736660310">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Portal" ID="{75573D48-AE10-4ECF-8DBD-FF1E71989022}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{569AF416-8953-4225-A381-4BA6513497BC}" ShortID="319786843">

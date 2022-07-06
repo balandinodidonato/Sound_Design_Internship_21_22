@@ -340,6 +340,37 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Portal" ID="{AD811DE0-3BE8-47A6-9C91-9FA8C29D2AE2}" ShortID="975003559">
+							<ChildrenList>
+								<Sound Name="Portal" ID="{75573D48-AE10-4ECF-8DBD-FF1E71989022}" ShortID="143277560">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="PortalAttenuation" ID="{622C9141-B994-41C0-8E26-B8F6ADB1381F}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="MSHvPortal" ID="{E7AF18F3-7CC5-4D96-81B5-7D5CD7EAB694}" ShortID="959598660" PluginName="MSHvPortal" CompanyID="64" PluginID="19585">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MSHvPortal" ID="{E7AF18F3-7CC5-4D96-81B5-7D5CD7EAB694}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{C5096A93-6CD5-4BE9-A674-B216C417C19F}" ShortID="910091536">

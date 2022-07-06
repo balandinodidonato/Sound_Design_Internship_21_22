@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID LAND = 674522502U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
+        static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
@@ -34,6 +35,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID JUMPALT = 639876002U;
+        static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID WINDFORCELEFT = 658274915U;
         static const AkUniqueID WINDFORCERIGHT = 867005342U;
         static const AkUniqueID WINDGAINLEFT = 3369782661U;

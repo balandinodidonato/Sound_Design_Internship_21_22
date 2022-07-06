@@ -14,6 +14,7 @@
 						<ObjectRef Name="Play_WeaponPickup" ID="{12562A8B-7914-450D-9378-BF990328F7C2}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipIdle" ID="{739907D8-FAD2-4544-B34F-1E7CC05A2AA4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing3" ID="{4E7DB554-E294-462C-B9FE-23CD5C4082B2}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Portal" ID="{F5608821-C4AA-4656-A967-C913DA888CBC}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthPickup" ID="{5A1F63FE-2404-465D-A0FA-DB96EE52504F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing1" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipAlarm" ID="{588B8275-AD7F-46D5-9555-AC18F2A08834}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
