@@ -7,10 +7,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Land" ID="{4C17E3C8-7369-4025-9C5B-32B6335D2F3F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthRelease" ID="{2525F11F-0771-4080-880D-43B2B04D8220}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayWind2" ID="{BD710731-5191-40B6-8151-6B8365A3C938}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EllenFootsteps" ID="{E2AF173D-3D0F-4156-81FE-72F68CCB6B8F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing2" ID="{19C49D67-4FBB-41C2-840A-48B0D9A4D94B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Footsteps" ID="{DBF57FEF-8CFC-43A5-BE90-DFC4AE9515A8}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalActivate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponPickup" ID="{12562A8B-7914-450D-9378-BF990328F7C2}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipIdle" ID="{739907D8-FAD2-4544-B34F-1E7CC05A2AA4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
@@ -19,11 +18,10 @@
 						<ObjectRef Name="WeaponSwing1" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipAlarm" ID="{588B8275-AD7F-46D5-9555-AC18F2A08834}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jump" ID="{8FDEC742-071D-4739-829F-F529C8E8143B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierFootsteps" ID="{F280BC1F-81C4-4838-BDBE-6ECAE2BBCBB8}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWind11" ID="{A8EB66C4-45F0-4A4F-BCEC-9FC593F1E5C7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="JumpAt" ID="{647DADCB-B273-4B09-8358-E67C56AC011B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing4" ID="{77DE0A0D-A221-4DB5-9D98-CBAF9D5C060B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LandAlt" ID="{F46BEF19-53A7-4FC1-94C2-48EB9E4C8F85}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

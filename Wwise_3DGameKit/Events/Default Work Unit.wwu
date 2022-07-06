@@ -201,12 +201,12 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Footsteps" ID="{DBF57FEF-8CFC-43A5-BE90-DFC4AE9515A8}">
+								<Event Name="Play_EllenFootsteps" ID="{E2AF173D-3D0F-4156-81FE-72F68CCB6B8F}">
 									<ChildrenList>
-										<Action Name="" ID="{F515AEA2-4287-435A-BC56-95BC887E4C81}" ShortID="755713714">
+										<Action Name="" ID="{D78857D6-005D-4039-B98A-924E5D94C2BF}" ShortID="162780389">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Footsteps" ID="{1311B932-EFA5-4191-AB23-05FDBB27809A}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+													<ObjectRef Name="EllenFootsteps" ID="{FD95251A-8DC8-4ABE-9184-F68E3350CF37}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -394,6 +394,36 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{E6AD2399-3552-45C7-ABC0-917FC4C2D527}" ShortID="637742187">
+					<ChildrenList>
+						<Folder Name="Grenadier" ID="{A7C5AFFE-A0EA-45C0-ADF6-509A3C347781}" ShortID="1003117424">
+							<ChildrenList>
+								<Folder Name="Movement" ID="{FC907409-6A9F-45AA-8CA3-FB4F02C34600}" ShortID="901160070">
+									<ChildrenList>
+										<Event Name="Play_GrenadierFootsteps" ID="{F280BC1F-81C4-4838-BDBE-6ECAE2BBCBB8}">
+											<ChildrenList>
+												<Action Name="" ID="{162B39C6-024F-4E32-B6C2-CF81A84E1AAB}" ShortID="723567140">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierFootsteps" ID="{E53EC546-F063-4EFC-8060-3BE0518EC23B}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Combat" ID="{9116E3B0-0BD9-44BB-950F-3A0FABD692D9}" ShortID="1016578758"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Chomper" ID="{B29F1BFE-545C-46BD-9728-30300A569CB5}" ShortID="831407257">
+							<ChildrenList>
+								<Folder Name="Movement" ID="{F2882E14-3962-4F76-812A-26357BE9ED14}" ShortID="549382722"/>
+								<Folder Name="Combat" ID="{A9A575D6-2F1C-4DB1-BDEE-CC9EA6FC38B5}" ShortID="7929261"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

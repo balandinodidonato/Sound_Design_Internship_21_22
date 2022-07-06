@@ -426,7 +426,7 @@ namespace Gamekit3D
                 footstepPlayer.playing = true;
                 footstepPlayer.canPlay = false;
                 footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
-                AkSoundEngine.PostEvent("Play_Footsteps", gameObject);
+                AkSoundEngine.PostEvent("Play_EllenFootsteps", gameObject);
                 
 
             }

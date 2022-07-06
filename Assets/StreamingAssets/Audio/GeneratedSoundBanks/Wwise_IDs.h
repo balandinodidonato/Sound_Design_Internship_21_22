@@ -15,17 +15,15 @@ namespace AK
     {
         static const AkUniqueID CRYSTALACTIVATE = 2768078434U;
         static const AkUniqueID JUMP = 3833651337U;
-        static const AkUniqueID JUMPAT = 1508872842U;
         static const AkUniqueID LAND = 674522502U;
-        static const AkUniqueID LANDALT = 2513331627U;
-        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
+        static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;
         static const AkUniqueID PLAYSPACESHIPIDLE = 3078778343U;
         static const AkUniqueID PLAYWATER = 2706800728U;
-        static const AkUniqueID PLAYWIND2 = 1197535613U;
         static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
         static const AkUniqueID WEAPONSWING1 = 1502558246U;
@@ -36,8 +34,6 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID JUMPALT = 639876002U;
-        static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID WINDFORCELEFT = 658274915U;
         static const AkUniqueID WINDFORCERIGHT = 867005342U;
         static const AkUniqueID WINDGAINLEFT = 3369782661U;
