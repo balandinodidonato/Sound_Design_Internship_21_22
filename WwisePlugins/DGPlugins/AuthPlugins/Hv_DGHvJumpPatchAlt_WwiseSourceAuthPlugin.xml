@@ -43,5 +43,20 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <Platform Name="XboxOne"></Platform>
         </PlatformSupport>
     </PluginInfo>
+    <Properties>
+      <Property Name="Jump" Type="Real32" SupportRTPCType="Exclusive">
+        <UserInterface DisplayName="Jump" Step="0.01" Fine="0.001" Decimals="2" />
+        <DefaultValue>0.0</DefaultValue>
+        <AudioEnginePropertyID>0</AudioEnginePropertyID>
+        <Restrictions>
+          <ValueRestriction>
+            <Range Type="Real32">
+              <Min>0.0</Min>
+              <Max>1.0</Max>
+            </Range>
+          </ValueRestriction>
+        </Restrictions>
+      </Property>
+    </Properties>
   </SourcePlugin>
 </PluginModule>

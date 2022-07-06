@@ -212,6 +212,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="JumpAt" ID="{647DADCB-B273-4B09-8358-E67C56AC011B}">
+									<ChildrenList>
+										<Action Name="" ID="{B65181B9-A102-41AB-9C70-372DD928A369}" ShortID="994542774">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="JumpAlt" ID="{D0E90E21-676B-4FE7-AEFF-BE186D04083A}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="LandAlt" ID="{F46BEF19-53A7-4FC1-94C2-48EB9E4C8F85}">
+									<ChildrenList>
+										<Action Name="" ID="{3F66669C-A7F3-421B-890F-B3D6339C5F09}" ShortID="713463025">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="LandAlt" ID="{5BF4ED51-E8E4-47CB-87F8-4F2194FA2C25}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{B064ED52-5BA6-4538-BB60-721D117FB573}" ShortID="662141584">
@@ -356,6 +378,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="WindGenerator11" ID="{99759118-425F-4363-B42F-4CF97B92F75E}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayWind2" ID="{BD710731-5191-40B6-8151-6B8365A3C938}">
+									<ChildrenList>
+										<Action Name="" ID="{24627495-73D5-4255-ACEC-1957CD2A9AC9}" ShortID="490794911">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindGenerator2" ID="{C3EBEB56-4CC1-49E1-8876-A34B480BB231}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

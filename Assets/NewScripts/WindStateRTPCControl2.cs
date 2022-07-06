@@ -29,6 +29,7 @@ public class WindStateRTPCControl2 : MonoBehaviour
             AkSoundEngine.SetRTPCValue("WindTemperatureRight", WindTempRight2, gameObject);
             AkSoundEngine.SetRTPCValue("WindForceLeft", WindForceLeft2, gameObject);
             AkSoundEngine.SetRTPCValue("WindForceRight", WindForceRight2, gameObject);
+            Debug.Log("WindChangeTriggered");
         }
     }
 

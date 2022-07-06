@@ -39,6 +39,18 @@
 						<Property Name="Max" Type="Real64" Value="2"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="JumpAlt" ID="{0903D4EF-54D2-43DF-A042-AAEFBAB6927C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="LandAlt" ID="{19B5DCD5-CCBE-4C75-B01B-B0BDEB76C918}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

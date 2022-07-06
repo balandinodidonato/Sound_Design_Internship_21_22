@@ -18,7 +18,9 @@
 			<IncludedEvents>
 				<Event Id="2768078434" Name="CrystalActivate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\CrystalActivate" DurationType="Unknown"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Movement\Jump" DurationType="Unknown"/>
+				<Event Id="1508872842" Name="JumpAt" ObjectPath="\Events\Default Work Unit\Character\Movement\JumpAt" DurationType="Unknown"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
+				<Event Id="2513331627" Name="LandAlt" ObjectPath="\Events\Default Work Unit\Character\Movement\LandAlt" DurationType="Unknown"/>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_Footsteps" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
@@ -27,6 +29,7 @@
 				<Event Id="3078778343" Name="PlaySpaceshipIdle" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="3684444523" Name="PlayWind11" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind11" DurationType="Unknown"/>
+				<Event Id="1197535613" Name="PlayWind2" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind2" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
 				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
 				<Event Id="1502558245" Name="WeaponSwing2" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing2" DurationType="Unknown"/>
@@ -34,9 +37,11 @@
 				<Event Id="1502558243" Name="WeaponSwing4" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing4" DurationType="Unknown"/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="639876002" Name="JumpAlt" ObjectPath="\Game Parameters\Default Work Unit\JumpAlt"/>
 				<GameParameter Id="658274915" Name="WindForceLeft" ObjectPath="\Game Parameters\Default Work Unit\WindForceLeft"/>
 				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\WindForceRight"/>
 				<GameParameter Id="926105675" Name="WindTemperatureRight" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureRight"/>
+				<GameParameter Id="2513331627" Name="LandAlt" ObjectPath="\Game Parameters\Default Work Unit\LandAlt"/>
 				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureLeft"/>
 				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\WindGainLeft"/>
 				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\WindGainRight"/>
