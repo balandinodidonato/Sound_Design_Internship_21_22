@@ -2,10 +2,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
+	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
 	1502558243	WeaponSwing4			\Default Work Unit\Character\Combat\WeaponSwing4	
 	1502558244	WeaponSwing3			\Default Work Unit\Character\Combat\WeaponSwing3	
 	1502558245	WeaponSwing2			\Default Work Unit\Character\Combat\WeaponSwing2	
 	1502558246	WeaponSwing1			\Default Work Unit\Character\Combat\WeaponSwing1	
+	1686041407	Play_EllenFootsteps			\Default Work Unit\Character\Movement\Play_EllenFootsteps	
 	1792115892	PlaySpaceshipAlarm			\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm	
 	1810625332	PlayHealthRelease			\Default Work Unit\SFX\Health\PlayHealthRelease	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
@@ -14,30 +16,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
-	3854155799	Play_Footsteps			\Default Work Unit\Character\Movement\Play_Footsteps	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	658274915	WindForceLeft			\Default Work Unit\WindForceLeft	
 	867005342	WindForceRight			\Default Work Unit\WindForceRight	
-	926105675	WindTemperatureRight			\Default Work Unit\WindTemperatureRight	
-	3200895820	WindTemperatureLeft			\Default Work Unit\WindTemperatureLeft	
 	3369782661	WindGainLeft			\Default Work Unit\WindGainLeft	
 	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	11692793	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing4\DGHvWeaponSwing	
-	108717804	DGHvWindGenerator11	DGHvWindGenerator11		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator11\DGHvWindGenerator11	Due to working with PD and HVCC. Value to change wind 0, 1 & 2.  
 	111629686	DGHvWaterSource	DGHvWaterSource		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water\DGHvWaterSource	
 	161730617	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing\DGHvWeaponSwing	
 	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal2Activate\DGHvCrystal2Activate	
 	200373841	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing2\DGHvWeaponSwing	
-	215023818	MSHvFootstepsSound	MSHvFootstepsSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Footsteps\MSHvFootstepsSound	
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthPickup\DGHvHealthPickUp	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthRelease\DGHvHealthRelease	
+	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	
 	678023884	DGHvCrystalObjectiveComplete	DGHvCrystalObjectiveComplete		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\CrystalObjectiveComplete\DGHvCrystalObjectiveComplete	
 	695209362	DGHvJumpSound	DGHvJumpSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Jump\DGHvJumpSound	
+	706003832	MSHvEllenFootsteps	MSHvEllenFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootsteps\MSHvEllenFootsteps	
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	

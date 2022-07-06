@@ -165,6 +165,7 @@ namespace Gamekit3D
         public void PlayStep()
         {
             footstepAudioPlayer.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_GrenadierFootsteps", gameObject);
         }
 
         public void Shoot()

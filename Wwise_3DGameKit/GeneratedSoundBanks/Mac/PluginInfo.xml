@@ -7,14 +7,14 @@
 		<Plugin Name="DGHvJumpSound" ID="164037634" DLL="Hv_DGHvJumpSound_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWaterSource" ID="191955970" DLL="Hv_DGHvWaterSource_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWeaponSwing" ID="341443586" DLL="Hv_DGHvWeaponSwing_WwiseSourcePlugin"/>
-		<Plugin Name="DGHvWindGenerator11" ID="385680386" DLL="Hv_DGHvWindGenerator11_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvEllenFootsteps" ID="1452672002" DLL="Hv_MSHvEllenFootsteps_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadierFootsteps" ID="1568080898" DLL="Hv_MSHvGrenadierFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
-		<Plugin Name="MSHvFootstepsSound" ID="1691288578" DLL="Hv_MSHvFootstepsSound_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipEngineIdle" ID="2018509826" DLL="Hv_DGHvShipEngineIdle_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystalObjectiveComplete" ID="2089419778" DLL="Hv_DGHvCrystalObjectiveComplete_WwiseSourcePlugin"/>
