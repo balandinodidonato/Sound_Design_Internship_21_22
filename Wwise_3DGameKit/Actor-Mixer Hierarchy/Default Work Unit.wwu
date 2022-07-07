@@ -381,6 +381,35 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Boxes" ID="{DB28D636-CE7A-48BB-97C5-BB8F8F4386FB}" ShortID="736046830">
+							<ChildrenList>
+								<Sound Name="BoxBreak" ID="{358B1807-2D3F-4745-ADE4-3167E2F95B86}" ShortID="861926334">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvStoneBoxBreak" ID="{42EF4E81-5C84-4A97-A910-03CBF5A3F6A5}" ShortID="968981566" PluginName="DGHvStoneBoxBreak" CompanyID="64" PluginID="8444">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvStoneBoxBreak" ID="{42EF4E81-5C84-4A97-A910-03CBF5A3F6A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{C5096A93-6CD5-4BE9-A674-B216C417C19F}" ShortID="910091536">
@@ -778,6 +807,24 @@
 										<ActiveSource Name="DGHvWeaponSwing" ID="{2911106E-F479-4AA8-B034-F7097C2537A7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="WeaponContact" ID="{46E34D86-28F6-4141-9F40-F90DE2B88CC8}" ShortID="531932370">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWeaponContact" ID="{5DBD3EBD-840D-49E8-963F-F1EB80F40631}" ShortID="885397925" PluginName="DGHvWeaponContact" CompanyID="64" PluginID="22272">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWeaponContact" ID="{5DBD3EBD-840D-49E8-963F-F1EB80F40631}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -984,7 +1031,28 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 					<ChildrenList>
 						<Folder Name="Chomper" ID="{94A561D9-4A9C-40DB-8679-983C4C87973C}" ShortID="811349668">
 							<ChildrenList>
-								<Folder Name="Combat" ID="{009FD031-8B05-4650-B1F9-3D061FC8933B}" ShortID="956705361"/>
+								<Folder Name="Combat" ID="{009FD031-8B05-4650-B1F9-3D061FC8933B}" ShortID="956705361">
+									<ChildrenList>
+										<Sound Name="ChomperDeath" ID="{DC462B02-A8BD-4B8A-AAD5-F583FC341470}" ShortID="24019298">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="DGHvMonsterDeath" ID="{C5BB249A-8200-45E5-B5DF-FF16C1E4D587}" ShortID="619546901" PluginName="DGHvMonsterDeath" CompanyID="64" PluginID="30979">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DGHvMonsterDeath" ID="{C5BB249A-8200-45E5-B5DF-FF16C1E4D587}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Movement" ID="{7B1E28F7-F3C1-408A-A3DC-32084CA2402F}" ShortID="790883571">
 									<ChildrenList>
 										<Sound Name="ChomperFootsteps" ID="{96B4B9BF-3846-4EBE-83F9-1C85D3A0F0E1}" ShortID="980442837">

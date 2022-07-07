@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.wproj" DateLow="1655329174" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.glowb.wsettings" DateLow="1657117794" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Wwise_3DGameKit.glowb.wsettings" DateLow="1657204416" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Virtual Acoustics\Default Work Unit.wwu" DateLow="1655329174" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Triggers\Default Work Unit.wwu" DateLow="1655329174" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Switches\Default Work Unit.wwu" DateLow="1656935976" DateHigh="0"/>
@@ -26,5 +26,5 @@
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Control Surface Sessions\Default Work Unit.wwu" DateLow="1655329172" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Audio Devices\Default Work Unit.wwu" DateLow="1655329172" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Attenuations\Default Work Unit.wwu" DateLow="1657200700" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1657200700" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1657204134" DateHigh="0"/>
 </ValidationCache>
