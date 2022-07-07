@@ -64,6 +64,11 @@
 								<RandomSequenceContainer Name="CrystalActivate" ID="{00005FC6-EA14-47B6-A02C-290B0D465371}" ShortID="274373021">
 									<PropertyList>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -345,6 +350,11 @@
 								<Sound Name="Portal" ID="{75573D48-AE10-4ECF-8DBD-FF1E71989022}" ShortID="143277560">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -381,7 +391,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -406,7 +416,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -846,10 +856,7 @@
 											<Comment>Due to working with PD and HVCC. Value to change wind 0, 1 &amp; 2. 
 The Gain Values can be any value above 0 and upto 2.</Comment>
 											<PropertyList>
-												<Property Name="GainLeft" Type="Real32">
-													<ValueList>
-														<Value>0.58</Value>
-													</ValueList>
+												<Property Name="GainLeft" Type="Real32" Value="0.58">
 													<RTPCList>
 														<RTPC Name="" ID="{A4AD378B-7A67-4D70-8F10-6A56D42827A9}" ShortID="188149633">
 															<ReferenceList>
@@ -877,10 +884,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="GainRight" Type="Real32">
-													<ValueList>
-														<Value>0.6</Value>
-													</ValueList>
+												<Property Name="GainRight" Type="Real32" Value="0.6">
 													<RTPCList>
 														<RTPC Name="" ID="{02277752-9BAA-47AE-B6C6-BCB9C76DE388}" ShortID="143181660">
 															<ReferenceList>
@@ -908,10 +912,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="WindForceLeft" Type="Real32">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
+												<Property Name="WindForceLeft" Type="Real32" Value="1">
 													<RTPCList>
 														<RTPC Name="" ID="{6406559A-69ED-4AF7-BA36-5BD2272AFD96}" ShortID="100718554">
 															<ReferenceList>
@@ -939,10 +940,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="WindForceRight" Type="Real32">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
+												<Property Name="WindForceRight" Type="Real32" Value="1">
 													<RTPCList>
 														<RTPC Name="" ID="{7744ACAA-3131-46C0-8DA4-47725377C159}" ShortID="165086519">
 															<ReferenceList>
@@ -992,6 +990,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 										<Sound Name="ChomperFootsteps" ID="{96B4B9BF-3846-4EBE-83F9-1C85D3A0F0E1}" ShortID="980442837">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
 														<Value>39</Value>
@@ -1000,6 +999,11 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												<Property Name="Lowpass" Type="int16">
 													<ValueList>
 														<Value>11</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
@@ -1018,9 +1022,14 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>2</Value>
+														<Value>4</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -1063,7 +1072,52 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 						</Folder>
 						<Folder Name="Grenadier" ID="{3C511252-61A2-4636-9B4C-1F81B4BA9530}" ShortID="836414230">
 							<ChildrenList>
-								<Folder Name="Combat" ID="{1F2A7493-2190-4E07-9EF2-3DABCE5F7C05}" ShortID="374593331"/>
+								<Folder Name="Combat" ID="{1F2A7493-2190-4E07-9EF2-3DABCE5F7C05}" ShortID="374593331">
+									<ChildrenList>
+										<Sound Name="GrenadierPunch" ID="{826138D1-34FF-4B25-8745-2080BA2B1213}" ShortID="595435320">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A212E00E-6332-45EE-B7C5-F1506A9810F5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="354"/>
+																	<Property Name="Min" Type="Real64" Value="-202"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GrenadierPunchAttenuation" ID="{92D48797-0370-454C-831A-05B8086D93CD}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvGrenadierPunch" ID="{28C7B5D2-90B7-4937-B117-4CC661A932FD}" ShortID="522854664" PluginName="MSHvGrenadierPunch" CompanyID="64" PluginID="162">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvGrenadierPunch" ID="{28C7B5D2-90B7-4937-B117-4CC661A932FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Movement" ID="{60F4F17E-E135-4B58-B12B-1FD8408B7E42}" ShortID="613499225">
 									<ChildrenList>
 										<Sound Name="GrenadierFootsteps" ID="{E53EC546-F063-4EFC-8060-3BE0518EC23B}" ShortID="348152470">

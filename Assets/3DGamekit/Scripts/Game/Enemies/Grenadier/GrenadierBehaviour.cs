@@ -119,6 +119,7 @@ namespace Gamekit3D
         public void StartAttack()
         {
             fistWeapon.BeginAttack(true);
+            AkSoundEngine.PostEvent("Play_GrenadierPunch", gameObject);
         }
 
         public void EndAttack()

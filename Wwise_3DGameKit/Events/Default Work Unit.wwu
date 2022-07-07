@@ -432,7 +432,21 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Combat" ID="{9116E3B0-0BD9-44BB-950F-3A0FABD692D9}" ShortID="1016578758"/>
+								<Folder Name="Combat" ID="{9116E3B0-0BD9-44BB-950F-3A0FABD692D9}" ShortID="1016578758">
+									<ChildrenList>
+										<Event Name="Play_GrenadierPunch" ID="{83A473A9-54D3-427F-8845-A12D72CB0037}">
+											<ChildrenList>
+												<Action Name="" ID="{BEF79CCF-3956-47AA-B88B-B7FD333FB944}" ShortID="736101866">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierPunch" ID="{826138D1-34FF-4B25-8745-2080BA2B1213}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Chomper" ID="{B29F1BFE-545C-46BD-9728-30300A569CB5}" ShortID="831407257">

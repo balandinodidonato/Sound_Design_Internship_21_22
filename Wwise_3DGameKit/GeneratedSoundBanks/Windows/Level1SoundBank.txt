@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
+	3306420443	Play_GrenadierPunch			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
@@ -38,6 +39,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	200373841	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing2\DGHvWeaponSwing	
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthPickup\DGHvHealthPickUp	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthRelease\DGHvHealthRelease	
+	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	

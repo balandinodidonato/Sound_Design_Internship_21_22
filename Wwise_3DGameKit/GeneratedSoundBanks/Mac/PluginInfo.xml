@@ -3,6 +3,7 @@
 	<Plugins>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="MSHvGrenadierPunch" ID="10617858" DLL="Hv_MSHvGrenadierPunch_WwiseSourcePlugin"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
 		<Plugin Name="DGHvLandSound" ID="144573442" DLL="Hv_DGHvLandSound_WwiseSourcePlugin"/>
