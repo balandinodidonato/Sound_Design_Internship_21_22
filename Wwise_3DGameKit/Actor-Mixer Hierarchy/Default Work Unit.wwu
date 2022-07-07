@@ -1116,6 +1116,51 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												<ActiveSource Name="MSHvGrenadierPunch" ID="{28C7B5D2-90B7-4937-B117-4CC661A932FD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="GrenadierGrenadeBounce" ID="{5D3485E4-7D7A-4ECF-9512-CBA1F165AA74}" ShortID="948809832">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>23</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-380</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{20486BB0-954B-4392-A2E9-FE296A03E111}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="379"/>
+																	<Property Name="Min" Type="Real64" Value="-126"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GrenadierGrenadeBounceAttenuation" ID="{475E0C75-11FB-4493-97C8-F1116CA4B263}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvGrenadierGrenadeBounce" ID="{5F2C79D2-242D-4A74-926D-1AD07E58B014}" ShortID="945246557" PluginName="MSHvGrenadierGrenadeBounce" CompanyID="64" PluginID="17940">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvGrenadierGrenadeBounce" ID="{5F2C79D2-242D-4A74-926D-1AD07E58B014}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Movement" ID="{60F4F17E-E135-4B58-B12B-1FD8408B7E42}" ShortID="613499225">

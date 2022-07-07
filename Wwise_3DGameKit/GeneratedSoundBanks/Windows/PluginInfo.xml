@@ -15,6 +15,7 @@
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadierGrenadeBounce" ID="1175716866" DLL="Hv_MSHvGrenadierGrenadeBounce_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvPortal" ID="1283523586" DLL="Hv_MSHvPortal_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvChomperFootsteps" ID="1400112130" DLL="Hv_MSHvChomperFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>

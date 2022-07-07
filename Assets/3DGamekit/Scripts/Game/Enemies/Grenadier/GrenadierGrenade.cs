@@ -138,6 +138,7 @@ namespace Gamekit3D
         {
             if (bouncePlayer != null)
                 bouncePlayer.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_GrenadierGrenadeBounce", gameObject);
         }
 
         private Vector3 GetVelocity(Vector3 target)

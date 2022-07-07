@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
+	592588845	Play_GrenadierGrenadeBounce			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce	
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
 	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
@@ -50,6 +51,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
+	945246557	MSHvGrenadierGrenadeBounce	MSHvGrenadierGrenadeBounce		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeBounce\MSHvGrenadierGrenadeBounce	
 	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
