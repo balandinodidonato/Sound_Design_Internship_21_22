@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	592588845	Play_GrenadierGrenadeBounce			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce	
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
+	1108267873	Play_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp	
 	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
 	1502558243	WeaponSwing4			\Default Work Unit\Character\Combat\WeaponSwing4	
 	1502558244	WeaponSwing3			\Default Work Unit\Character\Combat\WeaponSwing3	
@@ -22,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3495886146	Play_GrenadierGrenadeExplosion			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion	
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
+	4107145719	Stop_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	658274915	WindForceLeft			\Default Work Unit\WindForceLeft	
@@ -59,5 +61,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
+	1011616506	MSHvGrenadierShieldUp	MSHvGrenadierShieldUp		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierShieldUp\MSHvGrenadierShieldUp	
 	1015352779	MSHvChomperFootsteps	MSHvChomperFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Movement\ChomperFootsteps\MSHvChomperFootsteps	
 

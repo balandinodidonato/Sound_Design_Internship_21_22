@@ -1344,6 +1344,45 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												<ActiveSource Name="MSHvGrenadierGrenadeShoot" ID="{C4AD8D25-DDE4-424D-984D-06C5AF73A217}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="GrenadierShieldUp" ID="{D21B9E77-F577-4FDC-8F9A-4A2AA542A3DF}" ShortID="144357444">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>28</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GrenadierShieldUpAttenuation" ID="{0E3CD17E-E872-4785-A9E9-816FA0C35712}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvGrenadierShieldUp" ID="{2E7DDDBE-0A01-4A20-9901-587B71E53C2D}" ShortID="1011616506" PluginName="MSHvGrenadierShieldUp" CompanyID="64" PluginID="27609">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvGrenadierShieldUp" ID="{2E7DDDBE-0A01-4A20-9901-587B71E53C2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Movement" ID="{60F4F17E-E135-4B58-B12B-1FD8408B7E42}" ShortID="613499225">

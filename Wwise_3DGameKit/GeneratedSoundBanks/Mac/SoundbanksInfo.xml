@@ -26,6 +26,7 @@
 				<Event Id="3495886146" Name="Play_GrenadierGrenadeExplosion" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion" MaxAttenuation="30.000000" DurationType="Unknown"/>
 				<Event Id="2596063918" Name="Play_GrenadierGrenadeShoot" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot" MaxAttenuation="35.000000" DurationType="Unknown"/>
 				<Event Id="3306420443" Name="Play_GrenadierPunch" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch" MaxAttenuation="15.000000" DurationType="Unknown"/>
+				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="100.000000" DurationType="Unknown"/>
 				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\SFX\Portal\Play_Portal" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
@@ -35,6 +36,7 @@
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="3684444523" Name="PlayWind11" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind11" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
+				<Event Id="4107145719" Name="Stop_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
 				<Event Id="1502558245" Name="WeaponSwing2" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing2" DurationType="Unknown"/>
 				<Event Id="1502558244" Name="WeaponSwing3" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing3" DurationType="Unknown"/>

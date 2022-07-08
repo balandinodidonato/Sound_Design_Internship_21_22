@@ -143,6 +143,7 @@ namespace Gamekit3D
         public void ActivateShield()
         {
             shield.SetActive(true);
+            AkSoundEngine.PostEvent("Play_GrenadierShieldUp", gameObject);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
         }
@@ -150,6 +151,7 @@ namespace Gamekit3D
         public void DeactivateShield()
         {
             shield.SetActive(false);
+            AkSoundEngine.PostEvent("Stop_GrenadierShieldUp", gameObject);
             m_Damageable.SetColliderState(true);
         }
 

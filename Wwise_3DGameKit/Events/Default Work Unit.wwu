@@ -478,6 +478,31 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Stop_GrenadierShieldUp" ID="{500D5CAE-3FAF-416C-AF1C-FDD79D7A6FF9}">
+											<ChildrenList>
+												<Action Name="" ID="{542AC81A-9161-457F-9150-FE5A807264F3}" ShortID="1043995647">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierShieldUp" ID="{D21B9E77-F577-4FDC-8F9A-4A2AA542A3DF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierShieldUp" ID="{D009E2AB-AF8F-41B6-A853-0F688F1974AB}">
+											<ChildrenList>
+												<Action Name="" ID="{39ECC0C7-10CB-4942-A4E3-1B78CAC435AB}" ShortID="252247012">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierShieldUp" ID="{D21B9E77-F577-4FDC-8F9A-4A2AA542A3DF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
