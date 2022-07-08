@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
         static const AkUniqueID PLAY_GRENADIERGRENADEBOUNCE = 592588845U;
+        static const AkUniqueID PLAY_GRENADIERGRENADEEXPLOSION = 3495886146U;
         static const AkUniqueID PLAY_GRENADIERPUNCH = 3306420443U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;

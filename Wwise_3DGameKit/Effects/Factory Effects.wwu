@@ -1067,10 +1067,11 @@
 								</Effect>
 								<Effect Name="Dirty_Washing_Machine" ID="{824764DD-7364-411D-AF50-DEDF8E3DCC48}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="0.3"/>
-										<Property Name="Density" Type="Real32" Value="19"/>
-										<Property Name="Diffusion" Type="Real32" Value="55"/>
-										<Property Name="ERLevel" Type="Real32" Value="-17"/>
+										<Property Name="DecayTime" Type="Real32" Value="0.2"/>
+										<Property Name="Density" Type="Real32" Value="4"/>
+										<Property Name="Diffusion" Type="Real32" Value="49"/>
+										<Property Name="DryLevel" Type="Real32" Value="-6.3"/>
+										<Property Name="ERLevel" Type="Real32" Value="-18"/>
 										<Property Name="ERPattern" Type="int32" Value="26"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="-7"/>
@@ -1081,10 +1082,10 @@
 										<Property Name="HFDamping" Type="Real32" Value="0.5"/>
 										<Property Name="PreDelay" Type="Real32" Value="12"/>
 										<Property Name="Quality" Type="int32" Value="2"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-14"/>
-										<Property Name="RoomShape" Type="Real32" Value="51"/>
-										<Property Name="RoomSize" Type="Real32" Value="-100"/>
-										<Property Name="StereoWidth" Type="Real32" Value="0"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-26"/>
+										<Property Name="RoomShape" Type="Real32" Value="31"/>
+										<Property Name="RoomSize" Type="Real32" Value="41"/>
+										<Property Name="StereoWidth" Type="Real32" Value="22"/>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Phone_Booth" ID="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">

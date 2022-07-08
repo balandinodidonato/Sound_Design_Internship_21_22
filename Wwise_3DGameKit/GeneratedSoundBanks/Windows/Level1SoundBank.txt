@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
 	3306420443	Play_GrenadierPunch			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
+	3495886146	Play_GrenadierGrenadeExplosion			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion	
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
 
@@ -33,6 +34,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	11692793	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing4\DGHvWeaponSwing	
+	104020645	MSHvGrenadierGrenadeExplosion	MSHvGrenadierGrenadeExplosion		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosion\MSHvGrenadierGrenadeExplosion	
 	108717804	DGHvWindGenerator11	DGHvWindGenerator11		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator11\DGHvWindGenerator11	Due to working with PD and HVCC. Value to change wind 0, 1 & 2.  The Gain Values can be any value above 0 and upto 2.
 	111629686	DGHvWaterSource	DGHvWaterSource		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water\DGHvWaterSource	
 	161730617	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing\DGHvWeaponSwing	

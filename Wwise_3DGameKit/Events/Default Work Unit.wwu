@@ -456,6 +456,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_GrenadierGrenadeExplosion" ID="{0F3739ED-D07F-41F1-A982-DB0B34F161CD}">
+											<ChildrenList>
+												<Action Name="" ID="{2939D9C8-E14A-4648-952E-84A6A0A3AB78}" ShortID="896953259">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierGrenadeExplosion" ID="{66EB4B3E-FAD0-4056-84C2-BAC0A8D96F52}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
