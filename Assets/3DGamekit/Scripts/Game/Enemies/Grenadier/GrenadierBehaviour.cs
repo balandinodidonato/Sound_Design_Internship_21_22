@@ -172,7 +172,7 @@ namespace Gamekit3D
         public void Shoot()
         {
             throwAudioPlayer.PlayRandomClip();
-
+            AkSoundEngine.PostEvent("Play_GrenadierGrenadeShoot", gameObject);
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 
             //the grenade is launched a couple of meters in "front" of the player, because it bounce and roll, to make it a bit ahrder for the player
