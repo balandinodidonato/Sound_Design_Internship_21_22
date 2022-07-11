@@ -36,3 +36,12 @@ https://desktop.github.com
 
 Git & Git LFS
 https://git-scm.com
+
+## Using Provided Plugins (or Adding Your Own)
+These examples are for a 64-bit Windows device, to do this for mac please refer to the HVCC documentation as this requires a couple extra steps. https://github.com/enzienaudio/hvcc/blob/master/docs/06.wwise.md
+
+### Wwise Authoring Plugins
+Wwise SDK Installation Folder (EG C:/programfiles(x86))/Audiokintetic/wwise 2019.2.1.7250/Authoring/x64/Release/bin/plugins
+
+### Wwise Source Plugins (In Unity)
+Project Folder (In this case the repository folder EG C:/github)/Sound_Design_Internship_21_22/Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/
