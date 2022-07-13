@@ -509,6 +509,102 @@
 										<ActiveSource Name="MSHvEllenFootsteps" ID="{91E14C45-7F04-404E-ADC7-3B88758FAFF9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="JumpAlt" ID="{ABD969CD-DD4F-4A05-8B6F-77F13AA6D999}" ShortID="333132098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvJumpPatchAlt" ID="{BAB96667-0407-4DF7-966A-CCA085A02B90}" ShortID="729142036" PluginName="DGHvJumpPatchAlt" CompanyID="64" PluginID="12696">
+											<PropertyList>
+												<Property Name="Jump" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{B3F88CFF-4642-4865-B939-E44D91A89172}" ShortID="442643812">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="JumpAlt" ID="{0903D4EF-54D2-43DF-A042-AAEFBAB6927C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5D07FECB-559E-4F0C-86AC-ADD317B66310}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvJumpPatchAlt" ID="{BAB96667-0407-4DF7-966A-CCA085A02B90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LandAlt" ID="{4170DA5D-3064-4310-B4A4-A058085647FE}" ShortID="848749855">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvLandSoundAlt" ID="{E39AAF61-3D66-4A3B-9222-66AD7763209E}" ShortID="672059104" PluginName="DGHvLandSoundAlt" CompanyID="64" PluginID="12984">
+											<PropertyList>
+												<Property Name="Land" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{FAEBBFA0-59A1-443E-A01D-31B7764FD0CD}" ShortID="648968368">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="LandAlt" ID="{19B5DCD5-CCBE-4C75-B01B-B0BDEB76C918}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5CD51246-91C9-4537-BDE8-8BC6F8D91AA8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvLandSoundAlt" ID="{E39AAF61-3D66-4A3B-9222-66AD7763209E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{F8DA3702-DBE3-4B13-A8FE-F14C03EF9819}" ShortID="296048762">
@@ -959,6 +1055,62 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="TemperatureLeft" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{3ED50789-3E23-4AE7-8BC3-63CA3C5E86AF}" ShortID="682029136">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="WindTemperatureLeft" ID="{1B13A43D-39B6-4FA2-9A11-783AB69045CD}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5A1F090F-69A4-4ABE-B842-7F5CCE7E3517}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>2</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="TemperatureRight" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{8D9BB20B-946B-40C1-AF9E-328BCE460CEB}" ShortID="171065972">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="WindTemperatureRight" ID="{826E9D3B-87D8-4FF7-881D-4C316D601478}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BB3BC27A-AD7F-4F97-87F0-0F2CBCC142BA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>2</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="WindForceLeft" Type="Real32" Value="1">
 													<RTPCList>
 														<RTPC Name="" ID="{6406559A-69ED-4AF7-BA36-5BD2272AFD96}" ShortID="100718554">
@@ -1023,6 +1175,24 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 										<ActiveSource Name="DGHvWindGenerator11" ID="{2B406280-83F1-42F7-8618-4DFD4F3FCF67}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="WindGenerator2" ID="{BBA46329-0AD4-407D-AE35-92190FD26F32}" ShortID="46474638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvWindGenerator2" ID="{67C45018-DF37-4B25-9DBE-35C6E22933BC}" ShortID="1070160772" PluginName="DGHvWindGenerator2" CompanyID="64" PluginID="11272">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvWindGenerator2" ID="{67C45018-DF37-4B25-9DBE-35C6E22933BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -1034,6 +1204,26 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 								<Folder Name="Combat" ID="{009FD031-8B05-4650-B1F9-3D061FC8933B}" ShortID="956705361">
 									<ChildrenList>
 										<Sound Name="ChomperDeath" ID="{DC462B02-A8BD-4B8A-AAD5-F583FC341470}" ShortID="24019298">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BEB71111-2F14-4ED1-BE47-EAB37DAD1A4D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>

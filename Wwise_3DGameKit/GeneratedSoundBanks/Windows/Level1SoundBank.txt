@@ -4,16 +4,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
 	1108267873	Play_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp	
+	1197535613	PlayWind2			\Default Work Unit\Ambience\Wind\PlayWind2	
 	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
 	1502558243	WeaponSwing4			\Default Work Unit\Character\Combat\WeaponSwing4	
 	1502558244	WeaponSwing3			\Default Work Unit\Character\Combat\WeaponSwing3	
 	1502558245	WeaponSwing2			\Default Work Unit\Character\Combat\WeaponSwing2	
 	1502558246	WeaponSwing1			\Default Work Unit\Character\Combat\WeaponSwing1	
+	1508872842	JumpAt			\Default Work Unit\Character\Movement\JumpAt	
+	1632859915	PlayBoxBreak			\Default Work Unit\SFX\Box\PlayBoxBreak	
 	1686041407	Play_EllenFootsteps			\Default Work Unit\Character\Movement\Play_EllenFootsteps	
 	1792115892	PlaySpaceshipAlarm			\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm	
 	1810625332	PlayHealthRelease			\Default Work Unit\SFX\Health\PlayHealthRelease	
 	1956494941	Play_ChomperFootsteps			\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps	
 	2424882924	Play_Portal			\Default Work Unit\SFX\Portal\Play_Portal	
+	2513331627	LandAlt			\Default Work Unit\Character\Movement\LandAlt	
 	2596063918	Play_GrenadierGrenadeShoot			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
@@ -21,13 +25,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	3306420443	Play_GrenadierPunch			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
 	3495886146	Play_GrenadierGrenadeExplosion			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion	
+	3594545221	ChomperDeath			\Default Work Unit\Enemies\Chomper\Combat\ChomperDeath	
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
 	4107145719	Stop_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	639876002	JumpAlt			\Default Work Unit\JumpAlt	
 	658274915	WindForceLeft			\Default Work Unit\WindForceLeft	
 	867005342	WindForceRight			\Default Work Unit\WindForceRight	
+	926105675	WindTemperatureRight			\Default Work Unit\WindTemperatureRight	
+	2513331627	LandAlt			\Default Work Unit\LandAlt	
+	3200895820	WindTemperatureLeft			\Default Work Unit\WindTemperatureLeft	
 	3369782661	WindGainLeft			\Default Work Unit\WindGainLeft	
 	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
 
@@ -50,17 +59,22 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	
+	619546901	DGHvMonsterDeath	DGHvMonsterDeath		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Combat\ChomperDeath\DGHvMonsterDeath	
+	672059104	DGHvLandSoundAlt	DGHvLandSoundAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\LandAlt\DGHvLandSoundAlt	
 	678023884	DGHvCrystalObjectiveComplete	DGHvCrystalObjectiveComplete		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\CrystalObjectiveComplete\DGHvCrystalObjectiveComplete	
 	695209362	DGHvJumpSound	DGHvJumpSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Jump\DGHvJumpSound	
 	706003832	MSHvEllenFootsteps	MSHvEllenFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootsteps\MSHvEllenFootsteps	
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
+	729142036	DGHvJumpPatchAlt	DGHvJumpPatchAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\JumpAlt\DGHvJumpPatchAlt	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
 	945246557	MSHvGrenadierGrenadeBounce	MSHvGrenadierGrenadeBounce		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeBounce\MSHvGrenadierGrenadeBounce	
 	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	
+	968981566	DGHvStoneBoxBreak	DGHvStoneBoxBreak		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\BoxBreak\DGHvStoneBoxBreak	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
 	1011616506	MSHvGrenadierShieldUp	MSHvGrenadierShieldUp		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierShieldUp\MSHvGrenadierShieldUp	
 	1015352779	MSHvChomperFootsteps	MSHvChomperFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Movement\ChomperFootsteps\MSHvChomperFootsteps	
+	1070160772	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
 

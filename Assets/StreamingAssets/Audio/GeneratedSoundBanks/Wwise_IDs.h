@@ -13,9 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CHOMPERDEATH = 3594545221U;
         static const AkUniqueID CRYSTALACTIVATE = 2768078434U;
         static const AkUniqueID JUMP = 3833651337U;
+        static const AkUniqueID JUMPAT = 1508872842U;
         static const AkUniqueID LAND = 674522502U;
+        static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
@@ -26,11 +29,13 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIERSHIELDUP = 1108267873U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
+        static const AkUniqueID PLAYBOXBREAK = 1632859915U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;
         static const AkUniqueID PLAYSPACESHIPIDLE = 3078778343U;
         static const AkUniqueID PLAYWATER = 2706800728U;
+        static const AkUniqueID PLAYWIND2 = 1197535613U;
         static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
         static const AkUniqueID STOP_GRENADIERSHIELDUP = 4107145719U;

@@ -12,8 +12,12 @@
 		<Plugin Name="DGHvWaterSource" ID="191955970" DLL="Hv_DGHvWaterSource_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWeaponSwing" ID="341443586" DLL="Hv_DGHvWeaponSwing_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGenerator11" ID="385680386" DLL="Hv_DGHvWindGenerator11_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvStoneBoxBreak" ID="553387010" DLL="Hv_DGHvStoneBoxBreak_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierGrenadeShoot" ID="614859778" DLL="Hv_MSHvGrenadierGrenadeShoot_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvWindGenerator2" ID="738722818" DLL="Hv_DGHvWindGenerator2_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvJumpPatchAlt" ID="832046082" DLL="Hv_DGHvJumpPatchAlt_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvLandSoundAlt" ID="850920450" DLL="Hv_DGHvLandSoundAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
@@ -27,6 +31,7 @@
 		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierShieldUp" ID="1809384450" DLL="Hv_MSHvGrenadierShieldUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipEngineIdle" ID="2018509826" DLL="Hv_DGHvShipEngineIdle_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvMonsterDeath" ID="2030240770" DLL="Hv_DGHvMonsterDeath_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystalObjectiveComplete" ID="2089419778" DLL="Hv_DGHvCrystalObjectiveComplete_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthRelease" ID="2094138370" DLL="Hv_DGHvHealthRelease_WwiseSourcePlugin"/>
 	</Plugins>

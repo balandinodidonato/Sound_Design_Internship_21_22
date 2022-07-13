@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,9 +16,12 @@
 			<ShortName>Level1SoundBank</ShortName>
 			<Path>Level1SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3594545221" Name="ChomperDeath" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Combat\ChomperDeath" DurationType="Unknown"/>
 				<Event Id="2768078434" Name="CrystalActivate" ObjectPath="\Events\Default Work Unit\SFX\Crystals\CrystalActivate" DurationType="Unknown"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Movement\Jump" DurationType="Unknown"/>
+				<Event Id="1508872842" Name="JumpAt" ObjectPath="\Events\Default Work Unit\Character\Movement\JumpAt" DurationType="Unknown"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Character\Movement\Land" DurationType="Unknown"/>
+				<Event Id="2513331627" Name="LandAlt" ObjectPath="\Events\Default Work Unit\Character\Movement\LandAlt" DurationType="Unknown"/>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps" MaxAttenuation="20.000000" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
 				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="30.000000" DurationType="Unknown"/>
@@ -29,12 +32,14 @@
 				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="100.000000" DurationType="Unknown"/>
 				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\SFX\Portal\Play_Portal" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
+				<Event Id="1632859915" Name="PlayBoxBreak" ObjectPath="\Events\Default Work Unit\SFX\Box\PlayBoxBreak" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
 				<Event Id="1810625332" Name="PlayHealthRelease" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthRelease" DurationType="Unknown"/>
 				<Event Id="1792115892" Name="PlaySpaceshipAlarm" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="3078778343" Name="PlaySpaceshipIdle" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="3684444523" Name="PlayWind11" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind11" DurationType="Unknown"/>
+				<Event Id="1197535613" Name="PlayWind2" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind2" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
 				<Event Id="4107145719" Name="Stop_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
@@ -43,8 +48,12 @@
 				<Event Id="1502558243" Name="WeaponSwing4" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing4" DurationType="Unknown"/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="639876002" Name="JumpAlt" ObjectPath="\Game Parameters\Default Work Unit\JumpAlt"/>
 				<GameParameter Id="658274915" Name="WindForceLeft" ObjectPath="\Game Parameters\Default Work Unit\WindForceLeft"/>
 				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\WindForceRight"/>
+				<GameParameter Id="926105675" Name="WindTemperatureRight" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureRight"/>
+				<GameParameter Id="2513331627" Name="LandAlt" ObjectPath="\Game Parameters\Default Work Unit\LandAlt"/>
+				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureLeft"/>
 				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\WindGainLeft"/>
 				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\WindGainRight"/>
 			</GameParameters>
