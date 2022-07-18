@@ -384,10 +384,46 @@
 						<Folder Name="Boxes" ID="{DB28D636-CE7A-48BB-97C5-BB8F8F4386FB}" ShortID="736046830">
 							<ChildrenList>
 								<Sound Name="BoxBreak" ID="{358B1807-2D3F-4745-ADE4-3167E2F95B86}" ShortID="861926334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvStoneBoxSmash2" ID="{4E773A99-C637-4925-B714-91C2404A2A3A}" ShortID="175771697" PluginName="DGHvStoneBoxSmash2" CompanyID="64" PluginID="22134">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvStoneBoxSmash2" ID="{4E773A99-C637-4925-B714-91C2404A2A3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BoxBreak6" ID="{FBA72ADA-CD77-41E6-947D-98A4D62CCF11}" ShortID="209014804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="DGHvStoneBoxBreak6" ID="{23843750-7FB6-4567-8A37-F0D010E14E83}" ShortID="728530494" PluginName="DGHvStoneBoxBreak6" CompanyID="64" PluginID="10666">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DGHvStoneBoxBreak6" ID="{23843750-7FB6-4567-8A37-F0D010E14E83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BoxBreak7" ID="{253328D1-680F-4BAB-8DCF-D5C5CDED2CA0}" ShortID="390213232">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>-35</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -400,12 +436,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="DGHvStoneBoxBreak" ID="{42EF4E81-5C84-4A97-A910-03CBF5A3F6A5}" ShortID="968981566" PluginName="DGHvStoneBoxBreak" CompanyID="64" PluginID="8444">
+										<SourcePlugin Name="DGHvStoneBoxBreak7" ID="{54D932F4-D057-44C1-850C-30C34892A4A7}" ShortID="1071064572" PluginName="DGHvStoneBoxBreak7" CompanyID="64" PluginID="7434">
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="DGHvStoneBoxBreak" ID="{42EF4E81-5C84-4A97-A910-03CBF5A3F6A5}" Platform="Linked"/>
+										<ActiveSource Name="DGHvStoneBoxBreak7" ID="{54D932F4-D057-44C1-850C-30C34892A4A7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
