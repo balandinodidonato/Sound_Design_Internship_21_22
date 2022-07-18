@@ -161,7 +161,7 @@
 										<Action Name="" ID="{DBEAB344-762C-436E-807D-FE6AFF0A108E}" ShortID="313127203">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="BoxBreak" ID="{358B1807-2D3F-4745-ADE4-3167E2F95B86}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+													<ObjectRef Name="BoxBreak6" ID="{FBA72ADA-CD77-41E6-947D-98A4D62CCF11}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -174,7 +174,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="BoxBreak" ID="{358B1807-2D3F-4745-ADE4-3167E2F95B86}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+													<ObjectRef Name="BoxBreak6" ID="{FBA72ADA-CD77-41E6-947D-98A4D62CCF11}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -565,6 +565,9 @@
 										<Event Name="ChomperDeath" ID="{45374964-EC32-4ACD-AE70-CAC57D580D4A}">
 											<ChildrenList>
 												<Action Name="" ID="{9D1BB536-3FC3-460E-B667-54D54A884FCF}" ShortID="195595918">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="7"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="ChomperDeath" ID="{DC462B02-A8BD-4B8A-AAD5-F583FC341470}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
@@ -574,9 +577,9 @@
 												<Action Name="" ID="{4F037234-58A5-4F86-B8A7-DA2349B39BE4}" ShortID="1060688743">
 													<PropertyList>
 														<Property Name="ActionType" Type="int16" Value="2"/>
-														<Property Name="Delay" Type="Real64" Value="0.4"/>
+														<Property Name="Delay" Type="Real64" Value="0.1"/>
 														<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-														<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+														<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">

@@ -29,7 +29,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WindGainRight" ID="{27EA0D60-9D8F-412B-A386-34042B7A6781}"/>
-							<Value>0</Value>
+							<Value>0.3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="JumpAlt" ID="{0903D4EF-54D2-43DF-A042-AAEFBAB6927C}"/>
@@ -41,7 +41,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WindGainLeft" ID="{487DA81B-08B6-4AB3-B6DC-55AC198D666E}"/>
-							<Value>0</Value>
+							<Value>0.3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="LandAlt" ID="{19B5DCD5-CCBE-4C75-B01B-B0BDEB76C918}"/>

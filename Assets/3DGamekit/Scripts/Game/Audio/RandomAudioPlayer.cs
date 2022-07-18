@@ -96,6 +96,11 @@ namespace Gamekit3D
 
             return clip;
         }
+        public void WwiseAudioTrigger() 
+        {
+            AkSoundEngine.PostEvent("PlayBoxBreak", gameObject);
+        }
 
+       
     }
 }

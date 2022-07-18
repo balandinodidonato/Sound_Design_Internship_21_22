@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585444790683348489
+    m_lastTime: -8585438826114775808
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585444790683218564
+    m_lastTime: -8585434491494775808
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -69,6 +69,22 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 3
       Path: Default Work Unit\Ambience\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Box
+      guid: 2715206e07dc55479fb3d928e9f4a1a5
+      id: 546945280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Box
+        ObjectType: 4
+      - ElementName: Box
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Box\Box
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -94,35 +110,45 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Enemies
         ObjectType: 4
-      - ElementName: Grenadier
-        ObjectType: 4
       - ElementName: Chomper
         ObjectType: 4
       - ElementName: Chomper
         ObjectType: 3
-      Path: Default Work Unit\Enemies\Grenadier\Chomper\Chomper
+      Path: Default Work Unit\Enemies\Chomper\Chomper
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Combat
-      guid: d675a5a91c2fb14dbdeecc9ea6fc38b5
-      id: 2764240573
+    - name: ChomperDeath
+      guid: 6449374532eccd4aae70cac57d580d4a
+      id: 3594545221
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Enemies
         ObjectType: 4
-      - ElementName: Grenadier
-        ObjectType: 4
       - ElementName: Chomper
         ObjectType: 4
-      - ElementName: Movement
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: ChomperDeath
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Chomper\Combat\ChomperDeath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 52ed64b0a65b3845bb60721d117fb573
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
         ObjectType: 4
       - ElementName: Combat
         ObjectType: 4
       - ElementName: Combat
         ObjectType: 3
-      Path: Default Work Unit\Enemies\Grenadier\Chomper\Movement\Combat\Combat
+      Path: Default Work Unit\Character\Combat\Combat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -145,18 +171,20 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Combat
-      guid: 52ed64b0a65b3845bb60721d117fb573
+      guid: d675a5a91c2fb14dbdeecc9ea6fc38b5
       id: 2764240573
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Chomper
         ObjectType: 4
       - ElementName: Combat
         ObjectType: 4
       - ElementName: Combat
         ObjectType: 3
-      Path: Default Work Unit\Character\Combat\Combat
+      Path: Default Work Unit\Enemies\Chomper\Combat\Combat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -310,15 +338,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Enemies
         ObjectType: 4
-      - ElementName: Grenadier
-        ObjectType: 4
       - ElementName: Chomper
         ObjectType: 4
       - ElementName: Movement
         ObjectType: 4
       - ElementName: Movement
         ObjectType: 3
-      Path: Default Work Unit\Enemies\Grenadier\Chomper\Movement\Movement
+      Path: Default Work Unit\Enemies\Chomper\Movement\Movement
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -356,6 +382,24 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_ChomperFootsteps
+      guid: 746cc5acbc1f474d90365e1b5228728f
+      id: 1956494941
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Play_ChomperFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
     - name: Play_EllenFootsteps
       guid: 3d17afe20f3d564181fe72f68ccb6b8f
       id: 1686041407
@@ -390,6 +434,96 @@ MonoBehaviour:
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
+    - name: Play_GrenadierGrenadeBounce
+      guid: 58856d511f34d54fa5b2e73a6184e2d6
+      id: 592588845
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierGrenadeBounce
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierGrenadeExplosion
+      guid: ed39370f7fd0f141a982db0b34f161cd
+      id: 3495886146
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierGrenadeExplosion
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierGrenadeShoot
+      guid: 762d022e929dd643a05aa9383a856bbe
+      id: 2596063918
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierGrenadeShoot
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot
+      maxAttenuation: 35
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierPunch
+      guid: a973a483d3547f428845a12d72cb0037
+      id: 3306420443
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierPunch
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch
+      maxAttenuation: 15
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierShieldUp
+      guid: abe209d08fafb641a8530f688f1974ab
+      id: 1108267873
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierShieldUp
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Portal
       guid: 218860f5aac45646a967c913da888cbc
       id: 2424882924
@@ -403,7 +537,7 @@ MonoBehaviour:
       - ElementName: Play_Portal
         ObjectType: 3
       Path: Default Work Unit\SFX\Portal\Play_Portal
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Play_WeaponPickup
@@ -419,6 +553,22 @@ MonoBehaviour:
       - ElementName: Play_WeaponPickup
         ObjectType: 3
       Path: Default Work Unit\SFX\Weapon\Play_WeaponPickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayBoxBreak
+      guid: 750f75072f6f1a4891e37e4551e72023
+      id: 1632859915
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Box
+        ObjectType: 4
+      - ElementName: PlayBoxBreak
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Box\PlayBoxBreak
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -596,6 +746,24 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_GrenadierShieldUp
+      guid: ae5c0d50af3f6c41af1cfdd79d7a6ff9
+      id: 4107145719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Stop_GrenadierShieldUp
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Water
       guid: d6db0dd51236cb4580b3a63209d51515
       id: 2654748154
@@ -713,7 +881,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f1830aa9dee77f4eb102b263396acccd
     GuidInternal: 
-    m_lastTime: -8585444886360006644
+    m_lastTime: -8585434508634775808
     List:
     - name: JumpAlt
       guid: efd40309d254df43a042aaefbab6927c

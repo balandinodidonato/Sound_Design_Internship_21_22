@@ -53,8 +53,8 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	177921012	MSHvGrenadierGrenadeShoot	MSHvGrenadierGrenadeShoot		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeShoot\MSHvGrenadierGrenadeShoot	
 	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal2Activate\DGHvCrystal2Activate	
 	200373841	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing2\DGHvWeaponSwing	
-	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthPickup\DGHvHealthPickUp	
-	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Health\HealthRelease\DGHvHealthRelease	
+	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthPickup\DGHvHealthPickUp	
+	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthRelease\DGHvHealthRelease	
 	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
@@ -65,13 +65,13 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	695209362	DGHvJumpSound	DGHvJumpSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Jump\DGHvJumpSound	
 	706003832	MSHvEllenFootsteps	MSHvEllenFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootsteps\MSHvEllenFootsteps	
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
+	728530494	DGHvStoneBoxBreak6	DGHvStoneBoxBreak6		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Stone\BoxBreak6\DGHvStoneBoxBreak6	
 	729142036	DGHvJumpPatchAlt	DGHvJumpPatchAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\JumpAlt\DGHvJumpPatchAlt	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
 	945246557	MSHvGrenadierGrenadeBounce	MSHvGrenadierGrenadeBounce		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeBounce\MSHvGrenadierGrenadeBounce	
 	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	
-	968981566	DGHvStoneBoxBreak	DGHvStoneBoxBreak		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\BoxBreak\DGHvStoneBoxBreak	
 	978280597	DGHvWindGeneratorAlt	DGHvWindGeneratorAlt		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGeneratorAlt\DGHvWindGeneratorAlt	
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
 	1011616506	MSHvGrenadierShieldUp	MSHvGrenadierShieldUp		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierShieldUp\MSHvGrenadierShieldUp	
