@@ -32,7 +32,9 @@
 						<ObjectRef Name="JumpAt" ID="{647DADCB-B273-4B09-8358-E67C56AC011B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperFootsteps" ID="{ACC56C74-1FBC-4D47-9036-5E1B5228728F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing4" ID="{77DE0A0D-A221-4DB5-9D98-CBAF9D5C060B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_WeaponPickUpAmbience" ID="{DEB47CF2-203B-4DBA-8D62-4A51B2FC5334}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponPickUpAmbience" ID="{6970CAB1-D788-4F24-AC06-82AE4BCA7332}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LandAlt" ID="{F46BEF19-53A7-4FC1-94C2-48EB9E4C8F85}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeBounce" ID="{516D8558-341F-4FD5-A5B2-E73A6184E2D6}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

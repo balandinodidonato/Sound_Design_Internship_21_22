@@ -284,6 +284,64 @@
 										<ActiveSource Name="MSHvWeaponPickup" ID="{775700CD-CD20-4E40-A13C-405C39D1C14F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="WeaponPickUpAmbience" ID="{BBA350F8-357C-4FDD-B347-D29685EDD46F}" ShortID="837200816">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>54</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="WeaponPickUpAmbienceAttenuation" ID="{59AB0E52-9C64-4867-A750-47F43C220C6C}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{A6E9204B-5912-4CF7-9D1C-738C147FE008}" ShortID="544038832" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="DecayTime" Type="Real32" Value="5.5"/>
+														<Property Name="Density" Type="Real32" Value="77"/>
+														<Property Name="ERLevel" Type="Real32" Value="-4"/>
+														<Property Name="HFDamping" Type="Real32" Value="2.5"/>
+														<Property Name="PreDelay" Type="Real32" Value="136"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-26"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="MSHvWeaponPickUpAmbience" ID="{817930CB-C02B-4647-B51C-1ED5EEA79CDB}" ShortID="838053286" PluginName="MSHvWeaponPickUpAmbience" CompanyID="64" PluginID="27653">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MSHvWeaponPickUpAmbience" ID="{817930CB-C02B-4647-B51C-1ED5EEA79CDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Portal" ID="{AD811DE0-3BE8-47A6-9C91-9FA8C29D2AE2}" ShortID="975003559">
@@ -386,6 +444,13 @@
 								<Folder Name="Stone" ID="{13113D54-C04E-4810-BA00-4CEA34159574}" ShortID="92404676">
 									<ChildrenList>
 										<Sound Name="BoxBreak6" ID="{FBA72ADA-CD77-41E6-947D-98A4D62CCF11}" ShortID="209014804">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
@@ -1224,7 +1289,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>40</Value>
+														<Value>25</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

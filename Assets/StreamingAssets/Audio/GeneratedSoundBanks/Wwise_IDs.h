@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIERSHIELDUP = 1108267873U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
+        static const AkUniqueID PLAY_WEAPONPICKUPAMBIENCE = 1810253714U;
         static const AkUniqueID PLAYBOXBREAK = 1632859915U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
@@ -39,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
         static const AkUniqueID STOP_GRENADIERSHIELDUP = 4107145719U;
+        static const AkUniqueID STOP_WEAPONPICKUPAMBIENCE = 1839691088U;
         static const AkUniqueID WEAPONSWING1 = 1502558246U;
         static const AkUniqueID WEAPONSWING2 = 1502558245U;
         static const AkUniqueID WEAPONSWING3 = 1502558244U;

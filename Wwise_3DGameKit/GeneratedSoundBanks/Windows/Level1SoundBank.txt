@@ -14,7 +14,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1632859915	PlayBoxBreak			\Default Work Unit\SFX\Box\PlayBoxBreak	
 	1686041407	Play_EllenFootsteps			\Default Work Unit\Character\Movement\Play_EllenFootsteps	
 	1792115892	PlaySpaceshipAlarm			\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm	
+	1810253714	Play_WeaponPickUpAmbience			\Default Work Unit\SFX\Weapon\Play_WeaponPickUpAmbience	
 	1810625332	PlayHealthRelease			\Default Work Unit\SFX\Health\PlayHealthRelease	
+	1839691088	Stop_WeaponPickUpAmbience			\Default Work Unit\SFX\Weapon\Stop_WeaponPickUpAmbience	
 	1956494941	Play_ChomperFootsteps			\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps	
 	2424882924	Play_Portal			\Default Work Unit\SFX\Portal\Play_Portal	
 	2513331627	LandAlt			\Default Work Unit\Character\Movement\LandAlt	
@@ -41,6 +43,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
 
 Effect plug-ins	ID	Name	Type				Notes
+	544038832	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
 	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
 
@@ -69,6 +72,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	729142036	DGHvJumpPatchAlt	DGHvJumpPatchAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\JumpAlt\DGHvJumpPatchAlt	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
+	838053286	MSHvWeaponPickUpAmbience	MSHvWeaponPickUpAmbience		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickUpAmbience\MSHvWeaponPickUpAmbience	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
 	945246557	MSHvGrenadierGrenadeBounce	MSHvGrenadierGrenadeBounce		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeBounce\MSHvGrenadierGrenadeBounce	
 	959598660	MSHvPortal	MSHvPortal		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Portal\Portal\MSHvPortal	

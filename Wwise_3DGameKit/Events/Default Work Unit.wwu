@@ -137,6 +137,31 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_WeaponPickUpAmbience" ID="{6970CAB1-D788-4F24-AC06-82AE4BCA7332}">
+									<ChildrenList>
+										<Action Name="" ID="{550CF35A-204D-4A4A-BE42-8759DAEBEC3C}" ShortID="674150838">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponPickUpAmbience" ID="{BBA350F8-357C-4FDD-B347-D29685EDD46F}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_WeaponPickUpAmbience" ID="{DEB47CF2-203B-4DBA-8D62-4A51B2FC5334}">
+									<ChildrenList>
+										<Action Name="" ID="{71A7EEAD-BBBF-4C51-9DD9-347AEA321416}" ShortID="815545991">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponPickUpAmbience" ID="{BBA350F8-357C-4FDD-B347-D29685EDD46F}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Portal" ID="{5C9AA4E6-FD19-4949-938F-3D32BF3DD740}" ShortID="100376047">
