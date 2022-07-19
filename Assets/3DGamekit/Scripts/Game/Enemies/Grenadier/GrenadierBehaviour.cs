@@ -137,6 +137,7 @@ namespace Gamekit3D
         public void Die()
         {
             deathAudioPlayer.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_GrenadierDeath", gameObject);
             m_EnemyController.animator.SetTrigger(hashDeathParam);
         }
 

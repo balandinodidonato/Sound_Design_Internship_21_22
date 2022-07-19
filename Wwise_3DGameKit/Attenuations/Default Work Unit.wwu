@@ -115,7 +115,7 @@
 				</Attenuation>
 				<Attenuation Name="GrenadierFootstepsAttenuation" ID="{035D077E-1909-40EB-BEC7-D222258819F8}" ShortID="518905061">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -132,7 +132,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -159,13 +159,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>21.105762</XPos>
+											<XPos>28.141016</XPos>
 											<YPos>23</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -337,7 +337,7 @@
 				</Attenuation>
 				<Attenuation Name="GrenadierPunchAttenuation" ID="{92D48797-0370-454C-831A-05B8086D93CD}" ShortID="657950206">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="15"/>
+						<Property Name="RadiusMax" Type="Real64" Value="25"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -353,7 +353,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>15</XPos>
+											<XPos>25</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -383,7 +383,7 @@
 				</Attenuation>
 				<Attenuation Name="GrenadierGrenadeBounceAttenuation" ID="{475E0C75-11FB-4493-97C8-F1116CA4B263}" ShortID="801576113">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -397,10 +397,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -428,7 +428,7 @@
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -449,7 +449,7 @@
 				</Attenuation>
 				<Attenuation Name="GrenadierGrenadeExplosionAttenuation" ID="{7A8EC10C-FD50-4656-A661-D84233028DD2}" ShortID="370918142">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -463,10 +463,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -496,7 +496,7 @@
 				</Attenuation>
 				<Attenuation Name="GrenadierGrenadeShootAttenuation" ID="{8FD72292-455D-4961-8AE6-0985D9A17738}" ShortID="135601686">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="35"/>
+						<Property Name="RadiusMax" Type="Real64" Value="45"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -510,10 +510,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>45</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -542,6 +542,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="GrenadierShieldUpAttenuation" ID="{0E3CD17E-E872-4785-A9E9-816FA0C35712}" ShortID="46042394">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -554,9 +557,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -638,6 +642,53 @@
 									</PointList>
 								</Curve>
 							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="GrenadierDeathAttenuation" ID="{E36A9A66-EC94-44DF-BCCF-C990D515F7E6}" ShortID="889609854">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{3902E9C9-040C-4702-9702-9B0B0344BB6A}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>40</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>

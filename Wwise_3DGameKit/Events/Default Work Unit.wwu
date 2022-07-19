@@ -564,6 +564,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_GrenadierDeath" ID="{7E1371D8-EA93-476E-A095-FE2CC25C4B45}">
+											<ChildrenList>
+												<Action Name="" ID="{3610DDDB-614F-4AF6-AF81-BEE6A4CFDC72}" ShortID="15756765">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierDeath" ID="{BD55CB06-D02F-490E-92C4-C110A89252A2}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

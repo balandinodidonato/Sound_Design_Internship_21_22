@@ -24,12 +24,13 @@
 				<Event Id="2513331627" Name="LandAlt" ObjectPath="\Events\Default Work Unit\Character\Movement\LandAlt" DurationType="Unknown"/>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps" MaxAttenuation="20.000000" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
-				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="30.000000" DurationType="Unknown"/>
-				<Event Id="592588845" Name="Play_GrenadierGrenadeBounce" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce" MaxAttenuation="30.000000" DurationType="Unknown"/>
-				<Event Id="3495886146" Name="Play_GrenadierGrenadeExplosion" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion" MaxAttenuation="30.000000" DurationType="Unknown"/>
-				<Event Id="2596063918" Name="Play_GrenadierGrenadeShoot" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot" MaxAttenuation="35.000000" DurationType="Unknown"/>
-				<Event Id="3306420443" Name="Play_GrenadierPunch" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch" MaxAttenuation="15.000000" DurationType="Unknown"/>
-				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="100.000000" DurationType="Unknown"/>
+				<Event Id="3440132657" Name="Play_GrenadierDeath" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="592588845" Name="Play_GrenadierGrenadeBounce" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="3495886146" Name="Play_GrenadierGrenadeExplosion" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="2596063918" Name="Play_GrenadierGrenadeShoot" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot" MaxAttenuation="45.000000" DurationType="Unknown"/>
+				<Event Id="3306420443" Name="Play_GrenadierPunch" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch" MaxAttenuation="25.000000" DurationType="Unknown"/>
+				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\SFX\Portal\Play_Portal" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
 				<Event Id="1810253714" Name="Play_WeaponPickUpAmbience" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickUpAmbience" MaxAttenuation="30.000000" DurationType="Unknown"/>

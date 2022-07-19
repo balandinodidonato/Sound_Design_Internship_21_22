@@ -1618,7 +1618,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>11</Value>
+														<Value>5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1640,6 +1640,40 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="MSHvGrenadierShieldUp" ID="{2E7DDDBE-0A01-4A20-9901-587B71E53C2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GrenadierDeath" ID="{BD55CB06-D02F-490E-92C4-C110A89252A2}" ShortID="251222816">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-830</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GrenadierDeathAttenuation" ID="{E36A9A66-EC94-44DF-BCCF-C990D515F7E6}" WorkUnitID="{93B8F257-A2AE-476C-B258-8FBA94BED7F8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvGrenadierDeath" ID="{5364EC9D-21F8-42B9-9075-E70AAD309F46}" ShortID="96672416" PluginName="MSHvGrenadierDeath" CompanyID="64" PluginID="27378">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvGrenadierDeath" ID="{5364EC9D-21F8-42B9-9075-E70AAD309F46}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
