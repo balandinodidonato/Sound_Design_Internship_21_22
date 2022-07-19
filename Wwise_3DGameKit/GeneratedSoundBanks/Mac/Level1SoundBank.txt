@@ -23,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2596063918	Play_GrenadierGrenadeShoot			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
+	3020210802	Play_GrenadierExplosionCharge			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierExplosionCharge	
 	3078778343	PlaySpaceshipIdle			\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle	
 	3306420443	Play_GrenadierPunch			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch	
 	3423484422	PlayWindAlt			\Default Work Unit\Ambience\Wind\PlayWindAlt	
@@ -54,6 +55,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	104020645	MSHvGrenadierGrenadeExplosion	MSHvGrenadierGrenadeExplosion		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosion\MSHvGrenadierGrenadeExplosion	
 	108717804	DGHvWindGenerator11	DGHvWindGenerator11		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator11\DGHvWindGenerator11	Due to working with PD and HVCC. Value to change wind 0, 1 & 2.  The Gain Values can be any value above 0 and upto 2.
 	111629686	DGHvWaterSource	DGHvWaterSource		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water\DGHvWaterSource	
+	127348825	MSHvGrenadierExplosionCharge	MSHvGrenadierExplosionCharge		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierExplosionCharge\MSHvGrenadierExplosionCharge	
 	161730617	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing\DGHvWeaponSwing	
 	177921012	MSHvGrenadierGrenadeShoot	MSHvGrenadierGrenadeShoot		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeShoot\MSHvGrenadierGrenadeShoot	
 	189504074	DGHvCrystal2Activate	DGHvCrystal2Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal2Activate\DGHvCrystal2Activate	
