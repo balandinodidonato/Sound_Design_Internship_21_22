@@ -19,9 +19,9 @@ public class WindStateRTPCControl2 : MonoBehaviour
     private int WindForceRight2;
 
     // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider plyr)
     {
-        if (other.gameObject.tag == "Player")
+        if (plyr.gameObject.tag == "Player")
         {
             AkSoundEngine.SetRTPCValue("WindGainLeft", WindGainLeft2, gameObject);
             AkSoundEngine.SetRTPCValue("WindGainRight", WindGainRight2, gameObject);
@@ -30,6 +30,7 @@ public class WindStateRTPCControl2 : MonoBehaviour
             AkSoundEngine.SetRTPCValue("WindForceLeft", WindForceLeft2, gameObject);
             AkSoundEngine.SetRTPCValue("WindForceRight", WindForceRight2, gameObject);
             Debug.Log("WindChangeTriggered");
+           
         }
     }
 
