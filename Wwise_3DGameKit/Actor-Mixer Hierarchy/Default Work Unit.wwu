@@ -667,6 +667,89 @@
 										<ActiveSource Name="DGHvLandSoundAlt" ID="{E39AAF61-3D66-4A3B-9222-66AD7763209E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="EllenFootstepsRTPCVersion" ID="{203DDFDE-F65A-48A4-AAD1-1384991ECE07}" ShortID="1035757698">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{457DC945-2193-40BF-BB3F-8FB91B9FE663}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="227"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="MSHvEllenFootstepsRTPCVersion" ID="{2C8090FA-B501-4EED-9326-84EAB0605B9E}" ShortID="869032469" PluginName="MSHvEllenFootstepsRTPCVersion" CompanyID="64" PluginID="26762">
+											<PropertyList>
+												<Property Name="EllenFootsteps" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{05878BA8-6732-43EA-98FC-2A9AB17D860E}" ShortID="286433014">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="EllenFootstepsRTPCVersion" ID="{7BAF9E2D-C95D-419B-B3D1-FD7ADD190D5C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{97EE2C5A-B40E-468C-8E21-1C434B73CC59}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MSHvEllenFootstepsRTPCVersion" ID="{2C8090FA-B501-4EED-9326-84EAB0605B9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{F8DA3702-DBE3-4B13-A8FE-F14C03EF9819}" ShortID="296048762">

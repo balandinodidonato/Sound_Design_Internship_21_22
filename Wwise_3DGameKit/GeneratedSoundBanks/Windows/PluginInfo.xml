@@ -30,6 +30,7 @@
 		<Plugin Name="MSHvGrenadierFootsteps" ID="1568080898" DLL="Hv_MSHvGrenadierFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvEllenFootstepsRTPCVersion" ID="1753875458" DLL="Hv_MSHvEllenFootstepsRTPCVersion_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierDeath" ID="1794245634" DLL="Hv_MSHvGrenadierDeath_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierShieldUp" ID="1809384450" DLL="Hv_MSHvGrenadierShieldUp_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvWeaponPickUpAmbience" ID="1812268034" DLL="Hv_MSHvWeaponPickUpAmbience_WwiseSourcePlugin"/>

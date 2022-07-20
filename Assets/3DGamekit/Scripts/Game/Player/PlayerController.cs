@@ -87,6 +87,9 @@ namespace Gamekit3D
         readonly int m_HashStateTime = Animator.StringToHash("StateTime");
         readonly int m_HashFootFall = Animator.StringToHash("FootFall");
 
+        [SerializeField]
+        private int EllenFootstepsRTPCVersion; 
+
         // States
         readonly int m_HashLocomotion = Animator.StringToHash("Locomotion");
         readonly int m_HashAirborne = Animator.StringToHash("Airborne");
@@ -426,8 +429,11 @@ namespace Gamekit3D
                 footstepPlayer.playing = true;
                 footstepPlayer.canPlay = false;
                 footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
-                AkSoundEngine.PostEvent("Play_EllenFootsteps", gameObject);
-                
+                AkSoundEngine.SetRTPCValue("EllenFootstepsRTPCVersion", 1f, gameObject);
+                AkSoundEngine.PostEvent("Play_EllenFootstepsRTPCVersion", gameObject);
+                Debug.Log("Ellen Footsteps RTPC Value Triggered");
+                //AkSoundEngine.PostEvent("Play_EllenFootsteps", gameObject);
+
 
             }
             else if (footstepPlayer.playing)

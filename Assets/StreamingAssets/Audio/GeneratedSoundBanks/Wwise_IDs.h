@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
+        static const AkUniqueID PLAY_ELLENFOOTSTEPSRTPCVERSION = 1628770910U;
         static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
         static const AkUniqueID PLAY_GRENADIEREXPLOSIONCHARGE = 3020210802U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
@@ -51,8 +52,14 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID ARPBASSGAIN = 1065354268U;
+        static const AkUniqueID CHORDSGAIN = 2952398261U;
+        static const AkUniqueID ELLENFOOTSTEPSRTPCVERSION = 4264129031U;
         static const AkUniqueID JUMPALT = 639876002U;
         static const AkUniqueID LANDALT = 2513331627U;
+        static const AkUniqueID MELODY2GAIN = 1652471280U;
+        static const AkUniqueID MELODYGAIN = 217130920U;
+        static const AkUniqueID MUSICSTATE = 1021618141U;
         static const AkUniqueID WINDFORCELEFT = 658274915U;
         static const AkUniqueID WINDFORCERIGHT = 867005342U;
         static const AkUniqueID WINDGAINLEFT = 3369782661U;
