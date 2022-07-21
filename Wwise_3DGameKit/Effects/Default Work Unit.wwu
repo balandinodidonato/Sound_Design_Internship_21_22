@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1F958563-A393-4C3A-90C6-05652CCA49EB}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{1F958563-A393-4C3A-90C6-05652CCA49EB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1F958563-A393-4C3A-90C6-05652CCA49EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="EllenHeartBeatEQ" ID="{8F62BC48-A73C-4F5D-B235-B864DFDD8C41}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="4"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="230"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="125"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="70"/>
+						<Property Name="GainBand2" Type="Real32" Value="-24"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="EllenHeartbeatCompressor" ID="{C635E145-847C-40C4-945D-4D1613E4A7C1}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="Threshold" Type="Real32" Value="-1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="EllenHeartBeatDist" ID="{AEC2ABAE-F53D-4C74-9F36-D7BCE6C0A752}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="5"/>
+						<Property Name="DistortionType" Type="int32" Value="3"/>
+						<Property Name="PostEQBand1Enable" Type="bool" Value="True"/>
+						<Property Name="PostEQBand1Frequency" Type="Real32" Value="90"/>
+						<Property Name="PostEQBand1Gain" Type="Real32" Value="-10"/>
+						<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="PostEQBand3FilterType" Type="int32" Value="3"/>
+						<Property Name="PostEQBand3Frequency" Type="Real32" Value="275"/>
+						<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

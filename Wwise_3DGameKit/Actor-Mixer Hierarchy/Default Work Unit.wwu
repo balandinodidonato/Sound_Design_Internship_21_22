@@ -1066,6 +1066,160 @@
 										<ActiveSource Name="DGHvWeaponContact" ID="{5DBD3EBD-840D-49E8-963F-F1EB80F40631}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="EllenHeartBeatRTPCVersion" ID="{64C26B7E-A8AF-4133-8BB8-0B0EECD2370B}" ShortID="403243230">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1CE5ADA9-9366-4D6D-910C-279B815FE5B9}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FB701FA5-2EF5-4837-95CA-862DF16429D8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="EllenHeartBeatEQ" ID="{8F62BC48-A73C-4F5D-B235-B864DFDD8C41}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="EllenHeartbeatCompressor" ID="{C635E145-847C-40C4-945D-4D1613E4A7C1}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<ObjectRef Name="EllenHeartBeatDist" ID="{AEC2ABAE-F53D-4C74-9F36-D7BCE6C0A752}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="MSHvEllenHeartBeatRTPCVersion" ID="{063CCA3F-B860-4B2E-81EF-811DE92C7B3C}" ShortID="351412072" PluginName="MSHvEllenHeartBeatRTPCVersion" CompanyID="64" PluginID="17913">
+											<PropertyList>
+												<Property Name="EllenHeartBeatFast" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{0E690D2B-259C-435C-BA45-DF3855DAB1BD}" ShortID="696062205">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="EllenHeartBeatFastRTPCVersion" ID="{C8631723-54DF-4456-93BF-F793444AA685}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{AF3CAF18-D5D3-40DC-A007-4E60F62E70AD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>2</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="EllenHeartBeatMedium" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{7773A31F-D91A-4F56-A250-87A701E3A4D6}" ShortID="188394439">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="EllenHeartBeatMediumRTPCVersion" ID="{430CA27E-3773-41F9-A319-78A68D1B2DCE}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4EEF4D02-A47C-4EEB-B8EB-40BF4F73F39F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="EllenHeartBeatSlow" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{C95A52AA-4E1E-453A-820D-AF85091BD666}" ShortID="559663075">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="EllenHeartBeatSlowRTPCVersion" ID="{CF90B2FF-E906-4E6D-ABFB-0B2F40F75EAA}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{F53554F0-F94A-4762-A2FF-D895C9CABD88}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>6</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MSHvEllenHeartBeatRTPCVersion" ID="{063CCA3F-B860-4B2E-81EF-811DE92C7B3C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

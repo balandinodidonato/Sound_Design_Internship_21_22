@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPSRTPCVERSION = 1628770910U;
+        static const AkUniqueID PLAY_ELLENHEARTBEATRTPCVERSION = 2886460653U;
         static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
         static const AkUniqueID PLAY_GRENADIEREXPLOSIONCHARGE = 3020210802U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
@@ -42,6 +43,7 @@ namespace AK
         static const AkUniqueID PLAYWIND2 = 1197535613U;
         static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
+        static const AkUniqueID STOP_ELLENHEARTBEATRTPCVERSION = 1133747751U;
         static const AkUniqueID STOP_GRENADIERSHIELDUP = 4107145719U;
         static const AkUniqueID STOP_WEAPONPICKUPAMBIENCE = 1839691088U;
         static const AkUniqueID WEAPONSWING1 = 1502558246U;
@@ -55,6 +57,9 @@ namespace AK
         static const AkUniqueID ARPBASSGAIN = 1065354268U;
         static const AkUniqueID CHORDSGAIN = 2952398261U;
         static const AkUniqueID ELLENFOOTSTEPSRTPCVERSION = 4264129031U;
+        static const AkUniqueID ELLENHEARTBEATFASTRTPCVERSION = 545322978U;
+        static const AkUniqueID ELLENHEARTBEATMEDIUMRTPCVERSION = 73144703U;
+        static const AkUniqueID ELLENHEARTBEATSLOWRTPCVERSION = 3958443545U;
         static const AkUniqueID JUMPALT = 639876002U;
         static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID MELODY2GAIN = 1652471280U;

@@ -421,6 +421,31 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_EllenHeartBeatRTPCVersion" ID="{D2D84305-E8F1-4257-A8B7-3E88A5A51BC4}">
+									<ChildrenList>
+										<Action Name="" ID="{B3B42272-A800-45FA-B0A9-802DBFA1A8CE}" ShortID="319557966">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EllenHeartBeatRTPCVersion" ID="{64C26B7E-A8AF-4133-8BB8-0B0EECD2370B}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_EllenHeartBeatRTPCVersion" ID="{B286C51E-B891-4F37-8372-3796B10474E7}">
+									<ChildrenList>
+										<Action Name="" ID="{FE802218-BFCD-4B23-BF76-CAC03DFF5B1E}" ShortID="923838480">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EllenHeartBeatRTPCVersion" ID="{64C26B7E-A8AF-4133-8BB8-0B0EECD2370B}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

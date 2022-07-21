@@ -87,6 +87,24 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="EllenHeartBeatSlowRTPCVersion" ID="{CF90B2FF-E906-4E6D-ABFB-0B2F40F75EAA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="EllenHeartBeatMediumRTPCVersion" ID="{430CA27E-3773-41F9-A319-78A68D1B2DCE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="EllenHeartBeatFastRTPCVersion" ID="{C8631723-54DF-4456-93BF-F793444AA685}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -9,6 +9,16 @@ namespace Gamekit3D
 {
     public partial class Damageable : MonoBehaviour
     {
+        //MS Added Lines----->
+        public uint EllenHeartBeatID;
+        private bool EllenHeartBeatActive = false;
+        private float EllenHeartBeatRTPCVersion6;
+        private float EllenHeartBeatRTPCVersion5;
+        private float EllenHeartBeatRTPCVersion4;
+        private float EllenHeartBeatRTPCVersion3;
+        private float EllenHeartBeatRTPCVersion2;
+        private float EllenHeartBeatRTPCVersion1;
+        //<-----MS Added Lines
 
         public int maxHitPoints;
         [Tooltip("Time that this gameObject is invulnerable for, after receiving damage.")]
@@ -41,6 +51,14 @@ namespace Gamekit3D
         {
             ResetDamage();
             m_Collider = GetComponent<Collider>();
+
+            EllenHeartBeatRTPCVersion6 = 6.0f;
+            EllenHeartBeatRTPCVersion5 = 5.0f;
+            EllenHeartBeatRTPCVersion4 = 4.0f;
+            EllenHeartBeatRTPCVersion3 = 3.0f;
+            EllenHeartBeatRTPCVersion2 = 2.0f;
+            EllenHeartBeatRTPCVersion1 = 1.0f;
+
         }
 
         void Update()
@@ -71,6 +89,21 @@ namespace Gamekit3D
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
             AkSoundEngine.PostEvent("PlayHealthPickup", gameObject); //dg added line
+
+
+            //MS Added Lines----->
+            AkSoundEngine.PostEvent("Stop_EllenHeartBeatRTPCVersion", gameObject); 
+
+            Debug.Log("EllenHeartBeatSlowRTPC Value was set to 5");
+            AkSoundEngine.SetRTPCValue("EllenHeartBeatSlowRTPCVersion", EllenHeartBeatRTPCVersion5, gameObject);
+
+            Debug.Log("EllenHeartBeatMediumRTPC Value was set to 3");
+            AkSoundEngine.SetRTPCValue("EllenHeartBeatMediumRTPCVersion", EllenHeartBeatRTPCVersion3, gameObject);
+
+            Debug.Log("EllenHeartBeatFastRTPC Value was set to 1");
+            AkSoundEngine.SetRTPCValue("EllenHeartBeatFastRTPCVersion", EllenHeartBeatRTPCVersion1, gameObject);
+            //<-----MS Added Lines
+
         }
         public void SetColliderState(bool enabled)
         {
@@ -83,6 +116,77 @@ namespace Gamekit3D
             {//ignore damage if already dead. TODO : may have to change that if we want to detect hit on death...
                 return;
             }
+
+            //MS Added Lines----->
+            if (currentHitPoints == 4)  
+            {
+
+                Debug.Log("EllenHeartBeatRTPCVersion play event triggered");
+                AkSoundEngine.PostEvent("Play_EllenHeartBeatRTPCVersion", gameObject);
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+
+            else
+            {
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+
+            if (currentHitPoints == 3)
+
+            {
+                Debug.Log("EllenHeartBeatSlowRTPC Value was set to 6");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatSlowRTPCVersion", EllenHeartBeatRTPCVersion6, gameObject);
+            }
+
+            else
+            {
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+
+            if (currentHitPoints == 2)
+
+            {
+                Debug.Log("EllenHeartBeatSlowRTPC Value was set to 5");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatSlowRTPCVersion", EllenHeartBeatRTPCVersion5, gameObject);
+
+                Debug.Log("EllenHeartBeatMediumRTPC Value was set to 4");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatMediumRTPCVersion", EllenHeartBeatRTPCVersion4, gameObject);
+            }
+
+            else
+            {
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+
+            if (currentHitPoints == 1)
+
+            {
+                Debug.Log("EllenHeartBeatMediumRTPC Value was set to 3");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatMediumRTPCVersion", EllenHeartBeatRTPCVersion3, gameObject);
+
+                Debug.Log("EllenHeartBeatFastRTPC Value was set to 2");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatFastRTPCVersion", EllenHeartBeatRTPCVersion2, gameObject);
+            }
+
+            else
+            {
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+
+            if (currentHitPoints <= 0)
+
+            {
+                Debug.Log("EllenHeartBeatFastRTPC Value was set to 1");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatFastRTPCVersion", EllenHeartBeatRTPCVersion1, gameObject);
+                AkSoundEngine.PostEvent("Stop_EllenHeartBeatRTPCVersion", gameObject);
+            }
+
+            else
+            {
+                EllenHeartBeatActive = !EllenHeartBeatActive;
+            }
+            //<-----MS Added Lines
+
 
             if (isInvulnerable)
             {

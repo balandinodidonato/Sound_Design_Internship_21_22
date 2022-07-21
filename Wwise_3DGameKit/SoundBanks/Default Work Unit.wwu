@@ -15,6 +15,7 @@
 						<ObjectRef Name="WeaponSwing2" ID="{19C49D67-4FBB-41C2-840A-48B0D9A4D94B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeExplosion" ID="{0F3739ED-D07F-41F1-A982-DB0B34F161CD}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EllenHeartBeatRTPCVersion" ID="{D2D84305-E8F1-4257-A8B7-3E88A5A51BC4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierPunch" ID="{83A473A9-54D3-427F-8845-A12D72CB0037}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeShoot" ID="{2E022D76-9D92-43D6-A05A-A9383A856BBE}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalActivate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
@@ -38,6 +39,7 @@
 						<ObjectRef Name="Stop_WeaponPickUpAmbience" ID="{DEB47CF2-203B-4DBA-8D62-4A51B2FC5334}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponPickUpAmbience" ID="{6970CAB1-D788-4F24-AC06-82AE4BCA7332}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_EllenHeartBeatRTPCVersion" ID="{B286C51E-B891-4F37-8372-3796B10474E7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LandAlt" ID="{F46BEF19-53A7-4FC1-94C2-48EB9E4C8F85}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeBounce" ID="{516D8558-341F-4FD5-A5B2-E73A6184E2D6}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

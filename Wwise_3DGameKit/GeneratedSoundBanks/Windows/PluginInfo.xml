@@ -2,7 +2,9 @@
 <PluginInfo Project="Wwise_3DGameKit" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
+		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion"/>
 		<Plugin Name="MSHvGrenadierPunch" ID="10617858" DLL="Hv_MSHvGrenadierPunch_WwiseSourcePlugin"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
@@ -22,6 +24,7 @@
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvEllenHeartBeatRTPCVersion" ID="1173947394" DLL="Hv_MSHvEllenHeartBeatRTPCVersion_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierGrenadeBounce" ID="1175716866" DLL="Hv_MSHvGrenadierGrenadeBounce_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvPortal" ID="1283523586" DLL="Hv_MSHvPortal_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvChomperFootsteps" ID="1400112130" DLL="Hv_MSHvChomperFootsteps_WwiseSourcePlugin"/>

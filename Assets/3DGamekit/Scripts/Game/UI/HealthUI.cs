@@ -5,6 +5,7 @@ namespace Gamekit3D
 {
     public class HealthUI : MonoBehaviour
     {
+        
         public Damageable representedDamageable;
         public GameObject healthIconPrefab;
 
@@ -16,6 +17,8 @@ namespace Gamekit3D
 
         IEnumerator Start()
         {
+      
+
             if (representedDamageable == null)
                 yield break;
 
@@ -42,10 +45,14 @@ namespace Gamekit3D
             }
         }
 
+        
+
         public void ChangeHitPointUI(Damageable damageable)
         {
-            if (m_HealthIconAnimators == null)
+            if (m_HealthIconAnimators == null)  
                 return;
+
+          
 
             for (int i = 0; i < m_HealthIconAnimators.Length; i++)
             {

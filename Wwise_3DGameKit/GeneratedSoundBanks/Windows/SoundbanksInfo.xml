@@ -25,6 +25,7 @@
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps" MaxAttenuation="20.000000" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
 				<Event Id="1628770910" Name="Play_EllenFootstepsRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootstepsRTPCVersion" DurationType="Unknown"/>
+				<Event Id="2886460653" Name="Play_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion" DurationType="Unknown"/>
 				<Event Id="3440132657" Name="Play_GrenadierDeath" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="3020210802" Name="Play_GrenadierExplosionCharge" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierExplosionCharge" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="30.000000" DurationType="Unknown"/>
@@ -45,6 +46,7 @@
 				<Event Id="3684444523" Name="PlayWind11" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind11" DurationType="Unknown"/>
 				<Event Id="1197535613" Name="PlayWind2" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind2" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
+				<Event Id="1133747751" Name="Stop_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4107145719" Name="Stop_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1839691088" Name="Stop_WeaponPickUpAmbience" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Stop_WeaponPickUpAmbience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
@@ -53,6 +55,8 @@
 				<Event Id="1502558243" Name="WeaponSwing4" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing4" DurationType="Unknown"/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="73144703" Name="EllenHeartBeatMediumRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatMediumRTPCVersion"/>
+				<GameParameter Id="545322978" Name="EllenHeartBeatFastRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatFastRTPCVersion"/>
 				<GameParameter Id="639876002" Name="JumpAlt" ObjectPath="\Game Parameters\Default Work Unit\JumpAlt"/>
 				<GameParameter Id="658274915" Name="WindForceLeft" ObjectPath="\Game Parameters\Default Work Unit\WindForceLeft"/>
 				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\WindForceRight"/>
@@ -61,6 +65,7 @@
 				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureLeft"/>
 				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\WindGainLeft"/>
 				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\WindGainRight"/>
+				<GameParameter Id="3958443545" Name="EllenHeartBeatSlowRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatSlowRTPCVersion"/>
 				<GameParameter Id="4264129031" Name="EllenFootstepsRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsRTPCVersion"/>
 			</GameParameters>
 		</SoundBank>

@@ -9,6 +9,12 @@ namespace Gamekit3D
     [RequireComponent(typeof(Animator))]
     public class PlayerController : MonoBehaviour, IMessageReceiver
     {
+        public uint EllenHeartBeatID;
+        private bool EllenHeartBeatActive = false;
+        private float EllenHeartBeatRTPCVersion5;
+        private float EllenHeartBeatRTPCVersion3;
+        private float EllenHeartBeatRTPCVersion1;
+
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
@@ -87,8 +93,7 @@ namespace Gamekit3D
         readonly int m_HashStateTime = Animator.StringToHash("StateTime");
         readonly int m_HashFootFall = Animator.StringToHash("FootFall");
 
-        [SerializeField]
-        private int EllenFootstepsRTPCVersion; 
+        
 
         // States
         readonly int m_HashLocomotion = Animator.StringToHash("Locomotion");
@@ -112,6 +117,8 @@ namespace Gamekit3D
         {
             this.canAttack = canAttack;
         }
+
+        
 
         // Called automatically by Unity when the script is first added to a gameobject or is reset from the context menu.
         void Reset()
@@ -152,6 +159,10 @@ namespace Gamekit3D
             meleeWeapon.SetOwner(gameObject);
 
             s_Instance = this;
+
+            EllenHeartBeatRTPCVersion5 = 5.0f;
+            EllenHeartBeatRTPCVersion3 = 3.0f;
+            EllenHeartBeatRTPCVersion1 = 1.0f;
         }
 
         // Called automatically by Unity after Awake whenever the script is enabled. 
@@ -464,6 +475,22 @@ namespace Gamekit3D
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
                 emoteDeathPlayer.PlayRandomClip();
+                
+                //MS Added Lines-----
+                                
+                AkSoundEngine.PostEvent("Stop_EllenHeartBeatRTPCVersion", gameObject);
+
+                Debug.Log("EllenHeartBeatSlowRTPC Value was set to 5");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatSlowRTPCVersion", EllenHeartBeatRTPCVersion5, gameObject);
+
+                Debug.Log("EllenHeartBeatMediumRTPC Value was set to 3");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatMediumRTPCVersion", EllenHeartBeatRTPCVersion3, gameObject);
+
+                Debug.Log("EllenHeartBeatFastRTPC Value was set to 1");
+                AkSoundEngine.SetRTPCValue("EllenHeartBeatFastRTPCVersion", EllenHeartBeatRTPCVersion1, gameObject);
+
+                //-----MS Added lines
+
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
