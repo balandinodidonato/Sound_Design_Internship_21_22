@@ -27,10 +27,14 @@
 				<Event Id="1628770910" Name="Play_EllenFootstepsRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootstepsRTPCVersion" DurationType="Unknown"/>
 				<Event Id="2886460653" Name="Play_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion" DurationType="Unknown"/>
 				<Event Id="3440132657" Name="Play_GrenadierDeath" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="4216075087" Name="Play_GrenadierDeathL" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathL" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="4216075089" Name="Play_GrenadierDeathR" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathR" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="3020210802" Name="Play_GrenadierExplosionCharge" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierExplosionCharge" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="1373007782" Name="Play_GrenadierFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps" MaxAttenuation="30.000000" DurationType="Unknown"/>
 				<Event Id="592588845" Name="Play_GrenadierGrenadeBounce" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="3495886146" Name="Play_GrenadierGrenadeExplosion" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="1200139914" Name="Play_GrenadierGrenadeExplosionL" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionL" MaxAttenuation="40.000000" DurationType="Unknown"/>
+				<Event Id="1200139924" Name="Play_GrenadierGrenadeExplosionR" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionR" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="2596063918" Name="Play_GrenadierGrenadeShoot" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot" MaxAttenuation="45.000000" DurationType="Unknown"/>
 				<Event Id="3306420443" Name="Play_GrenadierPunch" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch" MaxAttenuation="25.000000" DurationType="Unknown"/>
 				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="40.000000" DurationType="Unknown"/>
@@ -73,6 +77,10 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2105723200" Name="BitCrusherR" ObjectPath="\Game Parameters\Default Work Unit\BitCrusherR"/>
+				<GameParameter Id="2105723230" Name="BitCrusherL" ObjectPath="\Game Parameters\Default Work Unit\BitCrusherL"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

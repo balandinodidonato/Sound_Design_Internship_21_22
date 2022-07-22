@@ -11,17 +11,20 @@
 						<ObjectRef Name="Play_GrenadierExplosionCharge" ID="{593EF8C9-C77C-40DF-9760-28409407E415}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EllenFootsteps" ID="{E2AF173D-3D0F-4156-81FE-72F68CCB6B8F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GrenadierShieldUp" ID="{500D5CAE-3FAF-416C-AF1C-FDD79D7A6FF9}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierGrenadeExplosionL" ID="{4D3D04DE-3BB7-4182-A7C0-024763D4A857}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierShieldUp" ID="{D009E2AB-AF8F-41B6-A853-0F688F1974AB}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing2" ID="{19C49D67-4FBB-41C2-840A-48B0D9A4D94B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeExplosion" ID="{0F3739ED-D07F-41F1-A982-DB0B34F161CD}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EllenHeartBeatRTPCVersion" ID="{D2D84305-E8F1-4257-A8B7-3E88A5A51BC4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierPunch" ID="{83A473A9-54D3-427F-8845-A12D72CB0037}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierDeathL" ID="{38ABEDBA-91D2-4397-A0CC-7465241FF4BD}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeShoot" ID="{2E022D76-9D92-43D6-A05A-A9383A856BBE}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalActivate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponPickup" ID="{12562A8B-7914-450D-9378-BF990328F7C2}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlaySpaceshipIdle" ID="{739907D8-FAD2-4544-B34F-1E7CC05A2AA4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing3" ID="{4E7DB554-E294-462C-B9FE-23CD5C4082B2}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierGrenadeExplosionR" ID="{9885145D-302C-4642-8C88-0D2945B0F149}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Portal" ID="{F5608821-C4AA-4656-A967-C913DA888CBC}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthPickup" ID="{5A1F63FE-2404-465D-A0FA-DB96EE52504F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing1" ID="{C7793599-A967-46BC-8BFA-38268B89D84E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
@@ -34,6 +37,7 @@
 						<ObjectRef Name="Play_EllenFootstepsRTPCVersion" ID="{4ED60A3C-1267-4A6D-8647-16C62BE01F1E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChomperDeath" ID="{45374964-EC32-4ACD-AE70-CAC57D580D4A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="JumpAt" ID="{647DADCB-B273-4B09-8358-E67C56AC011B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierDeathR" ID="{494D08D0-8651-4B3B-B712-52998B6E010D}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperFootsteps" ID="{ACC56C74-1FBC-4D47-9036-5E1B5228728F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponSwing4" ID="{77DE0A0D-A221-4DB5-9D98-CBAF9D5C060B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_WeaponPickUpAmbience" ID="{DEB47CF2-203B-4DBA-8D62-4A51B2FC5334}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>

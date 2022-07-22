@@ -9,6 +9,418 @@
 							<ObjectRef Name="System" ID="{8AD6B146-0353-4960-BCAA-BB8D85E85A92}" WorkUnitID="{8595B6F0-CA5D-425A-92DD-32E5ADB3313D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambience" ID="{AD68DD45-E21B-4A86-A628-B7BF4681354E}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="MSHvBitCrusher_(Custom)" ID="{45088C6C-28A8-41D7-83A1-37AD5BE3D87D}" ShortID="910554192" PluginName="MSHvBitCrusher" CompanyID="64" PluginID="9286" PluginType="3">
+											<PropertyList>
+												<Property Name="SampleRateDivisionL" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{A24B94EA-97CB-42D9-9CE1-C8A82A255A96}" ShortID="345849508">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B634400D-9AD6-44FB-A1B3-DD6FD4A7FF9E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-40.21978</XPos>
+																		<YPos>2293.37102</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="SampleRateDivisionR" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{04FE3A69-86F1-4FDA-BCA7-98265B7AB59D}" ShortID="446005458">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8C7E42F7-8509-4A0D-97D6-E4947566EB2A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-40.08791</XPos>
+																		<YPos>2219.52786</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Music" ID="{AF8EE864-8065-48C7-A4E8-91392DBB0114}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="MSHvBitCrusher_(Custom)" ID="{F4F63DC3-76D9-4710-8609-2C3D191EEAE0}" ShortID="710354844" PluginName="MSHvBitCrusher" CompanyID="64" PluginID="9286" PluginType="3">
+											<PropertyList>
+												<Property Name="SampleRateDivisionL" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{6AAB074B-FDBD-4C7A-AE0E-B451223449D1}" ShortID="251832329">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8115EFCA-C6DB-4846-B286-FD6CAD7ED855}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.82418</XPos>
+																		<YPos>2123.78799</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="SampleRateDivisionR" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{D9D10907-B58B-49FA-AED2-30473FACC8BB}" ShortID="294177068">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{996C7A3B-CD48-443E-9042-DE1B0E14B07A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.95604</XPos>
+																		<YPos>2134.73634</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Character" ID="{4871F4AA-D097-471D-BB31-CE18E53C3F38}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="MSHvBitCrusher_(Custom)" ID="{E18CD948-A44E-4737-B770-4A5F638DFB59}" ShortID="54960567" PluginName="MSHvBitCrusher" CompanyID="64" PluginID="9286" PluginType="3">
+											<PropertyList>
+												<Property Name="SampleRateDivisionL" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{207915B0-4128-434F-B90B-2095008A7E48}" ShortID="1008957266">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{782B56CD-257E-4CF4-8350-0AD395D0EE4B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.82418</XPos>
+																		<YPos>2276.13319</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="SampleRateDivisionR" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{9F5D93CC-F8A0-4214-85EF-5F5F393B81C5}" ShortID="599467607">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{3BE7E270-ED3F-403B-BE03-1B5AE6053089}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.82418</XPos>
+																		<YPos>2153.60478</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="MSHvBitCrusher_(Custom)" ID="{2AF3DA4A-E47A-4B00-9232-74DCC89392BB}" ShortID="570154355" PluginName="MSHvBitCrusher" CompanyID="64" PluginID="9286" PluginType="3">
+											<PropertyList>
+												<Property Name="SampleRateDivisionL" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{B21C282E-198A-4959-AAF9-F17FF1C505F7}" ShortID="150297864">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{397A416B-0942-4708-A504-5D892A693B97}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.69231</XPos>
+																		<YPos>2293.37102</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="SampleRateDivisionR" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{84EFD70C-CC77-46C7-BE48-6DBABC53CCDA}" ShortID="442565905">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{884E9173-E651-4AEF-B54F-122DA3F3346A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.82418</XPos>
+																		<YPos>2342.05627</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="MSHvBitCrusher_(Custom)" ID="{D9035AE3-0C49-475E-ABD0-7707775B9AA0}" ShortID="849706578" PluginName="MSHvBitCrusher" CompanyID="64" PluginID="9286" PluginType="3">
+											<PropertyList>
+												<Property Name="SampleRateDivisionL" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{E09EE1D0-C55E-49BE-8A0F-9E2D9C26615D}" ShortID="533694764">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CEC21BC7-3B68-4A79-BEA4-805B17374467}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-40.05195</XPos>
+																		<YPos>2128.76622</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="SampleRateDivisionR" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{CDCC0BC8-D73D-4600-83BE-61A5E3870ADC}" ShortID="457246331">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9FD2EE68-31F9-4BC9-8B1E-11008790B682}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>24000</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-39.97403</XPos>
+																		<YPos>2134.64427</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

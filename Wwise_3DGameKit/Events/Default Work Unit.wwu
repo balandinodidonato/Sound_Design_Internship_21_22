@@ -437,6 +437,8 @@
 										<Action Name="" ID="{FE802218-BFCD-4B23-BF76-CAC03DFF5B1E}" ShortID="923838480">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -628,6 +630,58 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="GrenadierExplosionCharge" ID="{35438E3C-AB45-46B7-B29A-4150040E4642}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierGrenadeExplosionL" ID="{4D3D04DE-3BB7-4182-A7C0-024763D4A857}">
+											<ChildrenList>
+												<Action Name="" ID="{298D7309-D208-4462-A045-B09CD3FE38E7}" ShortID="14905162">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierGrenadeExplosionL" ID="{E0F5F2CF-56B0-48F7-9F38-3646DB8BE9CD}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierGrenadeExplosionR" ID="{9885145D-302C-4642-8C88-0D2945B0F149}">
+											<ChildrenList>
+												<Action Name="" ID="{12EF98F1-3112-412F-8E51-58BAA6132B61}" ShortID="14399570">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierGrenadeExplosionR" ID="{A49C58E3-0503-47E6-8900-F7A5FA834C98}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierDeathL" ID="{38ABEDBA-91D2-4397-A0CC-7465241FF4BD}">
+											<ChildrenList>
+												<Action Name="" ID="{E9FBACB7-9F93-4EC1-955D-42CA38B282CB}" ShortID="6928824">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="3"/>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierDeathL" ID="{896F71F5-0E61-44F1-9F2D-47FE8D100315}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierDeathR" ID="{494D08D0-8651-4B3B-B712-52998B6E010D}">
+											<ChildrenList>
+												<Action Name="" ID="{40D81011-F08E-4865-AF0B-206BF2486420}" ShortID="330805036">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="3"/>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierDeathR" ID="{D937CBF0-465B-43BC-A5DF-DD8D391061B9}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

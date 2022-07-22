@@ -4,8 +4,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
 	1108267873	Play_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp	
-	1133747751	Stop_EllenHeartBeatRTPCVersion			\Default Work Unit\Stop_EllenHeartBeatRTPCVersion	
+	1133747751	Stop_EllenHeartBeatRTPCVersion			\Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion	
 	1197535613	PlayWind2			\Default Work Unit\Ambience\Wind\PlayWind2	
+	1200139914	Play_GrenadierGrenadeExplosionL			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionL	
+	1200139924	Play_GrenadierGrenadeExplosionR			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionR	
 	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
 	1502558243	WeaponSwing4			\Default Work Unit\Character\Combat\WeaponSwing4	
 	1502558244	WeaponSwing3			\Default Work Unit\Character\Combat\WeaponSwing3	
@@ -36,6 +38,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3684444523	PlayWind11			\Default Work Unit\Ambience\Wind\PlayWind11	
 	3833651337	Jump			\Default Work Unit\Character\Movement\Jump	
 	4107145719	Stop_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp	
+	4216075087	Play_GrenadierDeathL			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathL	
+	4216075089	Play_GrenadierDeathR			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathR	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	73144703	EllenHeartBeatMediumRTPCVersion			\Default Work Unit\EllenHeartBeatMediumRTPCVersion	
@@ -55,12 +59,17 @@ Effect plug-ins	ID	Name	Type				Notes
 	273928693	EllenHeartBeatDist	Wwise Guitar Distortion			
 	544038832	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	628583311	EllenHeartBeatEQ	Wwise Parametric EQ			
+	2200115978	GrenadeExplosionL	Wwise Meter			
+	2200115988	GrenadeExplosionR	Wwise Meter			
+	2325277830	GrenadierDeathL	Wwise Meter			
+	2325277848	GrenadierDeathR	Wwise Meter			
 	3164629247	Holy	Wwise RoomVerb			
 	3591260414	EllenHeartbeatCompressor	Wwise Compressor			
 	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	11692793	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing4\DGHvWeaponSwing	
+	60984170	MSHvGrenadeExplosionL	MSHvGrenadeExplosionL		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosionL\MSHvGrenadeExplosionL	
 	96672416	MSHvGrenadierDeath	MSHvGrenadierDeath		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeath\MSHvGrenadierDeath	
 	104020645	MSHvGrenadierGrenadeExplosion	MSHvGrenadierGrenadeExplosion		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosion\MSHvGrenadierGrenadeExplosion	
 	108717804	DGHvWindGenerator11	DGHvWindGenerator11		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator11\DGHvWindGenerator11	Due to working with PD and HVCC. Value to change wind 0, 1 & 2.  The Gain Values can be any value above 0 and upto 2.
@@ -76,6 +85,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
+	576448848	MSHvGrenadierDeathR	MSHvGrenadierDeathR		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeathR\MSHvGrenadierDeathR	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	
 	619546901	DGHvMonsterDeath	DGHvMonsterDeath		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Combat\ChomperDeath\DGHvMonsterDeath	
 	672059104	DGHvLandSoundAlt	DGHvLandSoundAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\LandAlt\DGHvLandSoundAlt	
@@ -86,6 +96,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	728530494	DGHvStoneBoxBreak6	DGHvStoneBoxBreak6		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Stone\BoxBreak6\DGHvStoneBoxBreak6	
 	729142036	DGHvJumpPatchAlt	DGHvJumpPatchAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\JumpAlt\DGHvJumpPatchAlt	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
+	789437140	MSHvGrenadierDeathL	MSHvGrenadierDeathL		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeathL\MSHvGrenadierDeathL	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	838053286	MSHvWeaponPickUpAmbience	MSHvWeaponPickUpAmbience		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickUpAmbience\MSHvWeaponPickUpAmbience	
 	869032469	MSHvEllenFootstepsRTPCVersion	MSHvEllenFootstepsRTPCVersion		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootstepsRTPCVersion\MSHvEllenFootstepsRTPCVersion	
@@ -96,5 +107,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	978946095	DGHvCrystal3Activate	DGHvCrystal3Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal3Activate\DGHvCrystal3Activate	
 	1011616506	MSHvGrenadierShieldUp	MSHvGrenadierShieldUp		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierShieldUp\MSHvGrenadierShieldUp	
 	1015352779	MSHvChomperFootsteps	MSHvChomperFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Movement\ChomperFootsteps\MSHvChomperFootsteps	
+	1054263559	MSHvGrenadeExplosionR	MSHvGrenadeExplosionR		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosionR\MSHvGrenadeExplosionR	
 	1070160772	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
 

@@ -90,7 +90,10 @@ namespace Gamekit3D
             {
                 explosionPlayer.transform.SetParent(null);
                 explosionPlayer.PlayRandomClip();
-                AkSoundEngine.PostEvent("Play_GrenadierGrenadeExplosion", gameObject);
+                //AkSoundEngine.PostEvent("Play_GrenadierGrenadeExplosion", gameObject);
+                AkSoundEngine.PostEvent("Play_GrenadierGrenadeExplosionL", gameObject);
+                AkSoundEngine.PostEvent("Play_GrenadierGrenadeExplosionR", gameObject);
+
             }
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,

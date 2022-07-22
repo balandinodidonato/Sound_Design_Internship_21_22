@@ -33,6 +33,46 @@
 						<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="GrenadeExplosionL" ID="{F02C53B2-85F5-464D-9FA0-2D1380FDF520}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="GrenadeExplosionR" ID="{A7CA4D88-4DA8-47E7-BF07-50BF7E3D16BF}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="GrenadierDeathL" ID="{9C062DF3-4A42-4988-87F6-8C0429E188F4}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="BitCrusherL" ID="{A078EF37-0C1C-4C4E-A714-A594B658C9F6}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="GrenadierDeathR" ID="{BEA47ED8-5788-43CC-BD88-DD048D658DC2}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

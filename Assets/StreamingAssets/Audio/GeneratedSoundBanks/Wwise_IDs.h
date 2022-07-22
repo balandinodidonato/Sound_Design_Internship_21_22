@@ -24,10 +24,14 @@ namespace AK
         static const AkUniqueID PLAY_ELLENFOOTSTEPSRTPCVERSION = 1628770910U;
         static const AkUniqueID PLAY_ELLENHEARTBEATRTPCVERSION = 2886460653U;
         static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
+        static const AkUniqueID PLAY_GRENADIERDEATHL = 4216075087U;
+        static const AkUniqueID PLAY_GRENADIERDEATHR = 4216075089U;
         static const AkUniqueID PLAY_GRENADIEREXPLOSIONCHARGE = 3020210802U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
         static const AkUniqueID PLAY_GRENADIERGRENADEBOUNCE = 592588845U;
         static const AkUniqueID PLAY_GRENADIERGRENADEEXPLOSION = 3495886146U;
+        static const AkUniqueID PLAY_GRENADIERGRENADEEXPLOSIONL = 1200139914U;
+        static const AkUniqueID PLAY_GRENADIERGRENADEEXPLOSIONR = 1200139924U;
         static const AkUniqueID PLAY_GRENADIERGRENADESHOOT = 2596063918U;
         static const AkUniqueID PLAY_GRENADIERPUNCH = 3306420443U;
         static const AkUniqueID PLAY_GRENADIERSHIELDUP = 1108267873U;
@@ -55,6 +59,8 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID ARPBASSGAIN = 1065354268U;
+        static const AkUniqueID BITCRUSHERL = 2105723230U;
+        static const AkUniqueID BITCRUSHERR = 2105723200U;
         static const AkUniqueID CHORDSGAIN = 2952398261U;
         static const AkUniqueID ELLENFOOTSTEPSRTPCVERSION = 4264129031U;
         static const AkUniqueID ELLENHEARTBEATFASTRTPCVERSION = 545322978U;
@@ -81,7 +87,12 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID CHARACTER = 436743010U;
+        static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

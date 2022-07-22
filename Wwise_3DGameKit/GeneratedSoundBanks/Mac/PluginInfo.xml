@@ -5,6 +5,7 @@
 		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
 		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
 		<Plugin Name="MSHvGrenadierPunch" ID="10617858" DLL="Hv_MSHvGrenadierPunch_WwiseSourcePlugin"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
@@ -15,12 +16,16 @@
 		<Plugin Name="MSHvGrenadierExplosionCharge" ID="287507458" DLL="Hv_MSHvGrenadierExplosionCharge_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWeaponSwing" ID="341443586" DLL="Hv_DGHvWeaponSwing_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGenerator11" ID="385680386" DLL="Hv_DGHvWindGenerator11_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvBitCrusher" ID="608568323" DLL="HV_MSHvBitCrusher_WwiseFXPlugin"/>
 		<Plugin Name="MSHvGrenadierGrenadeShoot" ID="614859778" DLL="Hv_MSHvGrenadierGrenadeShoot_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadierDeathR" ID="638452738" DLL="Hv_MSHvGrenadierDeathR_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvStoneBoxBreak6" ID="699008002" DLL="Hv_DGHvStoneBoxBreak6_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGenerator2" ID="738722818" DLL="Hv_DGHvWindGenerator2_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvJumpPatchAlt" ID="832046082" DLL="Hv_DGHvJumpPatchAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvLandSoundAlt" ID="850920450" DLL="Hv_DGHvLandSoundAlt_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadeExplosionR" ID="854590466" DLL="Hv_MSHvGrenadeExplosionR_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadierDeathL" ID="897254402" DLL="Hv_MSHvGrenadierDeathL_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGeneratorAlt" ID="927269890" DLL="Hv_DGHvWindGeneratorAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvHealthPickUp" ID="999162882" DLL="Hv_DGHvHealthPickUp_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal3Activate" ID="1164313602" DLL="Hv_DGHvCrystal3Activate_WwiseSourcePlugin"/>
@@ -30,6 +35,7 @@
 		<Plugin Name="MSHvChomperFootsteps" ID="1400112130" DLL="Hv_MSHvChomperFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvEllenFootsteps" ID="1452672002" DLL="Hv_MSHvEllenFootsteps_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadeExplosionL" ID="1530266626" DLL="Hv_MSHvGrenadeExplosionL_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierFootsteps" ID="1568080898" DLL="Hv_MSHvGrenadierFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>

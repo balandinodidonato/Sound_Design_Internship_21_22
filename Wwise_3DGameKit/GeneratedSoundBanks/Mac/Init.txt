@@ -1,5 +1,21 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2105723200	BitCrusherR			\Default Work Unit\BitCrusherR	
+	2105723230	BitCrusherL			\Default Work Unit\BitCrusherL	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
+	1343892184	Grenadier			\Default Work Unit\Master Audio Bus\Grenadier	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	54960567	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
+	570154355	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
+	710354844	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
+	849706578	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
+	910554192	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
