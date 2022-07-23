@@ -25,6 +25,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2424882924	Play_Portal			\Default Work Unit\SFX\Portal\Play_Portal	
 	2513331627	LandAlt			\Default Work Unit\Character\Movement\LandAlt	
 	2596063918	Play_GrenadierGrenadeShoot			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot	
+	2650973422	Play_EllenFootstepsGrassStone			\Default Work Unit\Play_EllenFootstepsGrassStone	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
 	2886460653	Play_EllenHeartBeatRTPCVersion			\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion	
@@ -49,9 +50,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	867005342	WindForceRight			\Default Work Unit\WindForceRight	
 	926105675	WindTemperatureRight			\Default Work Unit\WindTemperatureRight	
 	2513331627	LandAlt			\Default Work Unit\LandAlt	
+	2666750687	EllenFootstepsStone			\Default Work Unit\EllenFootstepsStone	
 	3200895820	WindTemperatureLeft			\Default Work Unit\WindTemperatureLeft	
 	3369782661	WindGainLeft			\Default Work Unit\WindGainLeft	
 	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
+	3667187078	EllenFootstepsGrass			\Default Work Unit\EllenFootstepsGrass	
 	3958443545	EllenHeartBeatSlowRTPCVersion			\Default Work Unit\EllenHeartBeatSlowRTPCVersion	
 	4264129031	EllenFootstepsRTPCVersion			\Default Work Unit\EllenFootstepsRTPCVersion	
 
@@ -85,6 +88,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
 	541608609	DGHvCrystal1Activate	DGHvCrystal1Activate		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Crystals\CrystalActivate\Crystal1Activate\DGHvCrystal1Activate	
+	549421310	MSHvEllenFootstepsSwitches	MSHvEllenFootstepsSwitches		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootstepsGrassStone\MSHvEllenFootstepsSwitches	
 	576448848	MSHvGrenadierDeathR	MSHvGrenadierDeathR		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeathR\MSHvGrenadierDeathR	
 	615182422	DGHvShipDamagedAlarm	DGHvShipDamagedAlarm		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\ShipDamagedAlarm\DGHvShipDamagedAlarm	
 	619546901	DGHvMonsterDeath	DGHvMonsterDeath		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Combat\ChomperDeath\DGHvMonsterDeath	

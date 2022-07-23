@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID LANDALT = 2513331627U;
         static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPS = 1686041407U;
+        static const AkUniqueID PLAY_ELLENFOOTSTEPSGRASSSTONE = 2650973422U;
         static const AkUniqueID PLAY_ELLENFOOTSTEPSRTPCVERSION = 1628770910U;
         static const AkUniqueID PLAY_ELLENHEARTBEATRTPCVERSION = 2886460653U;
         static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
@@ -62,7 +63,9 @@ namespace AK
         static const AkUniqueID BITCRUSHERL = 2105723230U;
         static const AkUniqueID BITCRUSHERR = 2105723200U;
         static const AkUniqueID CHORDSGAIN = 2952398261U;
+        static const AkUniqueID ELLENFOOTSTEPSGRASS = 3667187078U;
         static const AkUniqueID ELLENFOOTSTEPSRTPCVERSION = 4264129031U;
+        static const AkUniqueID ELLENFOOTSTEPSSTONE = 2666750687U;
         static const AkUniqueID ELLENHEARTBEATFASTRTPCVERSION = 545322978U;
         static const AkUniqueID ELLENHEARTBEATMEDIUMRTPCVERSION = 73144703U;
         static const AkUniqueID ELLENHEARTBEATSLOWRTPCVERSION = 3958443545U;

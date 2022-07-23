@@ -94,6 +94,10 @@
 							<Value>2</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="EllenFootstepsGrass" ID="{6063B846-D14B-418A-AA7D-6FD27AFB16C2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="EllenFootstepsRTPCVersion" ID="{7BAF9E2D-C95D-419B-B3D1-FD7ADD190D5C}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -124,6 +128,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="ARPBassGain" ID="{5E341C10-8BCB-4653-A019-1CCF436D91BC}"/>
 							<Value>0.3</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EllenFootstepsStone" ID="{CFEADE63-E82D-4856-81DD-ADA87C2F6E3C}"/>
+							<Value>1.70601336302895</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}"/>

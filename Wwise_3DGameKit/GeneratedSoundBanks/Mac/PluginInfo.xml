@@ -20,6 +20,7 @@
 		<Plugin Name="MSHvGrenadierGrenadeShoot" ID="614859778" DLL="Hv_MSHvGrenadierGrenadeShoot_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierDeathR" ID="638452738" DLL="Hv_MSHvGrenadierDeathR_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvEllenFootstepsSwitches" ID="677381122" DLL="Hv_MSHvEllenFootstepsSwitches_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvStoneBoxBreak6" ID="699008002" DLL="Hv_DGHvStoneBoxBreak6_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvWindGenerator2" ID="738722818" DLL="Hv_DGHvWindGenerator2_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvJumpPatchAlt" ID="832046082" DLL="Hv_DGHvJumpPatchAlt_WwiseSourcePlugin"/>

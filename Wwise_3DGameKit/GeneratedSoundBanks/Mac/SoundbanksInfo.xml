@@ -24,6 +24,7 @@
 				<Event Id="2513331627" Name="LandAlt" ObjectPath="\Events\Default Work Unit\Character\Movement\LandAlt" DurationType="Unknown"/>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps" MaxAttenuation="20.000000" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
+				<Event Id="2650973422" Name="Play_EllenFootstepsGrassStone" ObjectPath="\Events\Default Work Unit\Play_EllenFootstepsGrassStone" DurationType="Unknown"/>
 				<Event Id="1628770910" Name="Play_EllenFootstepsRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootstepsRTPCVersion" DurationType="Unknown"/>
 				<Event Id="2886460653" Name="Play_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion" DurationType="Unknown"/>
 				<Event Id="3440132657" Name="Play_GrenadierDeath" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath" MaxAttenuation="40.000000" DurationType="Unknown"/>
@@ -66,9 +67,11 @@
 				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\WindForceRight"/>
 				<GameParameter Id="926105675" Name="WindTemperatureRight" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureRight"/>
 				<GameParameter Id="2513331627" Name="LandAlt" ObjectPath="\Game Parameters\Default Work Unit\LandAlt"/>
+				<GameParameter Id="2666750687" Name="EllenFootstepsStone" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsStone"/>
 				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureLeft"/>
 				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\WindGainLeft"/>
 				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\WindGainRight"/>
+				<GameParameter Id="3667187078" Name="EllenFootstepsGrass" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsGrass"/>
 				<GameParameter Id="3958443545" Name="EllenHeartBeatSlowRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatSlowRTPCVersion"/>
 				<GameParameter Id="4264129031" Name="EllenFootstepsRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsRTPCVersion"/>
 			</GameParameters>

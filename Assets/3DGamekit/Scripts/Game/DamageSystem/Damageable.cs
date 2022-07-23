@@ -52,12 +52,14 @@ namespace Gamekit3D
             ResetDamage();
             m_Collider = GetComponent<Collider>();
 
+            //MS Added Lines----->
             EllenHeartBeatRTPCVersion6 = 6.0f;
             EllenHeartBeatRTPCVersion5 = 5.0f;
             EllenHeartBeatRTPCVersion4 = 4.0f;
             EllenHeartBeatRTPCVersion3 = 3.0f;
             EllenHeartBeatRTPCVersion2 = 2.0f;
             EllenHeartBeatRTPCVersion1 = 1.0f;
+            //<-----MS Added Lines
 
         }
 
@@ -91,7 +93,7 @@ namespace Gamekit3D
             AkSoundEngine.PostEvent("PlayHealthPickup", gameObject); //dg added line
 
 
-            //MS Added Lines----->
+            //MS Added Lines-----> All heartbeat sounds volume is set to 0 by RTPC Values
             AkSoundEngine.PostEvent("Stop_EllenHeartBeatRTPCVersion", gameObject); 
 
             Debug.Log("EllenHeartBeatSlowRTPC Value was set to 5");
@@ -117,7 +119,8 @@ namespace Gamekit3D
                 return;
             }
 
-            //MS Added Lines----->
+            //MS Added Lines-----> When character has 4 hitpoints, script triggers play event for a heartbeat, then when character has 3, 2, or 1 hitbpoints script triggers different RTPC values to control the heartbeat speed.
+            
             if (currentHitPoints == 4)  
             {
 

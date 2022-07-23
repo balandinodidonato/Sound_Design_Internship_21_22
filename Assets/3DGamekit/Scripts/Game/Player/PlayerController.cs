@@ -10,7 +10,6 @@ namespace Gamekit3D
     public class PlayerController : MonoBehaviour, IMessageReceiver
     {
         public uint EllenHeartBeatID;
-        private bool EllenHeartBeatActive = false;
         private float EllenHeartBeatRTPCVersion5;
         private float EllenHeartBeatRTPCVersion3;
         private float EllenHeartBeatRTPCVersion1;
@@ -442,9 +441,11 @@ namespace Gamekit3D
                 footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
                 AkSoundEngine.SetRTPCValue("EllenFootstepsRTPCVersion", 1f, gameObject);
                 AkSoundEngine.PostEvent("Play_EllenFootstepsRTPCVersion", gameObject);
-                Debug.Log("Ellen Footsteps RTPC Value Triggered");
+                //Debug.Log("Ellen Footsteps RTPC Value Triggered");
                 //AkSoundEngine.PostEvent("Play_EllenFootsteps", gameObject);
 
+                
+                //AkSoundEngine.PostEvent("Play_EllenFootstepsGrassStone", gameObject);
 
             }
             else if (footstepPlayer.playing)
