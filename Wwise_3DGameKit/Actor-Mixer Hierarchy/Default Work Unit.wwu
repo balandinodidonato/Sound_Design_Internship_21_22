@@ -2303,34 +2303,6 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 							<ChildrenList>
 								<SourcePlugin Name="DGHvLevelMusic" ID="{7BA7A642-D6D3-4261-BFE8-8C15E4FA1A44}" ShortID="884591529" PluginName="DGHvLevelMusic" CompanyID="64" PluginID="13732">
 									<PropertyList>
-										<Property Name="ARPBassGain" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{4B0D3E80-72E7-47F3-A9C0-AD458F66EA5B}" ShortID="181855704">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="ARPBassGain" ID="{5E341C10-8BCB-4653-A019-1CCF436D91BC}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{4626E8E2-560D-4A17-BC2D-9AFD6080715C}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="ChordsGain" Type="Real32">
 											<RTPCList>
 												<RTPC Name="" ID="{C9BC17A6-7C8C-4AC2-843F-550F4718F871}" ShortID="903964182">
@@ -2449,6 +2421,24 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="DGHvLevelMusic" ID="{7BA7A642-D6D3-4261-BFE8-8C15E4FA1A44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LevelMusic11" ID="{ED20BBE8-EB84-4569-9315-9E8A9F160050}" ShortID="707276463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="DGHvLevelMusic11" ID="{3CC3AD69-0DC7-4934-91D4-859968A5573F}" ShortID="592752782" PluginName="DGHvLevelMusic11" CompanyID="64" PluginID="24465">
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DGHvLevelMusic11" ID="{3CC3AD69-0DC7-4934-91D4-859968A5573F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
