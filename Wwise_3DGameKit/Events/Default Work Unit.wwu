@@ -756,6 +756,25 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Music" ID="{5B9AE43C-AD09-4845-BF08-42C63EBC3512}" ShortID="1027637627">
+					<ChildrenList>
+						<Event Name="PlayMusic" ID="{E8B8812E-5575-4ACC-AD1B-D44E333E11E3}">
+							<ChildrenList>
+								<Action Name="" ID="{B2A1F819-27EB-4B70-B143-749ADDDDFFAD}" ShortID="776098624">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LevelMusic" ID="{AAAC6A24-D18C-4DBE-8D72-440E39399B95}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

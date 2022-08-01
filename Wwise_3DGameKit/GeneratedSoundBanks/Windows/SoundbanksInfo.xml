@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -45,6 +45,7 @@
 				<Event Id="1632859915" Name="PlayBoxBreak" ObjectPath="\Events\Default Work Unit\SFX\Box\PlayBoxBreak" DurationType="Unknown"/>
 				<Event Id="23853805" Name="PlayHealthPickup" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthPickup" DurationType="Unknown"/>
 				<Event Id="1810625332" Name="PlayHealthRelease" ObjectPath="\Events\Default Work Unit\SFX\Health\PlayHealthRelease" DurationType="Unknown"/>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\Music\PlayMusic" DurationType="Unknown"/>
 				<Event Id="1792115892" Name="PlaySpaceshipAlarm" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipAlarm" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="3078778343" Name="PlaySpaceshipIdle" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
@@ -60,20 +61,25 @@
 				<Event Id="1502558243" Name="WeaponSwing4" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing4" DurationType="Unknown"/>
 			</IncludedEvents>
 			<GameParameters>
-				<GameParameter Id="73144703" Name="EllenHeartBeatMediumRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatMediumRTPCVersion"/>
-				<GameParameter Id="545322978" Name="EllenHeartBeatFastRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatFastRTPCVersion"/>
-				<GameParameter Id="639876002" Name="JumpAlt" ObjectPath="\Game Parameters\Default Work Unit\JumpAlt"/>
-				<GameParameter Id="658274915" Name="WindForceLeft" ObjectPath="\Game Parameters\Default Work Unit\WindForceLeft"/>
-				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\WindForceRight"/>
-				<GameParameter Id="926105675" Name="WindTemperatureRight" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureRight"/>
-				<GameParameter Id="2513331627" Name="LandAlt" ObjectPath="\Game Parameters\Default Work Unit\LandAlt"/>
-				<GameParameter Id="2666750687" Name="EllenFootstepsStone" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsStone"/>
-				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\WindTemperatureLeft"/>
-				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\WindGainLeft"/>
-				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\WindGainRight"/>
-				<GameParameter Id="3667187078" Name="EllenFootstepsGrass" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsGrass"/>
-				<GameParameter Id="3958443545" Name="EllenHeartBeatSlowRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenHeartBeatSlowRTPCVersion"/>
-				<GameParameter Id="4264129031" Name="EllenFootstepsRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\EllenFootstepsRTPCVersion"/>
+				<GameParameter Id="73144703" Name="EllenHeartBeatMediumRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenHeartBeatMediumRTPCVersion"/>
+				<GameParameter Id="217130920" Name="MelodyGain" ObjectPath="\Game Parameters\Default Work Unit\Music\MelodyGain"/>
+				<GameParameter Id="319845593" Name="DrumsGain" ObjectPath="\Game Parameters\Default Work Unit\Music\DrumsGain"/>
+				<GameParameter Id="545322978" Name="EllenHeartBeatFastRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenHeartBeatFastRTPCVersion"/>
+				<GameParameter Id="639876002" Name="JumpAlt" ObjectPath="\Game Parameters\Default Work Unit\Character\JumpAlt"/>
+				<GameParameter Id="658274915" Name="WindForceLeft" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindForceLeft"/>
+				<GameParameter Id="867005342" Name="WindForceRight" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindForceRight"/>
+				<GameParameter Id="926105675" Name="WindTemperatureRight" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindTemperatureRight"/>
+				<GameParameter Id="1021618141" Name="MusicState" ObjectPath="\Game Parameters\Default Work Unit\Music\MusicState"/>
+				<GameParameter Id="1652471280" Name="Melody2Gain" ObjectPath="\Game Parameters\Default Work Unit\Music\Melody2Gain"/>
+				<GameParameter Id="2513331627" Name="LandAlt" ObjectPath="\Game Parameters\Default Work Unit\Character\LandAlt"/>
+				<GameParameter Id="2666750687" Name="EllenFootstepsStone" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenFootstepsStone"/>
+				<GameParameter Id="2952398261" Name="ChordsGain" ObjectPath="\Game Parameters\Default Work Unit\Music\ChordsGain"/>
+				<GameParameter Id="3200895820" Name="WindTemperatureLeft" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindTemperatureLeft"/>
+				<GameParameter Id="3369782661" Name="WindGainLeft" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindGainLeft"/>
+				<GameParameter Id="3394536240" Name="WindGainRight" ObjectPath="\Game Parameters\Default Work Unit\Ambience\WindGainRight"/>
+				<GameParameter Id="3667187078" Name="EllenFootstepsGrass" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenFootstepsGrass"/>
+				<GameParameter Id="3958443545" Name="EllenHeartBeatSlowRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenHeartBeatSlowRTPCVersion"/>
+				<GameParameter Id="4264129031" Name="EllenFootstepsRTPCVersion" ObjectPath="\Game Parameters\Default Work Unit\Character\EllenFootstepsRTPCVersion"/>
 			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -81,8 +87,8 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<GameParameters>
-				<GameParameter Id="2105723200" Name="BitCrusherR" ObjectPath="\Game Parameters\Default Work Unit\BitCrusherR"/>
-				<GameParameter Id="2105723230" Name="BitCrusherL" ObjectPath="\Game Parameters\Default Work Unit\BitCrusherL"/>
+				<GameParameter Id="2105723200" Name="BitCrusherR" ObjectPath="\Game Parameters\Default Work Unit\Effects\BitCrusherR"/>
+				<GameParameter Id="2105723230" Name="BitCrusherL" ObjectPath="\Game Parameters\Default Work Unit\Effects\BitCrusherL"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>

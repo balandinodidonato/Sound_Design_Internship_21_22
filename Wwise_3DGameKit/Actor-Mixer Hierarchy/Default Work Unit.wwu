@@ -20,7 +20,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -45,7 +45,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -75,7 +75,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="MusicalStabs" ID="{FD967AF8-4D3D-4786-8773-0512532BF8B9}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -209,7 +209,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -233,7 +233,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -272,7 +272,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -330,7 +330,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -398,7 +398,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -424,7 +424,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -456,7 +456,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -763,7 +763,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="Character" ID="{4871F4AA-D097-471D-BB31-CE18E53C3F38}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1137,7 +1137,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+											<ObjectRef Name="Character" ID="{4871F4AA-D097-471D-BB31-CE18E53C3F38}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1325,7 +1325,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+									<ObjectRef Name="Ambience" ID="{AD68DD45-E21B-4A86-A628-B7BF4681354E}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1618,7 +1618,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Chomper" ID="{6770FDA8-7F6C-49B5-A908-D671A0595929}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1701,7 +1701,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Dual_Filters_Narrow_Bandwidth" ID="{A24607C6-04E1-4D41-B513-28C0914D138D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Chomper" ID="{6770FDA8-7F6C-49B5-A908-D671A0595929}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1856,7 +1856,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1911,7 +1911,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1984,7 +1984,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2018,7 +2018,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2076,7 +2076,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="GrenadeExplosionL" ID="{F02C53B2-85F5-464D-9FA0-2D1380FDF520}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2134,7 +2134,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="GrenadeExplosionR" ID="{A7CA4D88-4DA8-47E7-BF07-50BF7E3D16BF}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2171,7 +2171,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="GrenadierDeathL" ID="{9C062DF3-4A42-4988-87F6-8C0429E188F4}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2208,7 +2208,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 													<ObjectRef Name="GrenadierDeathR" ID="{BEA47ED8-5788-43CC-BD88-DD048D658DC2}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2288,7 +2288,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2301,17 +2301,17 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SourcePlugin Name="DGHvLevelMusic" ID="{7BA7A642-D6D3-4261-BFE8-8C15E4FA1A44}" ShortID="884591529" PluginName="DGHvLevelMusic" CompanyID="64" PluginID="13732">
+								<SourcePlugin Name="DGHvLevelMusic11" ID="{6D2DEB5E-3EE0-4D11-8027-0FDBB002E9C4}" ShortID="407690715" PluginName="DGHvLevelMusic11" CompanyID="64" PluginID="24465">
 									<PropertyList>
-										<Property Name="ARPBassGain" Type="Real32">
+										<Property Name="ChordsGain" Type="Real32">
 											<RTPCList>
-												<RTPC Name="" ID="{4B0D3E80-72E7-47F3-A9C0-AD458F66EA5B}" ShortID="181855704">
+												<RTPC Name="" ID="{11011580-4E3D-403F-8A48-2E98B44D9439}" ShortID="989621005">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="ARPBassGain" ID="{5E341C10-8BCB-4653-A019-1CCF436D91BC}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+															<ObjectRef Name="ChordsGain" ID="{9648C241-3DA0-4380-923B-57B7F7BFE555}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{4626E8E2-560D-4A17-BC2D-9AFD6080715C}">
+													<Curve Name="" ID="{03D7A710-CF1B-4EE7-880A-3D22043917E8}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
@@ -2331,15 +2331,15 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												</RTPC>
 											</RTPCList>
 										</Property>
-										<Property Name="ChordsGain" Type="Real32">
+										<Property Name="DrumsGain" Type="Real32">
 											<RTPCList>
-												<RTPC Name="" ID="{C9BC17A6-7C8C-4AC2-843F-550F4718F871}" ShortID="903964182">
+												<RTPC Name="" ID="{15EE4E14-AC9F-4402-B127-5D75BD7C0735}" ShortID="913333431">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="ChordsGain" ID="{9648C241-3DA0-4380-923B-57B7F7BFE555}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
+															<ObjectRef Name="DrumsGain" ID="{5E341C10-8BCB-4653-A019-1CCF436D91BC}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{34763C9D-85EF-4D87-A145-93E71299AFFC}">
+													<Curve Name="" ID="{9C5DCFFE-A692-4CBD-9184-30A52516D0D3}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
@@ -2361,13 +2361,13 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 										</Property>
 										<Property Name="Melody2Gain" Type="Real32">
 											<RTPCList>
-												<RTPC Name="" ID="{BE6AF52F-FC1D-4E24-A887-A67803CFDFDA}" ShortID="317478640">
+												<RTPC Name="" ID="{E4839334-1F7B-41D8-9226-1ACF131EB260}" ShortID="1026283689">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="Melody2Gain" ID="{B6054F0F-D8CD-424A-90C1-A1FAF765606A}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{18E70647-A992-4F7B-9133-2D017ECA0E33}">
+													<Curve Name="" ID="{F757A584-EDB0-47C2-B2C5-8E66A7854E86}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
@@ -2389,13 +2389,13 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 										</Property>
 										<Property Name="MelodyGain" Type="Real32">
 											<RTPCList>
-												<RTPC Name="" ID="{545C6179-F18E-48C2-A0D7-168CC76C4485}" ShortID="937146947">
+												<RTPC Name="" ID="{E3A495E5-217C-4E6E-91BF-2CFD9F09E946}" ShortID="383854835">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="MelodyGain" ID="{A6EDA84A-9A6B-40C6-BF12-415905A0C268}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{BB1BD0A8-E54A-408F-9586-D82AA726F33B}">
+													<Curve Name="" ID="{3B00C070-C038-416E-8D69-E76B45B62529}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
@@ -2417,13 +2417,13 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 										</Property>
 										<Property Name="MusicState" Type="Real32">
 											<RTPCList>
-												<RTPC Name="" ID="{17384518-6C6D-4E93-A76A-96BFFE44B2CC}" ShortID="273422314">
+												<RTPC Name="" ID="{CCFCC0C1-38A7-45EC-87DF-D7F6828C7566}" ShortID="220370940">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="MusicState" ID="{BD0824C9-F921-495E-BD1F-D16118709086}" WorkUnitID="{A90A83F1-E7DE-4E7F-B102-B263396ACCCD}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{6C0C4F56-467D-453E-92E6-BDB246E51E1D}">
+													<Curve Name="" ID="{29473563-88B7-45D6-A8EB-966449ADC835}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
@@ -2434,8 +2434,8 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>2</XPos>
-																<YPos>2</YPos>
+																<XPos>1</XPos>
+																<YPos>1</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -2448,7 +2448,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 								</SourcePlugin>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="DGHvLevelMusic" ID="{7BA7A642-D6D3-4261-BFE8-8C15E4FA1A44}" Platform="Linked"/>
+								<ActiveSource Name="DGHvLevelMusic11" ID="{6D2DEB5E-3EE0-4D11-8027-0FDBB002E9C4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

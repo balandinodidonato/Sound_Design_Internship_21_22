@@ -38,6 +38,7 @@
 		<Plugin Name="MSHvEllenFootsteps" ID="1452672002" DLL="Hv_MSHvEllenFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadeExplosionL" ID="1530266626" DLL="Hv_MSHvGrenadeExplosionL_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierFootsteps" ID="1568080898" DLL="Hv_MSHvGrenadierFootsteps_WwiseSourcePlugin"/>
+		<Plugin Name="DGHvLevelMusic11" ID="1603339266" DLL="Hv_DGHvLevelMusic11_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal2Activate" ID="1657472002" DLL="Hv_DGHvCrystal2Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvWeaponPickup" ID="1720779778" DLL="Hv_MSHvWeaponPickup_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvEllenFootstepsRTPCVersion" ID="1753875458" DLL="Hv_MSHvEllenFootstepsRTPCVersion_WwiseSourcePlugin"/>

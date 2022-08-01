@@ -420,6 +420,21 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
+						<Bus Name="MusicalStabs" ID="{FD967AF8-4D3D-4786-8773-0512532BF8B9}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{AF8EE864-8065-48C7-A4E8-91392DBB0114}"/>
+									<DuckingParam>
+										<Volume>-65</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeExp1</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Chomper" ID="{6770FDA8-7F6C-49B5-A908-D671A0595929}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

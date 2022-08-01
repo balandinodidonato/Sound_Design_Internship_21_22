@@ -36,6 +36,7 @@
 						<ObjectRef Name="Play_EllenFootstepsGrassStone" ID="{A4EA4C88-2F9C-4846-856F-738D7657A15D}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWind11" ID="{A8EB66C4-45F0-4A4F-BCEC-9FC593F1E5C7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EllenFootstepsRTPCVersion" ID="{4ED60A3C-1267-4A6D-8647-16C62BE01F1E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMusic" ID="{E8B8812E-5575-4ACC-AD1B-D44E333E11E3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChomperDeath" ID="{45374964-EC32-4ACD-AE70-CAC57D580D4A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="JumpAt" ID="{647DADCB-B273-4B09-8358-E67C56AC011B}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierDeathR" ID="{494D08D0-8651-4B3B-B712-52998B6E010D}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>

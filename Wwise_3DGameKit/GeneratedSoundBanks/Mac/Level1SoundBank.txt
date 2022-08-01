@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
+	417627684	PlayMusic			\Default Work Unit\Music\PlayMusic	
 	592588845	Play_GrenadierGrenadeBounce			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce	
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
@@ -43,20 +44,25 @@ Event	ID	Name			Wwise Object Path	Notes
 	4216075089	Play_GrenadierDeathR			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathR	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	73144703	EllenHeartBeatMediumRTPCVersion			\Default Work Unit\EllenHeartBeatMediumRTPCVersion	
-	545322978	EllenHeartBeatFastRTPCVersion			\Default Work Unit\EllenHeartBeatFastRTPCVersion	
-	639876002	JumpAlt			\Default Work Unit\JumpAlt	
-	658274915	WindForceLeft			\Default Work Unit\WindForceLeft	
-	867005342	WindForceRight			\Default Work Unit\WindForceRight	
-	926105675	WindTemperatureRight			\Default Work Unit\WindTemperatureRight	
-	2513331627	LandAlt			\Default Work Unit\LandAlt	
-	2666750687	EllenFootstepsStone			\Default Work Unit\EllenFootstepsStone	
-	3200895820	WindTemperatureLeft			\Default Work Unit\WindTemperatureLeft	
-	3369782661	WindGainLeft			\Default Work Unit\WindGainLeft	
-	3394536240	WindGainRight			\Default Work Unit\WindGainRight	
-	3667187078	EllenFootstepsGrass			\Default Work Unit\EllenFootstepsGrass	
-	3958443545	EllenHeartBeatSlowRTPCVersion			\Default Work Unit\EllenHeartBeatSlowRTPCVersion	
-	4264129031	EllenFootstepsRTPCVersion			\Default Work Unit\EllenFootstepsRTPCVersion	
+	73144703	EllenHeartBeatMediumRTPCVersion			\Default Work Unit\Character\EllenHeartBeatMediumRTPCVersion	
+	217130920	MelodyGain			\Default Work Unit\Music\MelodyGain	
+	319845593	DrumsGain			\Default Work Unit\Music\DrumsGain	
+	545322978	EllenHeartBeatFastRTPCVersion			\Default Work Unit\Character\EllenHeartBeatFastRTPCVersion	
+	639876002	JumpAlt			\Default Work Unit\Character\JumpAlt	
+	658274915	WindForceLeft			\Default Work Unit\Ambience\WindForceLeft	
+	867005342	WindForceRight			\Default Work Unit\Ambience\WindForceRight	
+	926105675	WindTemperatureRight			\Default Work Unit\Ambience\WindTemperatureRight	
+	1021618141	MusicState			\Default Work Unit\Music\MusicState	
+	1652471280	Melody2Gain			\Default Work Unit\Music\Melody2Gain	
+	2513331627	LandAlt			\Default Work Unit\Character\LandAlt	
+	2666750687	EllenFootstepsStone			\Default Work Unit\Character\EllenFootstepsStone	
+	2952398261	ChordsGain			\Default Work Unit\Music\ChordsGain	
+	3200895820	WindTemperatureLeft			\Default Work Unit\Ambience\WindTemperatureLeft	
+	3369782661	WindGainLeft			\Default Work Unit\Ambience\WindGainLeft	
+	3394536240	WindGainRight			\Default Work Unit\Ambience\WindGainRight	
+	3667187078	EllenFootstepsGrass			\Default Work Unit\Character\EllenFootstepsGrass	
+	3958443545	EllenHeartBeatSlowRTPCVersion			\Default Work Unit\Character\EllenHeartBeatSlowRTPCVersion	
+	4264129031	EllenFootstepsRTPCVersion			\Default Work Unit\Character\EllenFootstepsRTPCVersion	
 
 Effect plug-ins	ID	Name	Type				Notes
 	273928693	EllenHeartBeatDist	Wwise Guitar Distortion			
@@ -84,6 +90,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	200373841	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing2\DGHvWeaponSwing	
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthPickup\DGHvHealthPickUp	
 	351412072	MSHvEllenHeartBeatRTPCVersion	MSHvEllenHeartBeatRTPCVersion		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\EllenHeartBeatRTPCVersion\MSHvEllenHeartBeatRTPCVersion	
+	407690715	DGHvLevelMusic11	DGHvLevelMusic11		\Actor-Mixer Hierarchy\Default Work Unit\Music\LevelMusic\DGHvLevelMusic11	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthRelease\DGHvHealthRelease	
 	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	

@@ -10,6 +10,12 @@
 						<ObjectRef Name="Water" ID="{85CF7B5E-AD11-497B-9B5D-73F66E967F84}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Music" ID="{B31930BA-BF58-4309-8830-1C02ED5E1425}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{AF8EE864-8065-48C7-A4E8-91392DBB0114}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+						<ObjectRef Name="MusicalStabs" ID="{FD967AF8-4D3D-4786-8773-0512532BF8B9}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

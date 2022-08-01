@@ -42,6 +42,7 @@ namespace AK
         static const AkUniqueID PLAYBOXBREAK = 1632859915U;
         static const AkUniqueID PLAYHEALTHPICKUP = 23853805U;
         static const AkUniqueID PLAYHEALTHRELEASE = 1810625332U;
+        static const AkUniqueID PLAYMUSIC = 417627684U;
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;
         static const AkUniqueID PLAYSPACESHIPIDLE = 3078778343U;
         static const AkUniqueID PLAYWATER = 2706800728U;
@@ -59,10 +60,10 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID ARPBASSGAIN = 1065354268U;
         static const AkUniqueID BITCRUSHERL = 2105723230U;
         static const AkUniqueID BITCRUSHERR = 2105723200U;
         static const AkUniqueID CHORDSGAIN = 2952398261U;
+        static const AkUniqueID DRUMSGAIN = 319845593U;
         static const AkUniqueID ELLENFOOTSTEPSGRASS = 3667187078U;
         static const AkUniqueID ELLENFOOTSTEPSRTPCVERSION = 4264129031U;
         static const AkUniqueID ELLENFOOTSTEPSSTONE = 2666750687U;
@@ -92,9 +93,11 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID CHARACTER = 436743010U;
+        static const AkUniqueID CHOMPER = 14039721U;
         static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSICALSTABS = 1925981424U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
