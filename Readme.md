@@ -24,7 +24,7 @@ Wwise SDK Installation Folder (EG C:/programfiles(x86))/Audiokinetic/wwise 2019.
 Project Folder (In this case the repository folder EG C:/github)/Sound_Design_Internship_21_22/Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/
 
 # Set-Up Instructions
-In order to use this repository you must first install all the correct software. 
+Follow these steps to use this repository. 
 ### 1. Git & Git LFS
 https://git-scm.com <p>
 Download the Git from the link above. <p>
@@ -43,7 +43,9 @@ This will require you to sign in also, then install the unity editor version 202
 ### 4. Wwise version 2019.2.1.7250 (Only neccessary if you plan to add to or change the respository) 
 https://www.audiokinetic.com/en/ <p>
 Download the Wwise Launcher from the link above. <p>
-This will ask you to sign in then you will need to install Wwise Version 2019.2.1.7250 (change latest to all, 2019.2, 2019.2.1.7250). Install the SDK and at least the windows files. You can then access the project (unity level and wwise project) from the unity tab in the launcher.
+This will ask you to sign in then you will need to install Wwise Version 2019.2.1.7250 (change latest to all, 2019.2, 2019.2.1.7250). Install the SDK and at least the windows files. You can then access the project (unity level and wwise project) from the unity tab in the launcher. Newer builds than this are not supported (some minor releases from the same version 2019.2.1. ... are but this was the version that worked for the team). Newer build have not been tested by the repository maintainers.
+ 
+ If you wish to open and mess with the wwise project created for the repository you will need to add the plugins to your own Wwise SDK.
  
 ### 5. Pure Data version 0.52-1 (Only neccessary if you plan to add to or change the respository)
 http://puredata.info <p>
@@ -67,11 +69,12 @@ https://github.com/enzienaudio/hvcc <p>
 Clone the HVCC Repository from the link above. <p>
 Refer to the official documentation for the repository when using this tool for the best result and more options.
  (Quick Process Sum Up)
- - The basic process for this tool is:<p>
- - Open HVCC folder in Terminal/Command Line <p>
+ - The basic process for this tool is:
+ - Open HVCC folder in Terminal/Command Line
  - Type python hvcc.py *Insert your Pure Data Patch File Path Here* -n *Insert Your Desired Name Here* -g *Insert Chosen Playform Here*
  - Hit Enter, The Program will produce the files in the same folder as the patch.
  - Then use Visual Studio to compile the plugin, these will require retargeted to a more modern windows build before swapping to the release version and building the solution.
+ - These can then be added to the correct folders for the desired program (refer to the HVCC documentation).
  
  Audiokinetic have a video on this process https://youtu.be/ftucjYF5QX8
   
