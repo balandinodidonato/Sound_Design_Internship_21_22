@@ -1,7 +1,7 @@
 Game Audio Performance Testing Optimisation <p>
   Wind Patch Testing
   <pre>
-  |---------------|------------------|---------------------|------|--------|-----|------|-------------|-------------------------|----------|--------------|
+  |---------------|------------------|---------------------|------|--------|-----|------|-------------|-----------|-------------|----------|--------------|
   |   Revision    |             CPU Consumption            |     Output Type     |            Controllable Parameters           | Activation Methodology  |
   |---------------|------------------|---------------------|------|--------|-----|------|-------------|-----------|-------------|----------|--------------|
   | Patch Version | Peak CPU Usage % | Average CPU Usage % | Mono | Stereo | 5.1 | Gain | wind Force  | Direction | Temperature | One Shot |  Continuous  |
