@@ -15,3 +15,4 @@ Game Audio Performance Testing Optimisation <p>
   Disclaimer:
   Numbers aquired from Wwise Profiler in real time, numbers provided guidance only.
   Performance and percentage consumption will vary depending on the hardware specifications of the host system.
+</pre>
