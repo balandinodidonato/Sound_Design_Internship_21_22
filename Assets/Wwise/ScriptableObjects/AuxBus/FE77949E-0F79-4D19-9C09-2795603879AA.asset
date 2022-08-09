@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed194ee4e04df74478892173809fb190, type: 3}
+  m_Name: FE77949E-0F79-4D19-9C09-2795603879AA
+  m_EditorClassIdentifier: 
+  objectName: ReverbZone
+  id: 1632408463
+  guid: FE77949E-0F79-4D19-9C09-2795603879AA

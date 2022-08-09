@@ -7,7 +7,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	674522502	Land			\Default Work Unit\Character\Movement\Land	
 	1108267873	Play_GrenadierShieldUp			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp	
 	1133747751	Stop_EllenHeartBeatRTPCVersion			\Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion	
-	1197535613	PlayWind2			\Default Work Unit\Ambience\Wind\PlayWind2	
 	1200139914	Play_GrenadierGrenadeExplosionL			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionL	
 	1200139924	Play_GrenadierGrenadeExplosionR			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionR	
 	1373007782	Play_GrenadierFootsteps			\Default Work Unit\Enemies\Grenadier\Movement\Play_GrenadierFootsteps	
@@ -26,8 +25,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1956494941	Play_ChomperFootsteps			\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps	
 	2424882924	Play_Portal			\Default Work Unit\SFX\Portal\Play_Portal	
 	2513331627	LandAlt			\Default Work Unit\Character\Movement\LandAlt	
+	2586675554	Play_GrenadierReceivingDamage			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierReceivingDamage	
 	2596063918	Play_GrenadierGrenadeShoot			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot	
-	2650973422	Play_EllenFootstepsGrassStone			\Default Work Unit\Play_EllenFootstepsGrassStone	
+	2650973422	Play_EllenFootstepsGrassStone			\Default Work Unit\Character\Movement\Play_EllenFootstepsGrassStone	
 	2706800728	PlayWater			\Default Work Unit\Ambience\Water\PlayWater	
 	2768078434	CrystalActivate			\Default Work Unit\SFX\Crystals\CrystalActivate	
 	2886460653	Play_EllenHeartBeatRTPCVersion			\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion	
@@ -67,6 +67,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	273928693	EllenHeartBeatDist	Wwise Guitar Distortion			
+	439266798	BoxBreakCompressor	Wwise Compressor			
 	544038832	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	628583311	EllenHeartBeatEQ	Wwise Parametric EQ			
 	2200115978	GrenadeExplosionL	Wwise Meter			
@@ -111,6 +112,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	789437140	MSHvGrenadierDeathL	MSHvGrenadierDeathL		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeathL\MSHvGrenadierDeathL	
 	810108582	DGHvShipEngineIdle	DGHvShipEngineIdle		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spaceship\SpaceShipEngineIdle\DGHvShipEngineIdle	
 	838053286	MSHvWeaponPickUpAmbience	MSHvWeaponPickUpAmbience		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickUpAmbience\MSHvWeaponPickUpAmbience	
+	838676794	MSHvGrenadierReceivingDamage	MSHvGrenadierReceivingDamage		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierReceivingDamage\MSHvGrenadierReceivingDamage	
 	869032469	MSHvEllenFootstepsRTPCVersion	MSHvEllenFootstepsRTPCVersion		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootstepsRTPCVersion\MSHvEllenFootstepsRTPCVersion	
 	935284089	MSHvWeaponPickup	MSHvWeaponPickup		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\WeaponPickup\MSHvWeaponPickup	
 	945246557	MSHvGrenadierGrenadeBounce	MSHvGrenadierGrenadeBounce		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeBounce\MSHvGrenadierGrenadeBounce	
@@ -120,5 +122,4 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	1011616506	MSHvGrenadierShieldUp	MSHvGrenadierShieldUp		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierShieldUp\MSHvGrenadierShieldUp	
 	1015352779	MSHvChomperFootsteps	MSHvChomperFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Movement\ChomperFootsteps\MSHvChomperFootsteps	
 	1054263559	MSHvGrenadeExplosionR	MSHvGrenadeExplosionR		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierGrenadeExplosionR\MSHvGrenadeExplosionR	
-	1070160772	DGHvWindGenerator2	DGHvWindGenerator2		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\WindGenerator2\DGHvWindGenerator2	
 

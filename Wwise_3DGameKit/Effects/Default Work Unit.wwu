@@ -73,6 +73,17 @@
 	<GameParameter Name="BitCrusherR" ID="{590CE4E3-4547-4887-9BF0-28B46E34383C}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="BoxBreakCompressor" ID="{6CA0C8D7-47E9-4A1F-B322-0A368222A8B7}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="OutputGain" Type="Real32" Value="-1"/>
+						<Property Name="Threshold" Type="Real32" Value="-47.1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ChomperCompressor" ID="{4FCDD0ED-56C8-4E9B-84CF-DF20A19386A1}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="Threshold" Type="Real32" Value="-63.9"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

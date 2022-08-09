@@ -132,6 +132,7 @@ namespace Gamekit3D
             damageAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
+            AkSoundEngine.PostEvent("Play_GrenadierReceivingDamage", gameObject);
         }
 
         public void Die()

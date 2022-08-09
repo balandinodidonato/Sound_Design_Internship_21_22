@@ -195,9 +195,14 @@
 								<Sound Name="SpaceShipEngineIdle" ID="{BEF80DB7-6DDD-4458-94CC-9F1232B4E2B5}" ShortID="631046552">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -224,6 +229,21 @@
 								<Sound Name="ShipDamagedAlarm" ID="{270B5777-47B2-4B76-8454-9FD98B5DFD67}" ShortID="1018764990">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -263,7 +283,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -387,9 +407,14 @@
 										<Sound Name="HealthRelease" ID="{B50E9D1C-D4F8-4083-BE72-BCEFA7071020}" ShortID="158627930">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>45</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -413,6 +438,11 @@
 										<Sound Name="HealthPickup" ID="{7F95A8BC-1C60-4127-BAF9-E40162CEC54E}" ShortID="184108084">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>35</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -445,15 +475,23 @@
 									<ChildrenList>
 										<Sound Name="BoxBreak6" ID="{FBA72ADA-CD77-41E6-947D-98A4D62CCF11}" ShortID="209014804">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-25</Value>
+														<Value>-30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+													<ObjectRef Name="BoxBreakCompressor" ID="{6CA0C8D7-47E9-4A1F-B322-0A368222A8B7}" WorkUnitID="{1F958563-A393-4C3A-90C6-05652CCA49EB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{9F72727F-90A0-4407-8EAB-8E4B3E7E03A1}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
@@ -483,9 +521,10 @@
 							<ChildrenList>
 								<Sound Name="Land" ID="{CED886FF-4586-4AB7-A99D-9E6F23327EBE}" ShortID="1055711519">
 									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -508,9 +547,10 @@
 								</Sound>
 								<Sound Name="Jump" ID="{05F3207A-5CF3-4780-AA94-534AF27513EF}" ShortID="137037667">
 									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -556,6 +596,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -575,6 +616,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="JumpAlt" ID="{ABD969CD-DD4F-4A05-8B6F-77F13AA6D999}" ShortID="333132098">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
@@ -623,6 +667,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="LandAlt" ID="{4170DA5D-3064-4310-B4A4-A058085647FE}" ShortID="848749855">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
@@ -700,6 +747,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -760,6 +808,7 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -844,6 +893,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -925,6 +975,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -988,6 +1039,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1063,6 +1115,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1135,6 +1188,19 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="WeaponContact" ID="{46E34D86-28F6-4141-9F40-F90DE2B88CC8}" ShortID="531932370">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
@@ -1346,7 +1412,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-14</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1376,7 +1442,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="39"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1581,6 +1647,11 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 									<ChildrenList>
 										<Sound Name="ChomperDeath" ID="{DC462B02-A8BD-4B8A-AAD5-F583FC341470}" ShortID="24019298">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>70</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1594,9 +1665,10 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1656,6 +1728,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -2207,6 +2280,57 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 												<ActiveSource Name="MSHvGrenadierDeathR" ID="{E8B375AF-BA83-4FEA-80E1-1E0D93833758}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="GrenadierReceivingDamage" ID="{275FCD91-208D-44B7-B234-535ECF69784B}" ShortID="129645894">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>52</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-400</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7CEBF7FB-A2D7-40A2-B85B-1264357C98BA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-1000"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Grenadier" ID="{8BD10544-292B-4D94-89A2-068A92A32126}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="MSHvGrenadierReceivingDamage" ID="{F4756B42-8353-44AA-AB0C-A6A79087B8EE}" ShortID="838676794" PluginName="MSHvGrenadierReceivingDamage" CompanyID="64" PluginID="21207">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MSHvGrenadierReceivingDamage" ID="{F4756B42-8353-44AA-AB0C-A6A79087B8EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Movement" ID="{60F4F17E-E135-4B58-B12B-1FD8408B7E42}" ShortID="613499225">
@@ -2275,7 +2399,7 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

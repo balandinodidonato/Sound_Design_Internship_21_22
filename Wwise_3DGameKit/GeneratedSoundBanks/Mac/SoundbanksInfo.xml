@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
-		<SourceFilesRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\</ProjectRoot>
+		<SourceFilesRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Internship\Git Repo\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\NAPIER\Year3\Internship\Sound_Design_Internship_21_22\Wwise_3DGameKit\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -24,7 +24,7 @@
 				<Event Id="2513331627" Name="LandAlt" ObjectPath="\Events\Default Work Unit\Character\Movement\LandAlt" DurationType="Unknown"/>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" ObjectPath="\Events\Default Work Unit\Enemies\Chomper\Movement\Play_ChomperFootsteps" MaxAttenuation="20.000000" DurationType="Unknown"/>
 				<Event Id="1686041407" Name="Play_EllenFootsteps" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootsteps" DurationType="Unknown"/>
-				<Event Id="2650973422" Name="Play_EllenFootstepsGrassStone" ObjectPath="\Events\Default Work Unit\Play_EllenFootstepsGrassStone" DurationType="Unknown"/>
+				<Event Id="2650973422" Name="Play_EllenFootstepsGrassStone" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootstepsGrassStone" DurationType="Unknown"/>
 				<Event Id="1628770910" Name="Play_EllenFootstepsRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Movement\Play_EllenFootstepsRTPCVersion" DurationType="Unknown"/>
 				<Event Id="2886460653" Name="Play_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion" DurationType="Unknown"/>
 				<Event Id="3440132657" Name="Play_GrenadierDeath" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath" MaxAttenuation="40.000000" DurationType="Unknown"/>
@@ -38,6 +38,7 @@
 				<Event Id="1200139924" Name="Play_GrenadierGrenadeExplosionR" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionR" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="2596063918" Name="Play_GrenadierGrenadeShoot" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot" MaxAttenuation="45.000000" DurationType="Unknown"/>
 				<Event Id="3306420443" Name="Play_GrenadierPunch" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch" MaxAttenuation="25.000000" DurationType="Unknown"/>
+				<Event Id="2586675554" Name="Play_GrenadierReceivingDamage" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierReceivingDamage" DurationType="Unknown"/>
 				<Event Id="1108267873" Name="Play_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp" MaxAttenuation="40.000000" DurationType="Unknown"/>
 				<Event Id="2424882924" Name="Play_Portal" ObjectPath="\Events\Default Work Unit\SFX\Portal\Play_Portal" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="594124390" Name="Play_WeaponPickup" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Play_WeaponPickup" DurationType="Unknown"/>
@@ -50,7 +51,6 @@
 				<Event Id="3078778343" Name="PlaySpaceshipIdle" ObjectPath="\Events\Default Work Unit\SFX\Spaceship\PlaySpaceshipIdle" MaxAttenuation="10.000000" DurationType="Unknown"/>
 				<Event Id="2706800728" Name="PlayWater" ObjectPath="\Events\Default Work Unit\Ambience\Water\PlayWater" MaxAttenuation="50.000000" DurationType="Unknown"/>
 				<Event Id="3684444523" Name="PlayWind11" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind11" DurationType="Unknown"/>
-				<Event Id="1197535613" Name="PlayWind2" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWind2" DurationType="Unknown"/>
 				<Event Id="3423484422" Name="PlayWindAlt" ObjectPath="\Events\Default Work Unit\Ambience\Wind\PlayWindAlt" DurationType="Unknown"/>
 				<Event Id="1133747751" Name="Stop_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4107145719" Name="Stop_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -87,6 +87,9 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1632408463" Name="ReverbZone" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbZone"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="2105723200" Name="BitCrusherR" ObjectPath="\Game Parameters\Default Work Unit\Effects\BitCrusherR"/>
 				<GameParameter Id="2105723230" Name="BitCrusherL" ObjectPath="\Game Parameters\Default Work Unit\Effects\BitCrusherL"/>

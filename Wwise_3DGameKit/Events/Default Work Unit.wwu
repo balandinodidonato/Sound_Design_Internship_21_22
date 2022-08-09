@@ -153,7 +153,7 @@
 										<Action Name="" ID="{71A7EEAD-BBBF-4C51-9DD9-347AEA321416}" ShortID="815545991">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
-												<Property Name="Delay" Type="Real64" Value="3"/>
+												<Property Name="Delay" Type="Real64" Value="1"/>
 												<Property Name="FadeTime" Type="Real64" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -646,7 +646,7 @@
 											<ChildrenList>
 												<Action Name="" ID="{39ECC0C7-10CB-4942-A4E3-1B78CAC435AB}" ShortID="252247012">
 													<PropertyList>
-														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+														<Property Name="FadeTime" Type="Real64" Value="0.2"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -732,6 +732,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="GrenadierDeathR" ID="{D937CBF0-465B-43BC-A5DF-DD8D391061B9}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_GrenadierReceivingDamage" ID="{C63AF77C-8576-4F7C-83A0-87B92857F3C7}">
+											<ChildrenList>
+												<Action Name="" ID="{7A9C8504-F6AC-4C17-ABC3-B1AC916BB454}" ShortID="575904964">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrenadierReceivingDamage" ID="{275FCD91-208D-44B7-B234-535ECF69784B}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
