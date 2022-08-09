@@ -99,6 +99,7 @@ namespace Gamekit3D
         public void WwiseAudioTrigger() 
         {
             AkSoundEngine.PostEvent("PlayBoxBreak", gameObject);
+            AkSoundEngine.PostEvent("StopSwing", gameObject);
         }
 
        

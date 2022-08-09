@@ -323,6 +323,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_EllenFootstepsGrassStone" ID="{A4EA4C88-2F9C-4846-856F-738D7657A15D}">
+									<ChildrenList>
+										<Action Name="" ID="{1C8675BB-E9B6-4C40-8874-46048192F51B}" ShortID="541588874">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EllenFootstepsGrassStone" ID="{8AD49ED1-9997-4B87-8F5E-07A0218972EE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{B064ED52-5BA6-4538-BB60-721D117FB573}" ShortID="662141584">
@@ -450,6 +461,54 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="StopSwing" ID="{586C97A5-1C02-4335-928C-5E4B0ED5F72E}">
+									<ChildrenList>
+										<Action Name="" ID="{D44A003A-9C71-4193-AA95-3315C9C4AFE9}" ShortID="869818450">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.02"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing" ID="{D63A799B-6159-41BE-AF0E-AEA12515B5FF}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A1DB0692-D8EC-401C-90AA-1F21944C5289}" ShortID="220226593">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.02"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing2" ID="{CC1CB6B6-FB6E-4A62-BBD5-9D0EE19C1BF5}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1883B027-5F48-4FAD-A39C-1944F268BBE2}" ShortID="735632372">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.02"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing3" ID="{6BD09AED-06D2-45BA-B9F4-FE13795798C7}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EF2EBF66-DE34-452C-B602-F7D00E159F4A}" ShortID="785636364">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.02"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WeaponSwing4" ID="{7773AD53-3A5B-405B-9463-459B8424C682}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -494,17 +553,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="WindGenerator11" ID="{99759118-425F-4363-B42F-4CF97B92F75E}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="PlayWind2" ID="{BD710731-5191-40B6-8151-6B8365A3C938}">
-									<ChildrenList>
-										<Action Name="" ID="{24627495-73D5-4255-ACEC-1957CD2A9AC9}" ShortID="490794911">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="WindGenerator2" ID="{BBA46329-0AD4-407D-AE35-92190FD26F32}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -745,17 +793,6 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_EllenFootstepsGrassStone" ID="{A4EA4C88-2F9C-4846-856F-738D7657A15D}">
-					<ChildrenList>
-						<Action Name="" ID="{1C8675BB-E9B6-4C40-8874-46048192F51B}" ShortID="541588874">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EllenFootstepsGrassStone" ID="{8AD49ED1-9997-4B87-8F5E-07A0218972EE}" WorkUnitID="{6182B007-F169-4DD7-BAEF-77B3DA742983}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Music" ID="{5B9AE43C-AD09-4845-BF08-42C63EBC3512}" ShortID="1027637627">
 					<ChildrenList>
 						<Event Name="PlayMusic" ID="{E8B8812E-5575-4ACC-AD1B-D44E333E11E3}">

@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23853805	PlayHealthPickup			\Default Work Unit\SFX\Health\PlayHealthPickup	
+	376371797	StopSwing			\Default Work Unit\Character\Combat\StopSwing	
 	417627684	PlayMusic			\Default Work Unit\Music\PlayMusic	
 	592588845	Play_GrenadierGrenadeBounce			\Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce	
 	594124390	Play_WeaponPickup			\Default Work Unit\SFX\Weapon\Play_WeaponPickup	
@@ -91,6 +92,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	285419533	DGHvHealthPickUp	DGHvHealthPickUp		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthPickup\DGHvHealthPickUp	
 	351412072	MSHvEllenHeartBeatRTPCVersion	MSHvEllenHeartBeatRTPCVersion		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\EllenHeartBeatRTPCVersion\MSHvEllenHeartBeatRTPCVersion	
 	407690715	DGHvLevelMusic11	DGHvLevelMusic11		\Actor-Mixer Hierarchy\Default Work Unit\Music\LevelMusic\DGHvLevelMusic11	
+	426780484	DGHvStoneBoxBreak12	DGHvStoneBoxBreak12		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Stone\BoxBreak6\DGHvStoneBoxBreak12	
 	500047252	DGHvHealthRelease	DGHvHealthRelease		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Health\HealthRelease\DGHvHealthRelease	
 	522854664	MSHvGrenadierPunch	MSHvGrenadierPunch		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierPunch\MSHvGrenadierPunch	
 	539688069	MSHvGrenadierFootsteps	MSHvGrenadierFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Movement\GrenadierFootsteps\MSHvGrenadierFootsteps	
@@ -104,7 +106,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	695209362	DGHvJumpSound	DGHvJumpSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Jump\DGHvJumpSound	
 	706003832	MSHvEllenFootsteps	MSHvEllenFootsteps		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\EllenFootsteps\MSHvEllenFootsteps	
 	727093476	DGHvLandSound	DGHvLandSound		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\Land\DGHvLandSound	
-	728530494	DGHvStoneBoxBreak6	DGHvStoneBoxBreak6		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Boxes\Stone\BoxBreak6\DGHvStoneBoxBreak6	
 	729142036	DGHvJumpPatchAlt	DGHvJumpPatchAlt		\Actor-Mixer Hierarchy\Default Work Unit\Character\Movement\JumpAlt\DGHvJumpPatchAlt	
 	771378655	DGHvWeaponSwing	DGHvWeaponSwing		\Actor-Mixer Hierarchy\Default Work Unit\Character\Combat\WeaponSwing3\DGHvWeaponSwing	
 	789437140	MSHvGrenadierDeathL	MSHvGrenadierDeathL		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Grenadier\Combat\GrenadierDeathL\MSHvGrenadierDeathL	

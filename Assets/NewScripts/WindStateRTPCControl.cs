@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WindStateRTPCControl : MonoBehaviour
 {
-    //All the Int Variables will only accept 0,1,2 as input parameters. The floats will accept any number between 0 & 2. -DG
+    //All the Int Variables will only accept 0,1,2 as input parameters. The floats will accept any number between 0 & 2.
     [SerializeField]
     private float WindGainLeft;
     [SerializeField]

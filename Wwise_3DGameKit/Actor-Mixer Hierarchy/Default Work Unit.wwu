@@ -463,9 +463,12 @@
 												<SourcePlugin Name="DGHvStoneBoxBreak6" ID="{23843750-7FB6-4567-8A37-F0D010E14E83}" ShortID="728530494" PluginName="DGHvStoneBoxBreak6" CompanyID="64" PluginID="10666">
 													<Language>SFX</Language>
 												</SourcePlugin>
+												<SourcePlugin Name="DGHvStoneBoxBreak12" ID="{CA0E8AE4-ED38-414E-AFC5-299956B7655B}" ShortID="426780484" PluginName="DGHvStoneBoxBreak12" CompanyID="64" PluginID="8400">
+													<Language>SFX</Language>
+												</SourcePlugin>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="DGHvStoneBoxBreak6" ID="{23843750-7FB6-4567-8A37-F0D010E14E83}" Platform="Linked"/>
+												<ActiveSource Name="DGHvStoneBoxBreak12" ID="{CA0E8AE4-ED38-414E-AFC5-299956B7655B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1369,9 +1372,11 @@
 								</Sound>
 								<Sound Name="WindGenerator11" ID="{99759118-425F-4363-B42F-4CF97B92F75E}" ShortID="813782720">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="39"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1562,24 +1567,6 @@ The Gain Values can be any value above 0 and upto 2.</Comment>
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="DGHvWindGenerator11" ID="{2B406280-83F1-42F7-8618-4DFD4F3FCF67}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="WindGenerator2" ID="{BBA46329-0AD4-407D-AE35-92190FD26F32}" ShortID="46474638">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C51F9DA4-30FE-4913-9ED7-A43CA81C7AB0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{AD68DD45-E21B-4A86-A628-B7BF4681354E}" WorkUnitID="{A177EA3C-C382-4ABC-81AB-3DFC4365DCCB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="DGHvWindGenerator2" ID="{67C45018-DF37-4B25-9DBE-35C6E22933BC}" ShortID="1070160772" PluginName="DGHvWindGenerator2" CompanyID="64" PluginID="11272">
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DGHvWindGenerator2" ID="{67C45018-DF37-4B25-9DBE-35C6E22933BC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

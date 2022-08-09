@@ -52,6 +52,7 @@ namespace AK
         static const AkUniqueID STOP_ELLENHEARTBEATRTPCVERSION = 1133747751U;
         static const AkUniqueID STOP_GRENADIERSHIELDUP = 4107145719U;
         static const AkUniqueID STOP_WEAPONPICKUPAMBIENCE = 1839691088U;
+        static const AkUniqueID STOPSWING = 376371797U;
         static const AkUniqueID WEAPONSWING1 = 1502558246U;
         static const AkUniqueID WEAPONSWING2 = 1502558245U;
         static const AkUniqueID WEAPONSWING3 = 1502558244U;

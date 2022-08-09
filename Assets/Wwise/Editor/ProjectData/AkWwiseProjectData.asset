@@ -24,8 +24,52 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3cea77a182c3bc4a81ab3dfc4365dccb
     GuidInternal: 
-    m_lastTime: -8585455278994775808
+    m_lastTime: -8585422470954775808
     List:
+    - name: Ambience
+      guid: 45dd68ad1be2864aa628b7bf4681354e
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambience
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Ambience
+    - name: Character
+      guid: aaf4714897d01d47bb31ce18e53c3f38
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Character
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Character
+    - name: Chomper
+      guid: a8fd70676c7fb549a908d671a0595929
+      id: 14039721
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Chomper
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Chomper
+    - name: Grenadier
+      guid: 4405d18b2b29944d89a2068a92a32126
+      id: 1343892184
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Grenadier
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Grenadier
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -35,12 +79,45 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 64e88eaf6580c748a4e891392dbb0114
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Music
+    - name: MusicalStabs
+      guid: f87a96fd3d4d864787730512532bf8b9
+      id: 1925981424
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MusicalStabs
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MusicalStabs
+    - name: SFX
+      guid: 7f72729fa09007448eab8e4b3e7e03a1
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 8761a9ef7d60da4dae941516bd5b4cd4
     GuidInternal: 
-    m_lastTime: -8585438826114775808
+    m_lastTime: -8585418989874775808
     List:
     - name: Level1SoundBank
       guid: 312b3423141b6141b132fc3bac0c11b2
@@ -56,7 +133,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9d7f23574077684fbe55e18171dc112b
     GuidInternal: 
-    m_lastTime: -8585434491494775808
+    m_lastTime: -8585418994714775808
     List:
     - name: Ambience
       guid: b8134adc6398964aae2f84810c30ede5
@@ -153,24 +230,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Combat
-      guid: b0e31691d90bbb44950f3a0fabd692d9
-      id: 2764240573
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Enemies
-        ObjectType: 4
-      - ElementName: Grenadier
-        ObjectType: 4
-      - ElementName: Combat
-        ObjectType: 4
-      - ElementName: Combat
-        ObjectType: 3
-      Path: Default Work Unit\Enemies\Grenadier\Combat\Combat
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Combat
       guid: d675a5a91c2fb14dbdeecc9ea6fc38b5
       id: 2764240573
       PathAndIcons:
@@ -185,6 +244,24 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 3
       Path: Default Work Unit\Enemies\Chomper\Combat\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: b0e31691d90bbb44950f3a0fabd692d9
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Combat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -331,6 +408,22 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Movement
+      guid: 0618ee5698f6754c9e976c049e46484b
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Movement
       guid: 142e88f26239764f812a26357be9ed14
       id: 2129636626
       PathAndIcons:
@@ -366,19 +459,17 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Movement
-      guid: 0618ee5698f6754c9e976c049e46484b
-      id: 2129636626
+    - name: Music
+      guid: 3ce49a5b09ad4548bf0842c63ebc3512
+      id: 3991942870
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Character
+      - ElementName: Music
         ObjectType: 4
-      - ElementName: Movement
-        ObjectType: 4
-      - ElementName: Movement
+      - ElementName: Music
         ObjectType: 3
-      Path: Default Work Unit\Character\Movement\Movement
+      Path: Default Work Unit\Music\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -416,6 +507,122 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_EllenFootstepsGrassStone
+      guid: 884ceaa49c2f4648856f738d7657a15d
+      id: 2650973422
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_EllenFootstepsGrassStone
+        ObjectType: 3
+      Path: Default Work Unit\Play_EllenFootstepsGrassStone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_EllenFootstepsRTPCVersion
+      guid: 3c0ad64e67126d4a864716c62be01f1e
+      id: 1628770910
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Play_EllenFootstepsRTPCVersion
+        ObjectType: 3
+      Path: Default Work Unit\Character\Movement\Play_EllenFootstepsRTPCVersion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_EllenHeartBeatRTPCVersion
+      guid: 0543d8d2f1e85742a8b73e88a5a51bc4
+      id: 2886460653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_EllenHeartBeatRTPCVersion
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\Play_EllenHeartBeatRTPCVersion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierDeath
+      guid: d871137e93ea6e47a095fe2cc25c4b45
+      id: 3440132657
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierDeath
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeath
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierDeathL
+      guid: baedab38d2919743a0cc7465241ff4bd
+      id: 4216075087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierDeathL
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathL
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierDeathR
+      guid: d0084d4951863b4bb71252998b6e010d
+      id: 4216075089
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierDeathR
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierDeathR
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierExplosionCharge
+      guid: c9f83e597cc7df40976028409407e415
+      id: 3020210802
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierExplosionCharge
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierExplosionCharge
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
     - name: Play_GrenadierFootsteps
       guid: 1fbc80f2c4813848bdbe6ecae2bbcbb8
       id: 1373007782
@@ -449,7 +656,7 @@ MonoBehaviour:
       - ElementName: Play_GrenadierGrenadeBounce
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeBounce
-      maxAttenuation: 30
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Play_GrenadierGrenadeExplosion
@@ -467,7 +674,43 @@ MonoBehaviour:
       - ElementName: Play_GrenadierGrenadeExplosion
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosion
-      maxAttenuation: 30
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierGrenadeExplosionL
+      guid: de043d4db73b8241a7c0024763d4a857
+      id: 1200139914
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierGrenadeExplosionL
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionL
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GrenadierGrenadeExplosionR
+      guid: 5d1485982c3042468c880d2945b0f149
+      id: 1200139924
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Grenadier
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_GrenadierGrenadeExplosionR
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeExplosionR
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Play_GrenadierGrenadeShoot
@@ -485,7 +728,7 @@ MonoBehaviour:
       - ElementName: Play_GrenadierGrenadeShoot
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierGrenadeShoot
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: -1
       minDuration: -1
     - name: Play_GrenadierPunch
@@ -503,7 +746,7 @@ MonoBehaviour:
       - ElementName: Play_GrenadierPunch
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierPunch
-      maxAttenuation: 15
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
     - name: Play_GrenadierShieldUp
@@ -521,7 +764,7 @@ MonoBehaviour:
       - ElementName: Play_GrenadierShieldUp
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Play_GrenadierShieldUp
-      maxAttenuation: 100
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Play_Portal
@@ -554,6 +797,22 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Weapon\Play_WeaponPickup
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_WeaponPickUpAmbience
+      guid: b1ca706988d7244fac0682ae4bca7332
+      id: 1810253714
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Weapon
+        ObjectType: 4
+      - ElementName: Play_WeaponPickUpAmbience
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Weapon\Play_WeaponPickUpAmbience
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: PlayBoxBreak
@@ -601,6 +860,20 @@ MonoBehaviour:
       - ElementName: PlayHealthRelease
         ObjectType: 3
       Path: Default Work Unit\SFX\Health\PlayHealthRelease
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayMusic
+      guid: 2e81b8e87555cc4aad1bd44e333e11e3
+      id: 417627684
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: PlayMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music\PlayMusic
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -746,6 +1019,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_EllenHeartBeatRTPCVersion
+      guid: 1ec586b291b8374f83723796b10474e7
+      id: 1133747751
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Stop_EllenHeartBeatRTPCVersion
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_GrenadierShieldUp
       guid: ae5c0d50af3f6c41af1cfdd79d7a6ff9
       id: 4107145719
@@ -761,6 +1050,38 @@ MonoBehaviour:
       - ElementName: Stop_GrenadierShieldUp
         ObjectType: 3
       Path: Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_WeaponPickUpAmbience
+      guid: f27cb4de3b20ba4d8d624a51b2fc5334
+      id: 1839691088
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Weapon
+        ObjectType: 4
+      - ElementName: Stop_WeaponPickUpAmbience
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Weapon\Stop_WeaponPickUpAmbience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopSwing
+      guid: a5976c58021c3543928c5e4b0ed5f72e
+      id: 376371797
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: StopSwing
+        ObjectType: 3
+      Path: Default Work Unit\Character\Combat\StopSwing
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -881,80 +1202,283 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f1830aa9dee77f4eb102b263396acccd
     GuidInternal: 
-    m_lastTime: -8585434508634775808
+    m_lastTime: -8585422440314775808
     List:
+    - name: Ambience
+      guid: caac878e82348f43bfc6fe864b1b655a
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 13
+      Path: Default Work Unit\Ambience\Ambience
+    - name: BitCrusherL
+      guid: 37ef78a01c0c4e4ca714a594b658c9f6
+      id: 2105723230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Effects
+        ObjectType: 4
+      - ElementName: BitCrusherL
+        ObjectType: 13
+      Path: Default Work Unit\Effects\BitCrusherL
+    - name: BitCrusherR
+      guid: e3e40c59474587489bf028b46e34383c
+      id: 2105723200
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Effects
+        ObjectType: 4
+      - ElementName: BitCrusherR
+        ObjectType: 13
+      Path: Default Work Unit\Effects\BitCrusherR
+    - name: Character
+      guid: b61e2228d26fe9458b8b1e292cfea4fc
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Character
+        ObjectType: 13
+      Path: Default Work Unit\Character\Character
+    - name: ChordsGain
+      guid: 41c24896a03d8043923b57b7f7bfe555
+      id: 2952398261
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: ChordsGain
+        ObjectType: 13
+      Path: Default Work Unit\Music\ChordsGain
+    - name: DrumsGain
+      guid: 101c345ecb8b5346a0191ccf436d91bc
+      id: 319845593
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: DrumsGain
+        ObjectType: 13
+      Path: Default Work Unit\Music\DrumsGain
+    - name: Effects
+      guid: 2eea03119e7fd14c89991c28b630f06f
+      id: 1942696649
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Effects
+        ObjectType: 4
+      - ElementName: Effects
+        ObjectType: 13
+      Path: Default Work Unit\Effects\Effects
+    - name: EllenFootstepsGrass
+      guid: 46b863604bd18a41aa7d6fd27afb16c2
+      id: 3667187078
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenFootstepsGrass
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenFootstepsGrass
+    - name: EllenFootstepsRTPCVersion
+      guid: 2d9eaf7b5dc99b41b3d1fd7add190d5c
+      id: 4264129031
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenFootstepsRTPCVersion
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenFootstepsRTPCVersion
+    - name: EllenFootstepsStone
+      guid: 63deeacf2de8564881ddada87c2f6e3c
+      id: 2666750687
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenFootstepsStone
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenFootstepsStone
+    - name: EllenHeartBeatFastRTPCVersion
+      guid: 231763c8df54564493bff793444aa685
+      id: 545322978
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenHeartBeatFastRTPCVersion
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenHeartBeatFastRTPCVersion
+    - name: EllenHeartBeatMediumRTPCVersion
+      guid: 7ea20c437337f941a31978a68d1b2dce
+      id: 73144703
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenHeartBeatMediumRTPCVersion
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenHeartBeatMediumRTPCVersion
+    - name: EllenHeartBeatSlowRTPCVersion
+      guid: ffb290cf06e96d4eabfb0b2f40f75eaa
+      id: 3958443545
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: EllenHeartBeatSlowRTPCVersion
+        ObjectType: 13
+      Path: Default Work Unit\Character\EllenHeartBeatSlowRTPCVersion
     - name: JumpAlt
       guid: efd40309d254df43a042aaefbab6927c
       id: 639876002
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
       - ElementName: JumpAlt
         ObjectType: 13
-      Path: Default Work Unit\JumpAlt
+      Path: Default Work Unit\Character\JumpAlt
     - name: LandAlt
       guid: d5dcb519becc754cb01bb0bdeb76c918
       id: 2513331627
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
       - ElementName: LandAlt
         ObjectType: 13
-      Path: Default Work Unit\LandAlt
+      Path: Default Work Unit\Character\LandAlt
+    - name: Melody2Gain
+      guid: 0f4f05b6cdd84a4290c1a1faf765606a
+      id: 1652471280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Melody2Gain
+        ObjectType: 13
+      Path: Default Work Unit\Music\Melody2Gain
+    - name: MelodyGain
+      guid: 4aa8eda66b9ac640bf12415905a0c268
+      id: 217130920
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: MelodyGain
+        ObjectType: 13
+      Path: Default Work Unit\Music\MelodyGain
+    - name: Music
+      guid: 7954576f45eaee428a60d87a1e879ec6
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 13
+      Path: Default Work Unit\Music\Music
+    - name: MusicState
+      guid: c92408bd21f95e49bd1fd16118709086
+      id: 1021618141
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: MusicState
+        ObjectType: 13
+      Path: Default Work Unit\Music\MusicState
     - name: WindForceLeft
       guid: ebc95428a2e93f458c119d58f3e80518
       id: 658274915
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindForceLeft
         ObjectType: 13
-      Path: Default Work Unit\WindForceLeft
+      Path: Default Work Unit\Ambience\WindForceLeft
     - name: WindForceRight
       guid: 417ac332161dfc40a761a7dcf82e155b
       id: 867005342
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindForceRight
         ObjectType: 13
-      Path: Default Work Unit\WindForceRight
+      Path: Default Work Unit\Ambience\WindForceRight
     - name: WindGainLeft
       guid: 1ba87d48b608b34ab6dc55ac198d666e
       id: 3369782661
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindGainLeft
         ObjectType: 13
-      Path: Default Work Unit\WindGainLeft
+      Path: Default Work Unit\Ambience\WindGainLeft
     - name: WindGainRight
       guid: 600dea278f9d2b41a38634042b7a6781
       id: 3394536240
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindGainRight
         ObjectType: 13
-      Path: Default Work Unit\WindGainRight
+      Path: Default Work Unit\Ambience\WindGainRight
     - name: WindTemperatureLeft
       guid: 3da4131bb639a24f9a11783ab69045cd
       id: 3200895820
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindTemperatureLeft
         ObjectType: 13
-      Path: Default Work Unit\WindTemperatureLeft
+      Path: Default Work Unit\Ambience\WindTemperatureLeft
     - name: WindTemperatureRight
       guid: 3b9d6e82d887f74f881d4c316d601478
       id: 926105675
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: WindTemperatureRight
         ObjectType: 13
-      Path: Default Work Unit\WindTemperatureRight
+      Path: Default Work Unit\Ambience\WindTemperatureRight
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit

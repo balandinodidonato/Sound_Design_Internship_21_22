@@ -18,6 +18,7 @@
 						<ObjectRef Name="PlayWater" ID="{D9A30533-5E76-421C-BFF7-0AAA18BF8AE3}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EllenHeartBeatRTPCVersion" ID="{D2D84305-E8F1-4257-A8B7-3E88A5A51BC4}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierPunch" ID="{83A473A9-54D3-427F-8845-A12D72CB0037}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopSwing" ID="{586C97A5-1C02-4335-928C-5E4B0ED5F72E}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierDeathL" ID="{38ABEDBA-91D2-4397-A0CC-7465241FF4BD}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeShoot" ID="{2E022D76-9D92-43D6-A05A-A9383A856BBE}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalActivate" ID="{60F180AC-5ADA-4490-8BED-C97079B77EB5}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>

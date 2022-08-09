@@ -55,6 +55,7 @@
 				<Event Id="1133747751" Name="Stop_EllenHeartBeatRTPCVersion" ObjectPath="\Events\Default Work Unit\Character\Combat\Stop_EllenHeartBeatRTPCVersion" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4107145719" Name="Stop_GrenadierShieldUp" ObjectPath="\Events\Default Work Unit\Enemies\Grenadier\Combat\Stop_GrenadierShieldUp" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1839691088" Name="Stop_WeaponPickUpAmbience" ObjectPath="\Events\Default Work Unit\SFX\Weapon\Stop_WeaponPickUpAmbience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="376371797" Name="StopSwing" ObjectPath="\Events\Default Work Unit\Character\Combat\StopSwing" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1502558246" Name="WeaponSwing1" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing1" DurationType="Unknown"/>
 				<Event Id="1502558245" Name="WeaponSwing2" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing2" DurationType="Unknown"/>
 				<Event Id="1502558244" Name="WeaponSwing3" ObjectPath="\Events\Default Work Unit\Character\Combat\WeaponSwing3" DurationType="Unknown"/>

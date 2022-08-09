@@ -7,7 +7,7 @@ public class WeaponPickup : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        AkSoundEngine.PostEvent("Play_WeaponPickup", gameObject);
-        AkSoundEngine.PostEvent("Stop_WeaponPickUpAmbience", gameObject);
+            AkSoundEngine.PostEvent("Play_WeaponPickup", gameObject);
+            AkSoundEngine.PostEvent("Stop_WeaponPickUpAmbience", gameObject);
     }
 }

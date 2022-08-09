@@ -11,7 +11,7 @@ public class CharacterAnimationEventScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AkSoundEngine.RegisterGameObj(gameObject);  
+        AkSoundEngine.RegisterGameObj(gameObject);
 
     }
 
@@ -21,6 +21,8 @@ public class CharacterAnimationEventScript : MonoBehaviour
         if (Status3.IsJumping == false)
         {
             AkSoundEngine.PostEvent(EllenJumpUp, gameObject);
+            //AkSoundEngine.SetRTPCValue("LandAlt", 0, gameObject);
+            //AkSoundEngine.SetRTPCValue("JumpAlt", 1, gameObject);
             Status3.IsJumping = true;
         }
 
@@ -31,6 +33,8 @@ public class CharacterAnimationEventScript : MonoBehaviour
         if (Status3.IsJumping == true)
         {
             AkSoundEngine.PostEvent(EllenLandDown, gameObject);
+            //AkSoundEngine.SetRTPCValue("JumpAlt", 0, gameObject);
+            //AkSoundEngine.SetRTPCValue("LandAlt", 1, gameObject);
             Status3.Landed = true;
             Status3.IsJumping = false;
         }
@@ -40,7 +44,7 @@ public class CharacterAnimationEventScript : MonoBehaviour
         Debug.Log("LandTriggred");
         if (Status3.IsJumping == true)
         {
-            AkSoundEngine.PostEvent(EllenLandFastDown, gameObject);
+            //AkSoundEngine.PostEvent(EllenLandFastDown, gameObject);
             Status3.Landed = true;
             Status3.IsJumping = false;
         }
