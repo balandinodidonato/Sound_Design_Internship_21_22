@@ -99,7 +99,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="EllenFootstepsRTPCVersion" ID="{7BAF9E2D-C95D-419B-B3D1-FD7ADD190D5C}"/>
-							<Value>0</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="EllenHeartBeatMediumRTPCVersion" ID="{430CA27E-3773-41F9-A319-78A68D1B2DCE}"/>

@@ -7,7 +7,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Land" ID="{4C17E3C8-7369-4025-9C5B-32B6335D2F3F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayHealthRelease" ID="{2525F11F-0771-4080-880D-43B2B04D8220}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayWind2" ID="{BD710731-5191-40B6-8151-6B8365A3C938}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierExplosionCharge" ID="{593EF8C9-C77C-40DF-9760-28409407E415}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EllenFootsteps" ID="{E2AF173D-3D0F-4156-81FE-72F68CCB6B8F}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GrenadierShieldUp" ID="{500D5CAE-3FAF-416C-AF1C-FDD79D7A6FF9}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
@@ -47,6 +46,7 @@
 						<ObjectRef Name="PlayWindAlt" ID="{4D452D77-BE95-4EC0-8A04-42573FDFCC9A}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponPickUpAmbience" ID="{6970CAB1-D788-4F24-AC06-82AE4BCA7332}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_EllenHeartBeatRTPCVersion" ID="{B286C51E-B891-4F37-8372-3796B10474E7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrenadierReceivingDamage" ID="{C63AF77C-8576-4F7C-83A0-87B92857F3C7}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LandAlt" ID="{F46BEF19-53A7-4FC1-94C2-48EB9E4C8F85}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GrenadierGrenadeBounce" ID="{516D8558-341F-4FD5-A5B2-E73A6184E2D6}" WorkUnitID="{57237F9D-7740-4F68-BE55-E18171DC112B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

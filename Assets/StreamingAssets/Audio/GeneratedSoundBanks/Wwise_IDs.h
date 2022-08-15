@@ -35,6 +35,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIERGRENADEEXPLOSIONR = 1200139924U;
         static const AkUniqueID PLAY_GRENADIERGRENADESHOOT = 2596063918U;
         static const AkUniqueID PLAY_GRENADIERPUNCH = 3306420443U;
+        static const AkUniqueID PLAY_GRENADIERRECEIVINGDAMAGE = 2586675554U;
         static const AkUniqueID PLAY_GRENADIERSHIELDUP = 1108267873U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
@@ -46,7 +47,6 @@ namespace AK
         static const AkUniqueID PLAYSPACESHIPALARM = 1792115892U;
         static const AkUniqueID PLAYSPACESHIPIDLE = 3078778343U;
         static const AkUniqueID PLAYWATER = 2706800728U;
-        static const AkUniqueID PLAYWIND2 = 1197535613U;
         static const AkUniqueID PLAYWIND11 = 3684444523U;
         static const AkUniqueID PLAYWINDALT = 3423484422U;
         static const AkUniqueID STOP_ELLENHEARTBEATRTPCVERSION = 1133747751U;
@@ -101,6 +101,11 @@ namespace AK
         static const AkUniqueID MUSICALSTABS = 1925981424U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERBZONE = 1632408463U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

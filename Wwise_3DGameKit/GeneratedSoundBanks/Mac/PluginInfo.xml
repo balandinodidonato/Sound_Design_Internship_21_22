@@ -22,7 +22,6 @@
 		<Plugin Name="DGHvShipDamagedAlarm" ID="625476610" DLL="Hv_DGHvShipDamagedAlarm_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierDeathR" ID="638452738" DLL="Hv_MSHvGrenadierDeathR_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvEllenFootstepsSwitches" ID="677381122" DLL="Hv_MSHvEllenFootstepsSwitches_WwiseSourcePlugin"/>
-		<Plugin Name="DGHvWindGenerator2" ID="738722818" DLL="Hv_DGHvWindGenerator2_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvJumpPatchAlt" ID="832046082" DLL="Hv_DGHvJumpPatchAlt_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvLandSoundAlt" ID="850920450" DLL="Hv_DGHvLandSoundAlt_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadeExplosionR" ID="854590466" DLL="Hv_MSHvGrenadeExplosionR_WwiseSourcePlugin"/>
@@ -33,6 +32,7 @@
 		<Plugin Name="MSHvEllenHeartBeatRTPCVersion" ID="1173947394" DLL="Hv_MSHvEllenHeartBeatRTPCVersion_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvGrenadierGrenadeBounce" ID="1175716866" DLL="Hv_MSHvGrenadierGrenadeBounce_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvPortal" ID="1283523586" DLL="Hv_MSHvPortal_WwiseSourcePlugin"/>
+		<Plugin Name="MSHvGrenadierReceivingDamage" ID="1389822978" DLL="Hv_MSHvGrenadierReceivingDamage_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvChomperFootsteps" ID="1400112130" DLL="Hv_MSHvChomperFootsteps_WwiseSourcePlugin"/>
 		<Plugin Name="DGHvCrystal1Activate" ID="1439695874" DLL="Hv_DGHvCrystal1Activate_WwiseSourcePlugin"/>
 		<Plugin Name="MSHvEllenFootsteps" ID="1452672002" DLL="Hv_MSHvEllenFootsteps_WwiseSourcePlugin"/>

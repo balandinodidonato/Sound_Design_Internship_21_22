@@ -12,12 +12,16 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1632408463	ReverbZone			\Default Work Unit\Master Audio Bus\ReverbZone	
+
 Effect plug-ins	ID	Name	Type				Notes
 	54960567	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
 	570154355	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
 	710354844	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
 	849706578	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
 	910554192	MSHvBitCrusher_(Custom)	MSHvBitCrusher			
+	1990128658	Room_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
